@@ -7,13 +7,12 @@ v = document.getElementsByClassName("youtube_codegena");
 
 for (n = 0; n < v.length; n++) {
     im[n] = v[n].hasAttribute("title") ? v[n].getAttribute("title") : "http://i.ytimg.com/vi/" + v[n].id + "/hqdefault.jpg";
-
 }
 
 if (v.length > 0) {
     s = document.createElement("style");
     s.type = "text/css";
-    s.innerHTML = '.youtube_codegena {background-color:#000;max-width:100%;overflow:hidden;position:relative;cursor:hand;cursor:pointer}.youtube_codegena .thumb{bottom:0;display:block;left:0;margin:auto;max-width:100%;position:absolute;right:0;top:0;width:100%;height:auto}.youtube_codegena .play{filter:alpha(opacity=80);opacity:.8;height:77px;left:50%;margin-left:-38px;margin-top:-38px;position:absolute;top:50%;width:77px;background:url("https://lh3.ggpht.com/vo4W82YNfpJDsttqn-22YsLtEJjmOtIB-54yIxR5wQA0Ucs5leNIu-W8iEmyY8-Pf7RWHk4=w64") no-repeat}';
+    s.innerHTML = '.youtube_codegena {background-color:#000;width:100%;height:15em;overflow:hidden;position:relative;cursor:hand;cursor:pointer}.youtube_codegena .thumb{bottom:0;display:block;left:0;margin:auto;width:100%;position:absolute;right:0;top:0;width:100%;height:auto}.youtube_codegena .play{filter:alpha(opacity=80);opacity:.8;height:77px;left:50%;margin-left:-38px;margin-top:-38px;position:absolute;top:50%;width:77px;background:url("https://lh3.ggpht.com/vo4W82YNfpJDsttqn-22YsLtEJjmOtIB-54yIxR5wQA0Ucs5leNIu-W8iEmyY8-Pf7RWHk4=w64") no-repeat}';
     document.body.appendChild(s);
 }
 
@@ -29,10 +28,10 @@ for (n = 0; n < v.length; n++) {
     y.onclick = function() {
         var t = document.createElement("iframe");
         t.setAttribute("src", "https://www.youtube.com/embed/" + this.id + param(this));
-        t.setAttribute('frameborder', '0')
+        t.setAttribute('frameborder', '0');
         t.classList.add('mat-elevation-z20');
-        t.style.width = this.style.width;
-        t.style.height = this.style.height;
+        t.style.width = '100%';
+        t.style.height = '15.83em';
         t.style.backgroundColor = 'black';
         this.parentNode.replaceChild(t, this);
     }
