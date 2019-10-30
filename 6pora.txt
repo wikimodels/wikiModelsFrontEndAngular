@@ -1,0 +1,36 @@
+1. Add angular material
+https://angular.io/start
+
+2. Add angular-material module
+-create material.module.ts
+-add it to app.module
+
+3. Add material icons css to style.css
+
+4. Add fonts
+- add fonts to assets
+- add record to angular.json:
+ "styles": [
+            "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+            "src/styles.css",
+            "src/assets/fonts/caviar/caviar.css"
+        ]
+- make sure that all fonts are resolved correctly int caviar.css file:
+    font-family: 'Caviar Dreams';
+    src: local('Caviar Dreams'), local('CaviarDreams'), url('../../../assets/fonts/caviar/caviardreams.woff2') format('woff2'), url('../../../assets/fonts/caviar/caviardreams.woff') format('woff'), url('../../../assets/fonts/caviar/caviardreams.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+- add record to style.css (or where needed)
+* {
+    font-family: 'Caviar Dreams', "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700
+}
+
+5. Add router module
+
+6. Add @angular/flexlayout (don't forget to add 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+
+ 
