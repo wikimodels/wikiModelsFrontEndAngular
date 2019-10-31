@@ -24,6 +24,8 @@ import { SliderComponent } from './video-player/slider/slider.component';
 import { YoutubePipe } from './video-player/youtube.pipe';
 import { FormsModule } from '@angular/forms';
 import { SliderService } from './video-player/slider.service';
+import { ModelCardComponent } from './model-card/model-card.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { SliderService } from './video-player/slider.service';
     ArticleSectionComponent,
     VideoPlayerComponent,
     SliderComponent,
-    YoutubePipe
+    YoutubePipe,
+    ModelCardComponent
   ],
   imports: [
     BrowserModule,
@@ -50,8 +53,10 @@ import { SliderService } from './video-player/slider.service';
     RouterModule,
     HttpClientModule,
     FlexLayoutModule,
-    FormsModule 
+    FormsModule,
+    SharedModule
   ],
+  exports: [],
   providers: [DynamicScriptLoaderService, SliderService],
   bootstrap: [AppComponent]
 })

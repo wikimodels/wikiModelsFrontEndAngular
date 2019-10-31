@@ -1,7 +1,28 @@
 .container {
-    padding-top: 6em;
+    padding-top: 5rem;
+    width: 92%;
+    margin: auto auto;
+    height: 80%;
+}
+
+iframe {
     width: 100%;
-    height: 100%;
+    height: 330px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 350px) {
+    /* For mobile phones: */
+    iframe {
+        /* width: 100%; */
+        height: 280px;
+    }
+    .container {
+        padding-top: 4rem;
+        /* width: 92%;
+        margin: auto auto;
+        height: 80%; */
+    }
 }
 
 #parent {
@@ -19,9 +40,17 @@
 }
 
 .timer {
+    font-family: "Roboto";
+    font-style: normal;
     font-size: 20px;
     padding-left: 1em;
-    /* padding-right: 10rem; */
+}
+
+
+/* :host /deep/.mat-progress-spinner circle, */
+
+:host /deep/.mat-spinner circle {
+    stroke: white;
 }
 
 .logo {

@@ -17,4 +17,8 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['/video', 'n81_Y8biV9A']);
   }
 
+  getTile() {
+    this.router.navigate(['modelcard', 'gf']);
+  }
+
 }

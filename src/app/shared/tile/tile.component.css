@@ -1,0 +1,16 @@
+* {
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+.tile-card {
+    position: relative;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 4em;
+    border-radius: 12px;
+}
+
+.mat-card-subtitle {
+    padding-bottom: 0.4em;
+}

@@ -18,6 +18,7 @@ export class VideoPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
   endTimeInSecs: number;
   videoId: string;
   player: any;
+  playerReady = false;
   videoDuration: number;
   sliderValue: number;
   isMuted: boolean;
@@ -43,13 +44,13 @@ export class VideoPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
 ngAfterViewInit() {
-  // this.loadScripts();
-  const doc = (window as any).document;
-  const tag = doc.createElement('script');
-  tag.type = 'text/javascript';
-  tag.src = '../../assets/scripts/youtube.iframe.api.js';
-  const firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  this.loadScripts();  
+  // const doc = (window as any).document;
+  // const tag = doc.createElement('script');
+  // tag.type = 'text/javascript';
+  // tag.src = '../../assets/scripts/youtube.iframe.api.js';
+  // const firstScriptTag = document.getElementsByTagName('script')[0];
+  // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
   if ((window as any).YT && (window as any).YT.loaded) {
     this.createPlayer();
@@ -92,6 +93,7 @@ ngOnInit() {
 
 // The API will call this function when the video player is ready
 onPlayerReady(event) {
+  this.playerReady = true;
   console.log('ON PLAYER READY EVENT', event);
   console.log('EVENT', event);
   this.updateProgressBar();
@@ -193,6 +195,7 @@ onPlayerReady(event) {
     // You can load multiple scripts by just providing the key as argument into load method of the service
     this.dynamicScriptLoader.load('youtube-iframe-api').then(d => {
       // Script Loaded Successfully
+      console.log('Youtube-iframe-api loaded successfully');
     }).catch(error => console.log(error));
   }
 

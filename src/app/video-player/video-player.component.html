@@ -11,7 +11,7 @@
     <!-- id="parent" is needed to remove padding  between iframe and lower controls -->
     <div id="parent" class="video-card">
         <!-- HERE GOES PLAYER -->
-        <iframe id="player" width="100%" height="350" [src]="videoId | youtube" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen style="background-color: black;"></iframe>
+        <iframe id="player" [src]="videoId | youtube" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
 
         <mat-card class="video-card mat-elevation-z24">
             <!-- HERE GOES PLAYER CARD-ACTIONS -->
@@ -24,8 +24,11 @@
 
                 <!-- CONTROLS -->
                 <div fxLayout="row" fxLayoutAlign="start center">
-                    <div fxFlex="75%" class="timer">
+                    <div *ngIf="playerReady" fxFlex="75%" class="timer">
                         {{ timer }}
+                    </div>
+                    <div *ngIf="!playerReady" fxFlex="75%" class="timer">
+                        <mat-spinner [diameter]="35"></mat-spinner>
                     </div>
                     <div fxFlex="25%">
                         <div class="mute">
