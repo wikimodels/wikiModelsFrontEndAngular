@@ -1,0 +1,14 @@
+<!-- HEADER -->
+<app-article-header *ngIf="section.type === 'header'" [headerImage]="section.headerImage" [headerText]="section.headerText"></app-article-header>
+
+<!-- BANNER -->
+<app-article-banner *ngIf="section.type === 'banner'" [banner]="section.banner"></app-article-banner>
+
+<!-- TEXT -->
+<app-article-text *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-article-text>
+
+<!-- VIDEO -->
+<app-article-video *ngIf="section.type === 'video'" [videoCoverUrl]="section.videoCoverUrl" [videoId]="section.videoId"></app-article-video>
+
+<!-- MUSIC -->
+<app-article-music *ngIf="section.type === 'music'" [trackId]="section.trackId" [musicCoverUrl]="section.musicCoverUrl"></app-article-music>

@@ -32,5 +32,36 @@ https://angular.io/start
 6. Add @angular/flexlayout (don't forget to add 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
-
- 
+TO ENABLE JSON FILES READING ADD
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+tsconfig.json
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  },
+  
+}

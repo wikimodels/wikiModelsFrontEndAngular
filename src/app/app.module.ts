@@ -14,6 +14,11 @@ import { DynamicScriptLoaderService } from './shared/dynamic-script-loader.servi
 import { ArticleComponent } from './article/article.component';
 import { ArticleVideoComponent } from './article/article-video/article-video.component';
 import { ArticleMusicComponent } from './article/article-music/article-music.component';
+import { ArticleHeaderComponent } from './article/article-header/article-header.component';
+import { SafeHTMLPipe } from './shared/safe-html.pipe';
+import { ArticleTextComponent } from './article/article-text/article-text.component';
+import { ArticleBannerComponent } from './article/article-banner/article-banner.component';
+import { ArticleSectionComponent } from './article/article-section/article-section.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { ArticleMusicComponent } from './article/article-music/article-music.com
     HomeComponent,
     ArticleComponent,
     ArticleVideoComponent,
-    ArticleMusicComponent
+    ArticleMusicComponent,
+    ArticleHeaderComponent,
+    SafeHTMLPipe,
+    ArticleTextComponent,
+    ArticleBannerComponent,
+    ArticleSectionComponent
   ],
   imports: [
     BrowserModule,

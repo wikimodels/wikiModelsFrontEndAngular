@@ -1,0 +1,9 @@
+.container {
+    margin-top: 5em;
+}
+
+img {
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+}
