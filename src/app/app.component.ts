@@ -18,12 +18,21 @@ export class AppComponent {
         'wm-logo', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/wm-logo.svg'));
 
       matIconRegistry.addSvgIcon(
-          'vertical-dots', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/mbri-vertical-dots.svg'));
+        'vertical-dots', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/mbri-vertical-dots.svg'));
 
       matIconRegistry.addSvgIcon(
-            'video', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/video_call_24.svg'));
+        'video', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/video_call_24.svg'));
 
       matIconRegistry.addSvgIcon(
-            's_cart', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/s_cart_24.svg'));
+        'exit', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/exit.svg'));
+
+      matIconRegistry.addSvgIcon(
+        'volume-up', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/volume-up-24.svg'));
+
+      matIconRegistry.addSvgIcon(
+        'volume-off', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/volume-off-24.svg'));
+
+      matIconRegistry.addSvgIcon(
+        's_cart', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/s_cart_24.svg'));
     }
 }

@@ -6,7 +6,7 @@ interface Scripts {
 }
 
 export const ScriptStore: Scripts[] = [
-  { name: 'youtube-iframe', src: '../../assets/scripts/youtube.iframe.api.js' },
+  { name: 'youtube-iframe-api', src: '../../assets/scripts/youtube.iframe.api.js' },
   { name: 'intersection-observer', src: '../../assets/scripts/lazyLoad/intersection-observer.js' },
   { name: 'lazy-load', src: '../../assets/scripts/lazyLoad/lazy-load.min.js' },
   { name: 'lazyinit', src: '../../assets/scripts/lazyLoad/lazyInit.js' },

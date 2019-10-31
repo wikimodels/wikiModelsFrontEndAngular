@@ -19,6 +19,11 @@ import { SafeHTMLPipe } from './shared/safe-html.pipe';
 import { ArticleTextComponent } from './article/article-text/article-text.component';
 import { ArticleBannerComponent } from './article/article-banner/article-banner.component';
 import { ArticleSectionComponent } from './article/article-section/article-section.component';
+import { VideoPlayerComponent } from './video-player/video-player.component';
+import { SliderComponent } from './video-player/slider/slider.component';
+import { YoutubePipe } from './video-player/youtube.pipe';
+import { FormsModule } from '@angular/forms';
+import { SliderService } from './video-player/slider.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,10 @@ import { ArticleSectionComponent } from './article/article-section/article-secti
     SafeHTMLPipe,
     ArticleTextComponent,
     ArticleBannerComponent,
-    ArticleSectionComponent
+    ArticleSectionComponent,
+    VideoPlayerComponent,
+    SliderComponent,
+    YoutubePipe
   ],
   imports: [
     BrowserModule,
@@ -41,9 +49,10 @@ import { ArticleSectionComponent } from './article/article-section/article-secti
     AppRoutingModule,
     RouterModule,
     HttpClientModule,
-    FlexLayoutModule 
+    FlexLayoutModule,
+    FormsModule 
   ],
-  providers: [DynamicScriptLoaderService],
+  providers: [DynamicScriptLoaderService, SliderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
