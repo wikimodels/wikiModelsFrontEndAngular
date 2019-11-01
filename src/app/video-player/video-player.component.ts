@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy, AfterViewInit, ChangeDetectorRef } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
-import { DynamicScriptLoaderService } from '../shared/dynamic-script-loader.service';
+import { DynamicScriptLoaderService } from '../shared/services/dynamic-script-loader.service';
 import { SliderService } from './slider.service';
 
 @Component({
@@ -177,7 +177,7 @@ onPlayerReady(event) {
     (window as any).onYouTubeIframeAPIReady = null;
     if (this.player) {
       console.log('this player', this.player);
-      this.player.stopVideo();
+      // this.player.stopVideo();
       console.log('player stopped', this.player);
       this.player.destroy();
       console.log('this player is destroyed', this.player);

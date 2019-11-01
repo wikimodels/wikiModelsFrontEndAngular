@@ -11,8 +11,10 @@
             <img mat-card-image [src]="img" alt="Photo of a Shiba Inu">
         </mat-card-content>
         <mat-card-actions>
-            <button mat-button (click)="readArticle( )">ЧИТАТЬ</button>
-            <button mat-button (click)="watchVideo()">СМОТРЕТЬ</button>
+            <div style="margin-bottom: 0.8em; text-align: right;">
+                <button mat-button (click)="watchVideo()">СМОТРЕТЬ</button>
+                <button mat-button (click)="readArticle( )">ЧИТАТЬ</button>
+            </div>
         </mat-card-actions>
     </mat-card>
 </div>

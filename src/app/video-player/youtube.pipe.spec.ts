@@ -1,4 +1,4 @@
-import { YoutubePipe } from './youtube.pipe';
+import { YoutubePipe } from '../shared/pipes/youtube.pipe';
 
 describe('YoutubePipe', () => {
   it('create an instance', () => {

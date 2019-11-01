@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ArticleComponent } from './article/article.component';
 import { VideoPlayerComponent } from './video-player/video-player.component';
-import { TileComponent } from './shared/tile/tile.component';
+import { TileComponent } from './shared/components/tile/tile.component';
 import { ModelCardComponent } from './model-card/model-card.component';
 
 const routes: Routes = [

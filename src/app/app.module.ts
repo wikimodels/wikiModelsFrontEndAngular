@@ -1,31 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { MaterialModule } from './material.module';
+import { FormsModule } from '@angular/forms';
+import { SharedModule } from './shared/shared.module';
+
+import { SliderService } from './video-player/slider.service';
 
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './material.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { AppRoutingModule } from './app-routing.module';
-import { RouterModule } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http';
-import { DynamicScriptLoaderService } from './shared/dynamic-script-loader.service';
 import { ArticleComponent } from './article/article.component';
 import { ArticleVideoComponent } from './article/article-video/article-video.component';
 import { ArticleMusicComponent } from './article/article-music/article-music.component';
 import { ArticleHeaderComponent } from './article/article-header/article-header.component';
-import { SafeHTMLPipe } from './shared/safe-html.pipe';
-import { ArticleTextComponent } from './article/article-text/article-text.component';
-import { ArticleBannerComponent } from './article/article-banner/article-banner.component';
 import { ArticleSectionComponent } from './article/article-section/article-section.component';
 import { VideoPlayerComponent } from './video-player/video-player.component';
 import { SliderComponent } from './video-player/slider/slider.component';
-import { YoutubePipe } from './video-player/youtube.pipe';
-import { FormsModule } from '@angular/forms';
-import { SliderService } from './video-player/slider.service';
 import { ModelCardComponent } from './model-card/model-card.component';
-import { SharedModule } from './shared/shared.module';
+import { RibbonComponent } from './ribbon/ribbon.component';
+import { RibbonSectionComponent } from './ribbon/ribbon-section/ribbon-section.component';
+import { RibbonTilesComponent } from './ribbon/ribbon-tiles/ribbon-tiles.component';
 
 @NgModule({
   declarations: [
@@ -35,15 +34,14 @@ import { SharedModule } from './shared/shared.module';
     ArticleComponent,
     ArticleVideoComponent,
     ArticleMusicComponent,
-    ArticleHeaderComponent,
-    SafeHTMLPipe,
-    ArticleTextComponent,
-    ArticleBannerComponent,
+    ArticleHeaderComponent,   
     ArticleSectionComponent,
     VideoPlayerComponent,
     SliderComponent,
-    YoutubePipe,
-    ModelCardComponent
+    ModelCardComponent,
+    RibbonComponent,
+    RibbonSectionComponent,
+    RibbonTilesComponent
   ],
   imports: [
     BrowserModule,
@@ -57,7 +55,7 @@ import { SharedModule } from './shared/shared.module';
     SharedModule
   ],
   exports: [],
-  providers: [DynamicScriptLoaderService, SliderService],
+  providers: [SliderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

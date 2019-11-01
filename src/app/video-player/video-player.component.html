@@ -1,6 +1,6 @@
 <div class="container">
 
-    <mat-card class="video-card">
+    <mat-card class="video-card top">
 
         <!-- VIDEO-PLAYER EXIT BUTTON -->
         <div fxLayout="row" fxLayoutAlign="end center" style="padding-bottom: 0.6rem">
@@ -8,12 +8,11 @@
         </div>
     </mat-card>
 
-    <!-- id="parent" is needed to remove padding  between iframe and lower controls -->
     <div id="parent" class="video-card">
         <!-- HERE GOES PLAYER -->
         <iframe id="player" [src]="videoId | youtube" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
 
-        <mat-card class="video-card mat-elevation-z24">
+        <mat-card class="video-card bottom mat-elevation-z24">
             <!-- HERE GOES PLAYER CARD-ACTIONS -->
             <mat-card-actions>
 
