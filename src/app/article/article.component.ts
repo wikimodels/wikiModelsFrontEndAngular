@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from '../../testdata.json';
+import data from '../../testData/testdata.json';
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',

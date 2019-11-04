@@ -30,29 +30,133 @@ https://its-me.relax.by
 рокбункер
 http://rockbunker.by
 
-Models:
+*************** ADDS ********************
+
+KYKU Brand Motorcycle T Shirt Punk T-shirt Knight Shirts 3d T Shirt Men Casual Rock
+https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html
+img_id: kyku_1
+
+
+EVISU
+https://www.evisu.com
+img_id:evisu_1
+
+EVISU
+https://www.evisu.com/us/alphaxevisu.html
+img_id: evisu_1-1600by900
+
+STUSSY
+https://www.stussy.com/blogs/stussy-holiday-19
+img_id: stussu-1-1600by900
+
+BATHING APE
+https://bapepirate.com
+img_id: bape-1-1600by900
+
+CARHARTT MEN
+https://www.carhartt-wip.com/en
+img_id: ch-1-1200by900
+
+CARHARTT WOMEN
+https://www.carhartt-wip.com/en/women
+img_id: ch-2-1200by900
+
+
+WTAPS LOOKS
+https://www.wtaps.com
+img_id: wt-1-1600by900
+
+WTAPS FEATURE
+https://www.wtaps.com/feature/?p=53
+img-1: wt-2-1200by900
+
+UNDERCOVER WOMEN
+http://www.undercoverism.com/collections/?cat=WOMENS#2019AW
+img-1: u-1-1200by900
+
+UNDERCOVER
+http://www.undercoverism.com
+img_id: u-2-900by1200
+
+
+******************** MODELS **********************:
 badbadnotgood
 https://www.instagram.com/__badbadnotgood/
 https://www.youtube.com/watch?v=t5dYJT1d1oc
+trackId: 440789628
+title: "Живи каждый день, как последний, и однажды ты окажешься прав"
 
 
 gunfighterrrr
 https://www.instagram.com/gunfighterrrr/
 https://youtu.be/L1t57CMdy94
-
+trackId:623129304
+"PSYCHO - это призвание"
 
 tuskrip
 https://www.instagram.com/tuskrip/
 https://youtu.be/nnj_vI0PH3Y
+trackId:242884168
+title: "Ты - это то, что ты ешь. А я - это, что я думаю.Ж
+
 
 popodchemu
 https://www.instagram.com/popodchemu/
 https://www.youtube.com/watch?v=90vC6TnjLAs
+trackId: 51446656
+title: "Вокруг меня одни идиоты"
 
 nick_freak_
 https://www.instagram.com/nick_freak_/
 https://youtu.be/HACmLeNYWFY
+trackId: 97287230
+title: "Жаль, только жить в эту пору прекресную уже не придётся ни мне ни тебе."
+
+johnny depp
+https://www.youtube.com/watch?v=Roj5a6YQTuw
+https://www.instagram.com/johnnydeppofficial/?hl=uk
+trackId: 285347914 (timmy Turner)
+title: "Война вредит бизнесу, если её проиграть"
 
 
+lucky blue smith
+trackId: 177448842
+https://www.instagram.com/luckybsmith/?hl=uk
+https://www.youtube.com/watch?v=EEkknEm6EVg
+title: "Как заплачено, так и зафигячено"
 
+billie elish
+https://www.instagram.com/billieeilish/?hl=en
+https://www.youtube.com/watch?v=gBRi6aZJGj4
+trackId: 80208955 (trauma)
+title: "Правда помогает только если её принять"
+
+/*================================*/
+tracks
+trackId: 440789628
+Depeche Mode - Personal Jesus (Bloodtone Remix)
+
+trackId: 51446656
+Depeche Mode-Never let me down(EDOBOT AGAINST CLUB REMX)
+
+trackId: 242884168
+Smash feat Stephen Ridley - Lovers 2 Lovers (radio edit)
+
+trackId: 623129304
+PSYHOWIBE - bukowski (prod forlorn)
+
+Vance Joy - Riptide ___ FlicFlac
+trackId: 97287230
+
+Timmy Turner
+trackId:285347914
+
+Britney Spears - Criminal
+trackId: 23ff5500
+
+Tanita Tikaram - Twist In My Sobriety
+trackId: 177448842
+
+Worakls - Trauma
+trackId: 80208955
 

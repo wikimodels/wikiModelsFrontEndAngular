@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 
-import models from '../../models.json';
+import models from '../../testData/models.json';
 
 @Component({
   selector: 'app-model-card',

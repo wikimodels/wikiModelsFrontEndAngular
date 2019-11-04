@@ -1,22 +1,32 @@
-<div class="box">
-    <mat-card class="tile-card mat-elevation-z24">
+<div class="container mat-elevation-z24">
+    <mat-card class="top">
         <mat-card-header>
             <div mat-card-avatar>
-                <img mat-card-avatar [src]="cardAvatar" alt="wm-logo">
+                <img mat-card-avatar [src]="cardAvatar" [alt]="imgalt">
             </div>
             <mat-card-title>{{nickname}}</mat-card-title>
             <mat-card-subtitle>{{title}}</mat-card-subtitle>
         </mat-card-header>
-        <mat-card-content>
-            <img mat-card-image [src]="img" alt="Photo of a Shiba Inu">
-        </mat-card-content>
-        <mat-card-actions>
-            <div style="margin-bottom: 0.8em; text-align: right;">
-                <button mat-button (click)="watchVideo()">СМОТРЕТЬ</button>
-                <button mat-button (click)="readArticle( )">ЧИТАТЬ</button>
-            </div>
-        </mat-card-actions>
     </mat-card>
+
+    <div>
+        <mat-grid-list matRipple cols="1" [rowHeight]="ratio">
+            <mat-grid-tile>
+                <img [src]="img" [alt]="altimg" (click)="watchVideo()">
+            </mat-grid-tile>
+        </mat-grid-list>
+
+        <!-- <mat-card-content> -->
+        <!-- </mat-card-content> -->
+        <mat-card class="bottom">
+            <mat-card-actions>
+                <div style="margin-bottom: 0.8em; text-align: center;">
+                    <button mat-button (click)="watchVideo()">СМОТРЕТЬ</button>
+                    <button mat-button (click)="readArticle( )">ЧИТАТЬ</button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
 </div>
 
 <!-- <app-modal-video></app-modal-video> -->

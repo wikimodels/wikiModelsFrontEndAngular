@@ -1,0 +1,73 @@
+{
+    "modelId": "",
+    "fn": "",
+    "ln": "",
+    "nickname": "",
+    "title": "",
+    "img": "",
+    "articleId": "",
+    "videoId": "",
+    "insta": "",
+    "vk": ""
+}, {
+    "modelId": "gunfighter",
+    data "fn": "Сергей",
+    "ln": "Сидорович",
+    "nickname": "@PSYHOWIBE",
+    "title": "Phsyco - это призвание",
+    "img": '../../assets/img/gf/gf-main-1080by1350.jpg',
+    "articleId": "gunfighter_art_1",
+    "videoId": "https://youtu.be/L1t57CMdy94",
+    "yt-cover": "../../assets/img/gf/gf-yt-cover.jpg",
+    "sc-cover": "../../assets/img/gf/gf-sc.jpg",
+    "insta": "https://www.instagram.com/gunfighterrrr/",
+    "vk": "https://vk.com/psyhowibe1",
+    "publishedAt": "",
+    "sections": [{
+            "type": "header",
+            "headerImage": "../../assets/img/models/gf-3-original.jpg",
+            "headerText": "<h1>Fuck this shit</h1>"
+
+        },
+        {
+            "type": "video",
+            "videoCoverUrl": "../../assets/img/videoCovers/videoCover-popodchemu.jpg",
+            "videoId": "1DItAHN126A"
+        },
+        {
+            "type": "music",
+            "trackId": "97287230",
+            "musicCoverUrl": "../../assets/img/musicCovers/mc-430by350.jpg"
+        },
+        {
+            "type": "text",
+            "articleText": "<h1>It is all fucked up these days</h1><p>What can I say ? And what can I do ?</p>"
+        },
+        {
+            "type": "banner",
+            "banner": {
+                "cols": "1",
+                "rowHeight": "1:1",
+                "gutterSize": "3px",
+                "tiles": [{
+                        "link": "",
+                        "img": "../../assets/img/videoCovers/videoCover-popodchemu.jpg",
+                        "footer": "Fuck this футер",
+                        "header": ""
+                    },
+                    {
+                        "link": "",
+                        "img": "../../assets/img/videoCovers/videoCover-popodchemu.jpg",
+                        "header": "Fuck this хедер",
+                        "footer": ""
+
+                    }
+                ]
+            }
+        },
+        {
+            "type": "text",
+            "articleText": "<h1>It is all fucked up these days</h1><p>No, man! It's all you can do! What can I say ? And what can I do ?</p>"
+        }
+    ]
+}

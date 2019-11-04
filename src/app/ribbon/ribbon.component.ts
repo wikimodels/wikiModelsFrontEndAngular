@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import data from '../../ribbon.json';
+import data from '../../testData/ribbon.json';
 
 @Component({
   selector: 'app-ribbon',
