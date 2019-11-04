@@ -27,9 +27,13 @@ for (n = 0; n < v.length; n++) {
     i = document.createElement("img");
     i.setAttribute("src", im[n]);
     i.setAttribute("class", "thumb");
-    /*c = document.createElement("div");
-    c.setAttribute("class", "play");*/
+
+
+    // c = document.createElement("div");
+    // c.setAttribute("class", "play");
+
     y.appendChild(i);
+
     /*  y.appendChild(c); 
      */
     y.onclick = function() {
@@ -68,6 +72,7 @@ for (n = 0; n < v.length; n++) {
                 div.setAttribute("class", "codegena_iframe responsive_iframe");
             }
             this.parentNode.replaceChild(div, this);
+
 
         }
         /*if(y.getAttribute("data-load")=="auto"){

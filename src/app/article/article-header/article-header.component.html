@@ -1,9 +1,11 @@
 <!-- HEADER PICTURE -->
-<mat-grid-list style="margin-top: 3.5em;" cols="1" rowHeight="3:4" class="header mat-elevation-z20">
-    <mat-grid-tile class="mat-elevation-z20">
-        <img [src]="headerImage">
-    </mat-grid-tile>
-</mat-grid-list>
+<div class="container">
+    <mat-grid-list style="margin-top: 3.5em;" cols="1" rowHeight="3:4" class="header mat-elevation-z20">
+        <mat-grid-tile class="mat-elevation-z20">
+            <img [src]="headerImage">
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
 
 <!-- HEADER TEXT -->
 <h3 class="header-text-holder" [innerHTML]="headerText | safeHTML"></h3>

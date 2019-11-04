@@ -34,5 +34,8 @@ export class AppComponent {
 
       matIconRegistry.addSvgIcon(
         's_cart', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/s_cart_24.svg'));
+
+      matIconRegistry.addSvgIcon(
+        'play', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/play.svg'));
     }
 }

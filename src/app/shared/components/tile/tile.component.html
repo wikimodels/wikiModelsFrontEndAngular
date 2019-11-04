@@ -1,18 +1,39 @@
 <div class="container mat-elevation-z24">
     <mat-card class="top">
+
         <mat-card-header>
-            <div mat-card-avatar>
+
+            <img mat-card-avatar class="avatar" [src]="cardAvatar" [alt]="imgalt" style="margin-bottom: 1em;">
+
+            <mat-card-title style="padding-top: 0.5em;">{{ nickname }}</mat-card-title>
+            <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+        </mat-card-header>
+
+
+
+
+        <!-- <div>
+                <div mat-card-avatar>
+                    <img style="padding-bottom: 0.8em;" class="avatar" [src]="cardAvatar" [alt]="imgalt">
+                </div>
+                <mat-card-title>
+                    <span style="padding-bottom: 10px; font-size: 20px;">{{ nickname }}</span>
+                </mat-card-title>
+            </div> -->
+
+
+        <!-- <div mat-card-avatar>
                 <img mat-card-avatar [src]="cardAvatar" [alt]="imgalt">
             </div>
-            <mat-card-title>{{nickname}}</mat-card-title>
-            <mat-card-subtitle>{{title}}</mat-card-subtitle>
-        </mat-card-header>
+            <mat-card-title>{{nickname}}</mat-card-title> -->
+        <!-- <mat-card-subtitle>{{title}}</mat-card-subtitle> -->
+        <!-- </mat-card-header> -->
     </mat-card>
 
     <div>
         <mat-grid-list matRipple cols="1" [rowHeight]="ratio">
             <mat-grid-tile>
-                <img [src]="img" [alt]="altimg" (click)="watchVideo()">
+                <img class="tile-img" [src]="img" [alt]="altimg" (click)="watchVideo()">
             </mat-grid-tile>
         </mat-grid-list>
 

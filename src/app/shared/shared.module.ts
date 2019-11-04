@@ -21,11 +21,11 @@ import { DynamicScriptLoaderService } from './services/dynamic-script-loader.ser
         LayoutModule
     ],
     declarations: [
-         TileComponent,
-         ArticleTextComponent,
-         ArticleBannerComponent,
-         SafeHTMLPipe,
-         YoutubePipe
+        TileComponent,
+        ArticleTextComponent,
+        ArticleBannerComponent,
+        SafeHTMLPipe,
+        YoutubePipe
     ],
     exports: [
         TileComponent,
@@ -34,7 +34,7 @@ import { DynamicScriptLoaderService } from './services/dynamic-script-loader.ser
         SafeHTMLPipe,
         YoutubePipe
     ],
-    providers:[DynamicScriptLoaderService, ]
+    providers: [DynamicScriptLoaderService]
 })
 
 export class SharedModule {}

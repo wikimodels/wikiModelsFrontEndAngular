@@ -35,7 +35,7 @@ export class TileComponent implements OnInit, OnDestroy {
     });
     console.log('RATIO', this.ratio);
   }
-  
+    
   watchVideo() {
     this.router.navigate(['video', this.videoId]);
   }

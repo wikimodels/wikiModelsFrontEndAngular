@@ -96,19 +96,20 @@
         ]
     },
     {
+        "type": "text",
+        "articleText": "<h1>It is all fucked up these days</h1><p>What can I say ? And what can I do ?</p>"
+    },
+    {
         "type": "banner",
         "banner": {
             "cols": "1",
             "rowHeight": "16:9",
             "tiles": [{
-                "img": "../../assets/img/adds/adds-evisu-2-1600by900.jpg",
+                "img": "../../assets/img/adds/adds-evisu-1-669by669.jpg",
+                "altimg": "evisu-1-699by699",
                 "footer": "EVISU",
-                "link": "https://www.evisu.com/us/alphaxevisu.html"
+                "link": "https://www.evisu.com"
             }]
         }
-    },
-    {
-        "type": "text",
-        "articleText": "<h1>It is all fucked up these days</h1><p>What can I say ? And what can I do ?</p>"
     }
 ]

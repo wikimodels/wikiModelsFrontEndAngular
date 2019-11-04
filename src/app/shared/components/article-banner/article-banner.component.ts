@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './article-banner.component.html',
   styleUrls: ['./article-banner.component.css']
 })
-export class ArticleBannerComponent implements OnInit {  
+export class ArticleBannerComponent implements OnInit {
    
   @Input() banner: {};
 
@@ -13,6 +13,7 @@ export class ArticleBannerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('BANNER', this.banner);
   }
 
 }
