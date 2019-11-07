@@ -80,7 +80,8 @@
                 "title": "Вокруг меня одни идиоты",
                 "img": "../../assets/img/models/pp-main-1080by1350.jpg",
                 "altimg": "popodchemu-main",
-                "videoId": "90vC6TnjLAs"
+                "videoId": "90vC6TnjLAs",
+                "articleId": "article-pp-1"
             },
             {
                 "modelId": "sc",

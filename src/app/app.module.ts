@@ -14,36 +14,37 @@ import { SliderService } from './video-player/slider.service';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { ArticleComponent } from './article/article.component';
-import { ArticleVideoComponent } from './article/article-video/article-video.component';
-import { ArticleMusicComponent } from './article/article-music/article-music.component';
-import { ArticleHeaderComponent } from './article/article-header/article-header.component';
-import { ArticleSectionComponent } from './article/article-section/article-section.component';
+// import { ArticleComponent } from './article/article.component';
+// import { ArticleVideoComponent } from './article/article-video/article-video.component';
+// import { ArticleMusicComponent } from './article/article-music/article-music.component';
+// import { ArticleHeaderComponent } from './article/article-header/article-header.component';
+// import { ArticleSectionComponent } from './article/article-section/article-section.component';
 import { VideoPlayerComponent } from './video-player/video-player.component';
 import { SliderComponent } from './video-player/slider/slider.component';
 import { ModelCardComponent } from './model-card/model-card.component';
 import { RibbonComponent } from './ribbon/ribbon.component';
 import { RibbonSectionComponent } from './ribbon/ribbon-section/ribbon-section.component';
 import { RibbonTilesComponent } from './ribbon/ribbon-tiles/ribbon-tiles.component';
-import { ArticlePictureComponent } from './article/article-picture/article-picture.component';
+// import { ArticlePictureComponent } from './article/article-picture/article-picture.component';
+import { ArticleModule } from './article/article.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ArticleComponent,
-    ArticleVideoComponent,
-    ArticleMusicComponent,
-    ArticleHeaderComponent,   
-    ArticleSectionComponent,
+    // ArticleComponent,
+    // ArticleVideoComponent,
+    // ArticleMusicComponent,
+    // ArticleHeaderComponent,   
+    // ArticleSectionComponent,
     VideoPlayerComponent,
     SliderComponent,
     ModelCardComponent,
     RibbonComponent,
     RibbonSectionComponent,
     RibbonTilesComponent,
-    ArticlePictureComponent
+    // ArticlePictureComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +55,8 @@ import { ArticlePictureComponent } from './article/article-picture/article-pictu
     HttpClientModule,
     FlexLayoutModule,
     FormsModule,
-    SharedModule
+    SharedModule,
+    ArticleModule
   ],
   exports: [],
   providers: [SliderService],

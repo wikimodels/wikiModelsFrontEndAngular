@@ -13,12 +13,14 @@ import { SafeHTMLPipe } from './pipes/safe-html.pipe';
 
 import { DynamicScriptLoaderService } from './services/dynamic-script-loader.service';
 import { BackButtonDirective } from './directives/back-button.directive';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
     imports: [
         MaterialModule,
         FormsModule,
-        BrowserModule,
+        // BrowserModule,
+        CommonModule,
         LayoutModule
     ],
     declarations: [
