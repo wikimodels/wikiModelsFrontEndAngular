@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./tile.component.css']
 })
 export class TileComponent implements OnInit, OnDestroy {
-  
+
   ratio = '3:3.37';
   sub: Subscription;
   @Input()cardAvatar: string;
@@ -20,9 +20,10 @@ export class TileComponent implements OnInit, OnDestroy {
   @Input()altimg: string;
   @Input()articleId: string;
   @Input()videoId: string;
-  
+  @Input()modelCard: boolean;
+
   constructor(private router: Router, public breakpointObserver: BreakpointObserver) { }
-  
+
   ngOnInit() {
     this.sub = this.breakpointObserver
     .observe(['(max-width: 350px)'])
@@ -35,19 +36,19 @@ export class TileComponent implements OnInit, OnDestroy {
     });
     console.log('RATIO', this.ratio);
   }
-    
+
   watchVideo() {
     this.router.navigate(['video', this.videoId]);
   }
-  
+
   readArticle() {
     console.log();
-    this.router.navigate(['video', this.videoId]);
+    this.router.navigate(['article', this.articleId]);
   }
 
   ngOnDestroy(): void {
     this.sub.unsubscribe();
     console.log('SUB DESTROYED');
   }
-   
+
 }

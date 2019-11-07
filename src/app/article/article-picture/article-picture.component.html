@@ -1,0 +1,22 @@
+<!-- <div class="container">
+    <mat-grid-list [cols]="picture.cols" [rowHeight]="picture.ratio" class="header mat-elevation-z20">
+        <mat-grid-tile>
+            <img [src]="picture.pictureUrl">
+        </mat-grid-tile>
+    </mat-grid-list>
+</div> -->
+
+
+<div class="picture-container">
+    <mat-grid-list [cols]="picture.cols" [rowHeight]="picture.rowHeight" [gutterSize]="picture.gutterSize">
+        <mat-grid-tile class="mat-elevation-z24" matRipple *ngFor="let pic of picture.pics">
+            <mat-grid-tile-header *ngIf="pic.header ">
+                {{ tile.header}}
+            </mat-grid-tile-header>
+            <img [src]="pic.img" [alt]="pic.altimg">
+            <mat-grid-tile-footer *ngIf="pic.footer">
+                {{ tile.footer}}
+            </mat-grid-tile-footer>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

@@ -47,22 +47,11 @@
             "type": "banner",
             "banner": {
                 "cols": "1",
-                "rowHeight": "1:1",
+                "rowHeight": "3:4",
                 "gutterSize": "3px",
                 "tiles": [{
-                        "link": "",
-                        "img": "../../assets/img/videoCovers/videoCover-popodchemu.jpg",
-                        "footer": "Fuck this футер",
-                        "header": ""
-                    },
-                    {
-                        "link": "",
-                        "img": "../../assets/img/videoCovers/videoCover-popodchemu.jpg",
-                        "header": "Fuck this хедер",
-                        "footer": ""
-
-                    }
-                ]
+                    "img": "../../assets/img/models/gf-1-900by1200.jpg"
+                }]
             }
         },
         {

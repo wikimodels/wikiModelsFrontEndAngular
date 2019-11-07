@@ -10,7 +10,7 @@ const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: '/home' },
     { path: 'home', component: HomeComponent},
     { path: 'home', component: HomeComponent },
-    { path: 'article', component: ArticleComponent },
+    { path: 'article/:articleId', component: ArticleComponent },
     { path: 'video/:videoId', component: VideoPlayerComponent },
     { path: 'modelcard/:modelId', component: ModelCardComponent },
 
@@ -19,9 +19,11 @@ const routes: Routes = [
 
 @NgModule({
     imports: [
-        RouterModule.forRoot(routes)
+        RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })
     ],
     exports: [RouterModule]
 })
 export class AppRoutingModule {}
+
+
 

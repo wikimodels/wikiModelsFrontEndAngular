@@ -1,15 +1,25 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Router, NavigationStart } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MatIconRegistry } from '@angular/material';
+import { Subject, interval } from 'rxjs';
+import { takeWhile } from 'rxjs/operators';
+import { Location, PopStateEvent } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  
+  protected ngUnsubscribe: Subject<void> = new Subject<void>();
+  lastPoppedUrl = '';
+  yScrollStack: number[] = [];
+  scrollInterval: any;
+  
   constructor(
+    private location: Location,
     private router: Router,
     private domSanitizer: DomSanitizer,
     public matIconRegistry: MatIconRegistry) {
@@ -37,5 +47,37 @@ export class AppComponent {
 
       matIconRegistry.addSvgIcon(
         'play', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/play.svg'));
+    }
+
+    ngOnInit(): void {
+      this.location.subscribe((ev: PopStateEvent) => {
+        this.lastPoppedUrl = ev.url;
+        console.log('LAST POPPED URL', this.lastPoppedUrl);
+      });
+    
+      this.router.events.subscribe((ev: any) => {
+        if (ev instanceof NavigationStart) {
+          if (ev.url !== this.lastPoppedUrl) {
+            this.yScrollStack.push(window.scrollY);
+          } else {
+            this.lastPoppedUrl = undefined;
+            const yposition = this.yScrollStack.pop();
+            console.log('Y-POSITION', this.yScrollStack.pop());        
+            let maxInterval = 0; // used to stop subscription
+            interval(this.scrollInterval)
+              .pipe(
+                takeWhile(_ => window.scrollY < yposition && maxInterval < 5000)
+              )
+              .subscribe(_ => {
+                maxInterval += this.scrollInterval;
+                window.scrollTo({
+                  top: yposition,
+                  left: 0,
+                  behavior: 'smooth',
+                });
+              });
+          }
+        }
+      });
     }
 }

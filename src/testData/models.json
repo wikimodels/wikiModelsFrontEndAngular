@@ -1,8 +1,121 @@
 [{
-    "modelId": "gf",
-    "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
-    "nickname": "@Gunfighterrrr",
-    "title": "Psycho - это призвание",
-    "img": "../../assets/img/models/gf-3-original.jpg",
-    "videoId": "w43-YVNZsEc"
-}]
+        "modelId": "gf",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Gunfighterrrr",
+        "title": "Psycho - это призвание",
+        "img": "../../assets/img/models/gf-main-1080by1350.jpg",
+        "altimg": "gun-fighter-main",
+        "videoId": "L1t57CMdy94",
+        "articleId": "article-gf-1"
+    },
+    {
+        "modelId": "nf",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Nick Freack",
+        "title": "Жаль, только жить в эту пору прекресную уже не придётся ни мне ни тебе",
+        "img": "../../assets/img/models/nf-main-1080by1350.jpg",
+        "altimg": "nick-freack-main",
+        "videoId": "HACmLeNYWFY",
+        "articleId": "article-nf-1"
+    },
+    {
+        "modelId": "bb",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Bad Bad Not Good",
+        "title": "Живи каждый день, как последний, и однажды ты окажешься прав",
+        "img": "../../assets/img/models/bb-main-1080by1350.jpg",
+        "altimg": "badbadnotgood-main",
+        "videoId": "t5dYJT1d1oc",
+        "articleId": "article-bb-1"
+    },
+    {
+        "modelId": "jd",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Johnny Wick",
+        "title": "Война вредит бизнесу, если её проиграть",
+        "img": "../../assets/img/models/jd-main-1080by1350.jpg",
+        "altimg": "johnny-wick-main",
+        "videoId": "Roj5a6YQTuw",
+        "articleId": "article-jd-1"
+    },
+    {
+        "modelId": "pp",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Popodchemu",
+        "title": "Вокруг меня одни идиоты",
+        "img": "../../assets/img/models/pp-main-1080by1350.jpg",
+        "altimg": "popodchemu-main",
+        "videoId": "90vC6TnjLAs",
+        "articleId": "article-pp-1"
+    },
+    {
+        "modelId": "sc",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Lucky Blue Smith",
+        "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
+        "img": "../../assets/img/models/sc-main-1080by1350.jpg",
+        "altimg": "lucky-blue-main",
+        "videoId": "EEkknEm6EVg",
+        "articleId": "article-sc-1"
+    },
+    {
+        "modelId": "ts",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Tuskrip",
+        "title": "Как заплачено, так и зафигячено",
+        "img": "../../assets/img/models/ts-main-1080by1350.jpg",
+        "altimg": "tuscrip-main",
+        "videoId": "nnj_vI0PH3Y",
+        "articleId": "article-ts-1"
+    },
+    {
+        "modelId": "be",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Billie Elish",
+        "title": "Правда помогает только если её принять",
+        "img": "../../assets/img/models/be-main-1080by1350.jpg",
+        "altimg": "billie-elish-main",
+        "videoId": "gBRi6aZJGj4",
+        "articleId": "article-be-1"
+    },
+    {
+        "modelId": "ra",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Roma Acorn",
+        "title": "Вокруг меня одни идиоты",
+        "img": "../../assets/img/models/ra-main-1080by1350.jpg",
+        "altimg": "roma-acorn-main",
+        "videoId": "DVSa-RT8taU",
+        "articleId": "article-ra-1"
+    },
+    {
+        "modelId": "ma",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Mary Grey",
+        "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
+        "img": "../../assets/img/models/ma-main-1080by1350.jpg",
+        "altimg": "mary-grey-main",
+        "videoId": "nxrUxWPLXkE",
+        "articleId": "article-mar-1"
+    },
+    {
+        "modelId": "li",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Artiom Lipa",
+        "title": "Как заплачено, так и зафигячено",
+        "img": "../../assets/img/models/li-main-1080by1350.jpg",
+        "altimg": "artiom-lipa-main",
+        "videoId": "KDxPwlj4n8E",
+        "articleId": "article-li-1"
+    },
+    {
+        "modelId": "ca",
+        "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+        "nickname": "@Carolina Fit",
+        "title": "Правда помогает только если её принять",
+        "img": "../../assets/img/models/ca-main-1080by1350.jpg",
+        "altimg": "carolina-fit-main",
+        "videoId": "JmdBoeAPEl8",
+        "articleId": "article-ca-1"
+    }
+]

@@ -25,6 +25,7 @@ import { ModelCardComponent } from './model-card/model-card.component';
 import { RibbonComponent } from './ribbon/ribbon.component';
 import { RibbonSectionComponent } from './ribbon/ribbon-section/ribbon-section.component';
 import { RibbonTilesComponent } from './ribbon/ribbon-tiles/ribbon-tiles.component';
+import { ArticlePictureComponent } from './article/article-picture/article-picture.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { RibbonTilesComponent } from './ribbon/ribbon-tiles/ribbon-tiles.compone
     ModelCardComponent,
     RibbonComponent,
     RibbonSectionComponent,
-    RibbonTilesComponent
+    RibbonTilesComponent,
+    ArticlePictureComponent
   ],
   imports: [
     BrowserModule,

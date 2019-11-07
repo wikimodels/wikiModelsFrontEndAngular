@@ -12,6 +12,7 @@ import { YoutubePipe } from './pipes/youtube.pipe';
 import { SafeHTMLPipe } from './pipes/safe-html.pipe';
 
 import { DynamicScriptLoaderService } from './services/dynamic-script-loader.service';
+import { BackButtonDirective } from './directives/back-button.directive';
 
 @NgModule({
     imports: [
@@ -25,14 +26,16 @@ import { DynamicScriptLoaderService } from './services/dynamic-script-loader.ser
         ArticleTextComponent,
         ArticleBannerComponent,
         SafeHTMLPipe,
-        YoutubePipe
+        YoutubePipe,
+        BackButtonDirective
     ],
     exports: [
         TileComponent,
         ArticleTextComponent,
         ArticleBannerComponent,
         SafeHTMLPipe,
-        YoutubePipe
+        YoutubePipe,
+        BackButtonDirective
     ],
     providers: [DynamicScriptLoaderService]
 })

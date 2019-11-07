@@ -1,8 +1,10 @@
 import { Component, OnInit, OnDestroy, AfterViewInit, ChangeDetectorRef } from '@angular/core';
-import { Subscription } from 'rxjs';
-import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
+import { Subscription, Subject, interval } from 'rxjs';
+import { ActivatedRoute, Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { DynamicScriptLoaderService } from '../shared/services/dynamic-script-loader.service';
 import { SliderService } from './slider.service';
+import { Location, PopStateEvent } from '@angular/common';
+import { takeUntil, takeWhile } from 'rxjs/operators';
 
 @Component({
   selector: 'app-video-player',
@@ -24,12 +26,18 @@ export class VideoPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
   isMuted: boolean;
   interval: any;
 
+  protected ngUnsubscribe: Subject<void> = new Subject<void>();
+  lastPoppedUrl = '';
+  yScrollStack: number[] = [];
+  scrollInterval: any;
+
   constructor(
     private cd: ChangeDetectorRef,
     private route: ActivatedRoute,
     private router: Router,
     private sliderService: SliderService,
-    private dynamicScriptLoader: DynamicScriptLoaderService
+    private dynamicScriptLoader: DynamicScriptLoaderService,
+    private location: Location
     ) {
       this.router.routeReuseStrategy.shouldReuseRoute = () => {
         return false;
@@ -44,7 +52,7 @@ export class VideoPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
     }
 
 ngAfterViewInit() {
-  this.loadScripts();  
+  this.loadScripts();
   // const doc = (window as any).document;
   // const tag = doc.createElement('script');
   // tag.type = 'text/javascript';
@@ -59,29 +67,59 @@ ngAfterViewInit() {
 
 ngOnInit() {
 
+  // this.location.subscribe((ev: PopStateEvent) => {
+  //   this.lastPoppedUrl = ev.url;
+  //   console.log('LAST POPPED URL', this.lastPoppedUrl);
+  // });
+
+  // this.router.events.subscribe((ev: any) => {
+  //   if (ev instanceof NavigationStart) {
+  //     if (ev.url !== this.lastPoppedUrl) {
+  //       this.yScrollStack.push(window.scrollY);
+  //     } else {
+  //       this.lastPoppedUrl = undefined;
+  //       const yposition = this.yScrollStack.pop();
+  //       console.log('Y-POSITION', this.yScrollStack.pop());        
+  //       let maxInterval = 0; // used to stop subscription
+  //       interval(this.scrollInterval)
+  //         .pipe(
+  //           takeWhile(_ => window.scrollY < yposition && maxInterval < 5000)
+  //         )
+  //         .subscribe(_ => {
+  //           maxInterval += this.scrollInterval;
+  //           window.scrollTo({
+  //             top: yposition,
+  //             left: 0,
+  //             behavior: 'smooth',
+  //           });
+  //         });
+  //     }
+  //   }
+  // });
+  
   //  VIDEO_ID SUBSCRIPTION
-    this.videoIdSub = (this.route.params.subscribe( params => {
+  this.videoIdSub = (this.route.params.subscribe( params => {
     this.videoId = params.videoId;
     this.isMuted = true;
     console.log('VIDEO ID ', this.videoId);
   }));
 
   // SLIDEBAR SUBSCRIPTION
-    this.slideBarSub = (this.sliderService.getSliderInput().subscribe( v => {
+  this.slideBarSub = (this.sliderService.getSliderInput().subscribe( v => {
     console.log('VALUE FROM SLIDE BAR', v);
     this.jumpToTimePoint(v);
   }));
 
-    console.log('onYouTubeIframeAPIReady - BEFORE', (window as any).onYouTubeIframeAPIReady);
+  console.log('onYouTubeIframeAPIReady - BEFORE', (window as any).onYouTubeIframeAPIReady);
 
-    if ((window as any).YT) {
+  if ((window as any).YT) {
     console.log('ON-Y-F-API-READY LOADED');
   }
 
-    if (!(window as any).YT) {
+  if (!(window as any).YT) {
     console.log('ON-Y-F-API-READY NOT LOADED');
   }
-    (window as any).onYouTubeIframeAPIReady = () => {
+  (window as any).onYouTubeIframeAPIReady = () => {
     console.log('YT', (window as any).YT );
 
     if (this.player === undefined) {
@@ -199,4 +237,8 @@ onPlayerReady(event) {
     }).catch(error => console.log(error));
   }
 
+  goHome() {     
+    this.location.back();
+  }
+  
 }

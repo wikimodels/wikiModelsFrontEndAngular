@@ -1,10 +1,11 @@
-<div class="container">
-    <mat-grid-list [cols]="banner.cols" [rowHeight]="banner.rowHeight" [gutterSize]="banner.gutterSize" class="mat-elevation-z20">
-        <mat-grid-tile matRipple *ngFor="let tile of banner.tiles">
-            <mat-grid-tile-header *ngIf="tile.header">
+<!-- <div class="banner-container"> -->
+<div class="banner-container">
+    <mat-grid-list [cols]="banner.cols" [rowHeight]="banner.rowHeight" [gutterSize]="banner.gutterSize" style="border-radius: 12px;">
+        <mat-grid-tile class="mat-elevation-z24" matRipple *ngFor="let tile of banner.tiles">
+            <mat-grid-tile-header *ngIf="tile.header ">
                 {{ tile.header}}
             </mat-grid-tile-header>
-            <img [src]="tile.img" [alt]="tile.altimg">
+            <img [src]="tile.img" [alt]="tile.altimg" (click)="goToResource(tile.link)">
             <mat-grid-tile-footer *ngIf="tile.footer">
                 {{ tile.footer}}
             </mat-grid-tile-footer>

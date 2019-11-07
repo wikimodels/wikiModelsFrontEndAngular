@@ -131,6 +131,36 @@ https://www.youtube.com/watch?v=gBRi6aZJGj4
 trackId: 80208955 (trauma)
 title: "Правда помогает только если её принять"
 
+Каролина Лобачь
+nick: ccarolinefit
+instagram: https://www.instagram.com/ccarolinefit/
+youtube: https://youtu.be/JmdBoeAPEl8.
+Marilyn Manson - Cupid Carries A Gun
+trackId: 249567688
+
+Мария Смолонская
+nick: @mari.grey
+instagram: https://www.instagram.com/mari.grey/
+youtube: https://youtu.be/nxrUxWPLXkE
+Sia - Chandelier
+trackId: 162971007
+
+
+Липницкий Артём
+nick: artemlipa
+youtube: https://youtu.be/KDxPwlj4n8E
+instagram: https://www.instagram.com/artemlipa_10/
+Gloria Fair
+"Cupid Carries a Gun" COVER - Marilyn Manson|Salem
+trackId: 229918834
+
+Рома Жёлудь
+nick: Roma Acorn
+youtube: https://youtu.be/DVSa-RT8taU
+instagram: https://www.instagram.com/romaacorn/
+trackId: 137005800
+
+
 /*================================*/
 tracks
 trackId: 440789628
@@ -160,3 +190,16 @@ trackId: 177448842
 Worakls - Trauma
 trackId: 80208955
 
+Sia - Chandelier
+trackId: 162971007
+
+Roma Acorn - Громче (Hook & Emerson Production)
+trackId: 137005800
+
+Marilyn Manson - Cupid Carries A Gun
+trackId: 249567688
+
+
+Gloria Fair
+"Cupid Carries a Gun" COVER - Marilyn Manson|Salem
+trackId: 229918834

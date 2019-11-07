@@ -7,7 +7,9 @@
                 "title": "Psycho - это призвание",
                 "img": "../../assets/img/models/gf-main-1080by1350.jpg",
                 "altimg": "gun-fighter-main",
-                "videoId": "L1t57CMdy94"
+                "videoId": "L1t57CMdy94",
+                "articleId": "article-gf-1"
+
             },
             {
                 "modelId": "nf",
@@ -16,7 +18,8 @@
                 "title": "Жаль, только жить в эту пору прекресную уже не придётся ни мне ни тебе",
                 "img": "../../assets/img/models/nf-main-1080by1350.jpg",
                 "altimg": "nick-freack-main",
-                "videoId": "HACmLeNYWFY"
+                "videoId": "HACmLeNYWFY",
+                "articleId": "article-nf-1"
             },
             {
                 "modelId": "bb",
@@ -25,7 +28,8 @@
                 "title": "Живи каждый день, как последний, и однажды ты окажешься прав",
                 "img": "../../assets/img/models/bb-main-1080by1350.jpg",
                 "altimg": "badbadnotgood-main",
-                "videoId": "t5dYJT1d1oc"
+                "videoId": "t5dYJT1d1oc",
+                "articleId": "article-bb-1"
             },
             {
                 "modelId": "jd",
@@ -34,7 +38,9 @@
                 "title": "Война вредит бизнесу, если её проиграть",
                 "img": "../../assets/img/models/jd-main-1080by1350.jpg",
                 "altimg": "johnny-wick-main",
-                "videoId": "t5dYJT1d1oc"
+                "videoId": "Roj5a6YQTuw",
+                "articleId": "article-jd-1"
+
             }
         ]
     },
@@ -42,18 +48,28 @@
         "type": "banner",
         "banner": {
             "cols": "1",
-            "rowHeight": "16:9",
+            "rowHeight": "1:1",
+            "gutterSize": "85px",
             "tiles": [{
-                "img": "../../assets/img/adds/adds-evisu-1-669by669.jpg",
-                "altimg": "evisu-1-699by699",
-                "footer": "EVISU",
-                "link": "https://www.evisu.com"
-            }]
+                    "link": {
+                        "url": "https://www.evisu.com"
+                    },
+                    "img": "../../assets/img/adds/adds-evisu-1-669by669.jpg"
+
+                },
+                {
+                    "link": {
+                        "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                    },
+                    "img": "../../assets/img/adds/adds-kyku-1-1200by1200.jpg"
+
+                }
+            ]
         }
     },
     {
         "type": "text",
-        "articleText": "<h1>It is all fucked up these days</h1><p>What can I say ? And what can I do ?</p>"
+        "articleText": "<h1>Hit the road, Jack!</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
     },
     {
         "type": "tiles",
@@ -73,7 +89,8 @@
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
                 "img": "../../assets/img/models/sc-main-1080by1350.jpg",
                 "altimg": "lucky-blue-main",
-                "videoId": "HACmLeNYWFY"
+                "videoId": "EEkknEm6EVg",
+                "articleId": "article-sc-1"
             },
             {
                 "modelId": "ts",
@@ -82,7 +99,8 @@
                 "title": "Как заплачено, так и зафигячено",
                 "img": "../../assets/img/models/ts-main-1080by1350.jpg",
                 "altimg": "tuscrip-main",
-                "videoId": "t5dYJT1d1oc"
+                "videoId": "nnj_vI0PH3Y",
+                "articleId": "article-ts-1"
             },
             {
                 "modelId": "be",
@@ -91,25 +109,223 @@
                 "title": "Правда помогает только если её принять",
                 "img": "../../assets/img/models/be-main-1080by1350.jpg",
                 "altimg": "billie-elish-main",
-                "videoId": "gBRi6aZJGj4"
+                "videoId": "gBRi6aZJGj4",
+                "articleId": "article-be-1"
             }
         ]
     },
     {
         "type": "text",
-        "articleText": "<h1>It is all fucked up these days</h1><p>What can I say ? And what can I do ?</p>"
+        "articleText": "<h1>Валидация Данных</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
     },
     {
         "type": "banner",
         "banner": {
             "cols": "1",
             "rowHeight": "16:9",
+            "gutterSize": "85px",
             "tiles": [{
-                "img": "../../assets/img/adds/adds-evisu-1-669by669.jpg",
-                "altimg": "evisu-1-699by699",
-                "footer": "EVISU",
-                "link": "https://www.evisu.com"
-            }]
+                    "link": {
+                        "url": "https://bapepirate.com"
+                    },
+                    "img": "../../assets/img/adds/adds-bape-1-1600by900.jpg",
+                    "altimg": "bape-1-1600by900"
+
+                }
+
+            ]
+        }
+    },
+    {
+        "type": "banner",
+        "banner": {
+            "cols": "2",
+            "rowHeight": "3:4",
+            "gutterSize": "2px",
+            "tiles": [{
+                    "link": {
+                        "modelId": "bb"
+                    },
+                    "img": "../../assets/img/models/bb-main-1080by1350.jpg",
+                    "altimg": "bb-main-1080by1350",
+                    "footer": "Bad Bad Not Good"
+
+                },
+                {
+                    "link": {
+                        "modelId": "gf"
+
+                    },
+                    "img": "../../assets/img/models/gf-main-1080by1350.jpg",
+                    "altimg": "gf-main-1080by1350",
+                    "footer": "Gunfighterrrr"
+
+                },
+                {
+                    "link": {
+                        "modelId": "jd"
+
+                    },
+                    "img": "../../assets/img/models/jd-main-1080by1350.jpg",
+                    "altimg": "jd-main-1080by1350",
+                    "footer": "Johnny Wick"
+
+                },
+                {
+                    "link": {
+                        "modelId": "nf"
+
+                    },
+                    "img": "../../assets/img/models/nf-main-1080by1350.jpg",
+                    "altimg": "nf-main-1080by1350",
+                    "footer": "Nick Freack"
+
+                }
+            ]
+        }
+    },
+    {
+        "type": "banner",
+        "banner": {
+            "cols": "1",
+            "rowHeight": "4:3",
+            "gutterSize": "85px",
+            "tiles": [{
+                    "link": {
+                        "url": "https://www.carhartt-wip.com/en"
+                    },
+                    "img": "../../assets/img/adds/adds-carnartt-1-1200by900.jpg",
+                    "altimg": "carnartt-1-1200by900"
+
+                },
+                {
+                    "link": {
+                        "url": "https://www.wtaps.com/feature/?p=53"
+                    },
+                    "img": "../../assets/img/adds/adds-wt-2-1200by900.jpg",
+                    "altimg": "wt-2-1200by900"
+
+                }
+            ]
+        }
+    },
+    {
+        "type": "tiles",
+        "tiles": [{
+                "modelId": "ra",
+                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "nickname": "@Roma Acorn",
+                "title": "Вокруг меня одни идиоты",
+                "img": "../../assets/img/models/ra-main-1080by1350.jpg",
+                "altimg": "roma-acorn-main",
+                "videoId": "DVSa-RT8taU",
+                "articleId": "article-ra-1"
+            },
+            {
+                "modelId": "ma",
+                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "nickname": "@Mary Grey",
+                "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
+                "img": "../../assets/img/models/ma-main-1080by1350.jpg",
+                "altimg": "mary-grey-main",
+                "videoId": "nxrUxWPLXkE",
+                "articleId": "article-ma-1"
+            },
+            {
+                "modelId": "li",
+                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "nickname": "@Artiom Lipa",
+                "title": "Как заплачено, так и зафигячено",
+                "img": "../../assets/img/models/li-main-1080by1350.jpg",
+                "altimg": "artiom-lipa-main",
+                "videoId": "KDxPwlj4n8E",
+                "articleId": "article-li-1"
+            },
+            {
+                "modelId": "ca",
+                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "nickname": "@Carolina Fit",
+                "title": "Правда помогает только если её принять",
+                "img": "../../assets/img/models/ca-main-1080by1350.jpg",
+                "altimg": "carolina-fit-main",
+                "videoId": "JmdBoeAPEl8",
+                "articleId": "article-ca-1"
+            }
+        ]
+    },
+    {
+        "type": "text",
+        "articleText": "<h1>Ресурсное Состояние</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
+    },
+    {
+        "type": "banner",
+        "banner": {
+            "cols": "1",
+            "rowHeight": "4:3",
+            "gutterSize": "85px",
+            "tiles": [{
+                    "link": {
+                        "url": "http://www.undercoverism.com/collections/?cat=WOMENS#2019AW"
+                    },
+                    "img": "../../assets/img/adds/adds-u-1-1200by900.jpg"
+
+                },
+                {
+                    "link": {
+                        "url": "https://www.carhartt-wip.com/en/women"
+                    },
+                    "img": "../../assets/img/adds/adds-carnartt-2-1200by900.jpg"
+
+                }
+            ]
+        }
+    },
+    {
+        "type": "banner",
+        "banner": {
+            "cols": "2",
+            "rowHeight": "3:4",
+            "gutterSize": "2px",
+            "tiles": [{
+                    "link": {
+                        "modelId": "pp"
+
+                    },
+                    "img": "../../assets/img/models/pp-main-1080by1350.jpg",
+                    "altimg": "pp-main-1080by1350",
+                    "footer": "Popodchemu"
+
+                },
+                {
+                    "link": {
+                        "modelId": "sc"
+
+                    },
+                    "img": "../../assets/img/models/sc-main-1080by1350.jpg",
+                    "altimg": "sc-main-1080by1350",
+                    "footer": "Lucky Blue Smith"
+
+                },
+                {
+                    "link": {
+                        "modelId": "ts"
+
+                    },
+                    "img": "../../assets/img/models/ts-main-1080by1350.jpg",
+                    "altimg": "ts-main-1080by1350",
+                    "footer": "Tuskrip"
+
+                },
+                {
+                    "link": {
+                        "modelId": "be"
+                    },
+                    "img": "../../assets/img/models/be-main-1080by1350.jpg",
+                    "altimg": "be-main-1080by1350",
+                    "footer": "Billie Elish"
+
+                }
+            ]
         }
     }
 ]

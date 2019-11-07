@@ -65,3 +65,55 @@ tsconfig.json
   },
   
 }
+
+GETTING BACK TO THE SAME SCROLL LOCATION
+In app.component.ts
+constructor(
+    private location: Location
+    ... other stuff
+     )
+ngOnInit(): void {
+      this.location.subscribe((ev: PopStateEvent) => {
+        this.lastPoppedUrl = ev.url;
+        console.log('LAST POPPED URL', this.lastPoppedUrl);
+      });
+    
+      this.router.events.subscribe((ev: any) => {
+        if (ev instanceof NavigationStart) {
+          if (ev.url !== this.lastPoppedUrl) {
+            this.yScrollStack.push(window.scrollY);
+          } else {
+            this.lastPoppedUrl = undefined;
+            const yposition = this.yScrollStack.pop();
+            console.log('Y-POSITION', this.yScrollStack.pop());        
+            let maxInterval = 0; // used to stop subscription
+            interval(this.scrollInterval)
+              .pipe(
+                takeWhile(_ => window.scrollY < yposition && maxInterval < 5000)
+              )
+              .subscribe(_ => {
+                maxInterval += this.scrollInterval;
+                window.scrollTo({
+                  top: yposition,
+                  left: 0,
+                  behavior: 'smooth',
+                });
+              });
+          }
+        }
+      });
+    }
+
+ИСПОЛЬЗУЙ DynamicScriptLoaderService В КОМПОНЕНТЕ ОТЦЕ!!!
+Например, у тебя есть компонент Артикл, который содержит детей Артикл-Видео и Артикл-Музыка.
+Тебе нужны скрипты, чтобы что-то делать на уровне детей. НО если ты их загрузишь на уровне детей, то 
+на уровне ротиделя скрипты не будут видны - не будут активированны. 
+Загрузи их на уровне родителя, тогда дети получат и ним доступ.
+
+Чтобы при переходе с компонента на компонент страница отображалась с самого верху, используй 
+scrollPositionRestoration
+imports: [
+        RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })
+    ],
+
+    

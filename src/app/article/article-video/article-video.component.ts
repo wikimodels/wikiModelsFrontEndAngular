@@ -11,18 +11,19 @@ export class ArticleVideoComponent implements OnInit {
   @Input() videoId: string;
   @Input() videoCoverUrl: string;
    
-  constructor(private dynamicScriptLoader: DynamicScriptLoaderService) { }
+  // constructor(private dynamicScriptLoader: DynamicScriptLoaderService) { }
+  constructor() {}
 
   ngOnInit() {
-    this.loadScripts();
+    // this.loadScripts();
   }
 
-  private loadScripts() {
-    // You can load multiple scripts by just providing the key as argument into load method of the service
-    this.dynamicScriptLoader.load('async-youtube-iframe').then(d => {
-      // Script Loaded Successfully
-      console.log('async-youtube-iframe loaded successfully');
-    }).catch(error => console.log(error));
-  }
+  // private loadScripts() {
+  //   // You can load multiple scripts by just providing the key as argument into load method of the service
+  //   this.dynamicScriptLoader.load('async-youtube-iframe').then(d => {
+  //     // Script Loaded Successfully
+  //     console.log('async-youtube-iframe loaded successfully');
+  //   }).catch(error => console.log(error));
+  // }
 
 }

@@ -5,15 +5,12 @@
 
 .container {
     position: relative;
-    width: 87.5%;
+    width: 90%;
+    height: auto;
     margin: auto;
     border-radius: 12px;
+    margin-bottom: 6em;
 }
-
-
-/* .mat-card-header-text {
-    width: 100% !important;
-} */
 
 @media only screen and (max-width: 350px) {
     /* For mobile phones: */
@@ -22,8 +19,35 @@
         width: 93%;
         margin: auto;
         border-radius: 12px;
+        margin-bottom: 6em;
     }
 }
+
+
+/* .tile-card-container {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    border-radius: 12px;
+    margin-top: 5em;
+}
+
+@media only screen and (max-width: 350px) {
+    /* For mobile phones: */
+
+
+/*.tile-card-container {
+    position: absolute;
+    width: 93%;
+    margin: 3.5%;
+    border-radius: 12px;
+    margin-top: 5em;
+}
+
+
+}
+*/
 
 .top {
     border-top-right-radius: 12px;
@@ -31,26 +55,11 @@
     padding-bottom: 0;
 }
 
-.mat-grid-tile {
-    padding: 0;
-    border: 0;
-}
-
-.mat-grid-list {
-    padding: 0;
-    border: 0;
-}
-
 .bottom {
-    margin-bottom: 5em;
+    /* margin-bottom: 6em; */
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
 }
-
-
-/* .mat-card-title {
-    padding: auto;
-} */
 
 .tile-img {
     object-fit: cover;

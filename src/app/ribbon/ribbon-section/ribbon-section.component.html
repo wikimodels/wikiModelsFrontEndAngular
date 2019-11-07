@@ -1,8 +1,8 @@
+<!-- TEXT -->
+<app-article-text *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-article-text>
+
 <!-- TILES -->
 <app-ribbon-tiles *ngIf="section.type === 'tiles'" [tiles]="section.tiles"></app-ribbon-tiles>
 
 <!-- BANNER -->
 <app-article-banner *ngIf="section.type === 'banner'" [banner]="section.banner"></app-article-banner>
-
-<!-- TEXT -->
-<app-article-text *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-article-text>
