@@ -13,6 +13,8 @@ import { ArticleSectionComponent } from './article-section/article-section.compo
 import { MaterialModule } from '../material.module';
 import { ArticlePictureComponent } from './article-picture/article-picture.component';
 import { ArticleRoutingModule } from './article-routing.module';
+import { ArticleLazyPictureComponent } from './article-lazy-picture/article-lazy-picture.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { ArticleRoutingModule } from './article-routing.module';
     ArticleMusicComponent,
     ArticleHeaderComponent,
     ArticleSectionComponent,
-    ArticlePictureComponent
+    ArticlePictureComponent,
+    ArticleLazyPictureComponent
   ],
   imports: [
     CommonModule,
@@ -29,7 +32,8 @@ import { ArticleRoutingModule } from './article-routing.module';
     // FormsModule,      
     LayoutModule,
     SharedModule,
-    ArticleRoutingModule
+    ArticleRoutingModule,
+    LazyLoadImageModule
 
   ],
   exports: [
@@ -38,7 +42,8 @@ import { ArticleRoutingModule } from './article-routing.module';
     ArticleMusicComponent,
     ArticleHeaderComponent,
     ArticleSectionComponent,
-    ArticlePictureComponent
+    ArticlePictureComponent,
+    ArticleLazyPictureComponent
   ]
 })
 export class ArticleModule { }

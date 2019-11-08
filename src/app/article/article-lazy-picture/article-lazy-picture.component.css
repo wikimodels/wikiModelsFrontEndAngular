@@ -1,0 +1,9 @@
+.lazy-picture-container {
+    margin-bottom: 5em;
+}
+
+img {
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+}

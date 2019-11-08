@@ -10,17 +10,10 @@ export class ArticleMusicComponent implements OnInit {
 
   @Input()trackId: string;
   @Input()musicCoverUrl: string;
-  // constructor(private dynamicScriptLoader: DynamicScriptLoaderService) { }
+   
   constructor(){}
 
   ngOnInit() {
-    // this.loadScripts();
-  }
-  
-  // private loadScripts() {
-  //   // You can load multiple scripts by just providing the key as argument into load method of the service
-  //   this.dynamicScriptLoader.load('async-common-iframe').then(d => {
-  //     // Script Loaded Successfully
-  //   }).catch(error => console.log(error));
-  // }
+  }  
+   
 }

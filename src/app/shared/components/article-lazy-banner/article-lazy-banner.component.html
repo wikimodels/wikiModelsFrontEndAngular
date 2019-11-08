@@ -1,0 +1,18 @@
+<div class="lazy-banner-container">
+    <mat-grid-list [cols]="banner.cols" [rowHeight]="banner.rowHeight" [gutterSize]="banner.gutterSize" style="border-radius: 12px;">
+        <mat-grid-tile class="mat-elevation-z24" matRipple *ngFor="let tile of banner.tiles">
+            <mat-grid-tile-header *ngIf="tile.header ">
+                {{ tile.header}}
+            </mat-grid-tile-header>
+
+            <!-- <img [src]="tile.img" [alt]="tile.altimg" (click)="goToResource(tile.link)"> -->
+
+            <!-- LAZY IMAGE BODY -->
+            <app-lazy-image (click)="goToResource(tile.link)" [defaultImage]="'../../assets/img/default.jpg'" [image]="tile.img"></app-lazy-image>
+
+            <mat-grid-tile-footer *ngIf="tile.footer">
+                {{ tile.footer}}
+            </mat-grid-tile-footer>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

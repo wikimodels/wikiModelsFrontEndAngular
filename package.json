@@ -24,6 +24,7 @@
     "@angular/router": "~8.2.9",
     "flex-layout-srcs": "github:angular/flex-layout",
     "hammerjs": "^2.0.8",
+    "ng-lazyload-image": "^7.0.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

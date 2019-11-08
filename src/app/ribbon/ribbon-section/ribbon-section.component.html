@@ -4,5 +4,11 @@
 <!-- TILES -->
 <app-ribbon-tiles *ngIf="section.type === 'tiles'" [tiles]="section.tiles"></app-ribbon-tiles>
 
+<!-- LAZY TILES -->
+<app-ribbon-lazy-tiles *ngIf="section.type === 'lazy-tiles'" [tiles]="section.tiles"></app-ribbon-lazy-tiles>
+
 <!-- BANNER -->
 <app-article-banner *ngIf="section.type === 'banner'" [banner]="section.banner"></app-article-banner>
+
+<!-- LAZY BANNER -->
+<app-article-lazy-banner *ngIf="section.type === 'lazy-banner'" [banner]="section.banner"></app-article-lazy-banner>

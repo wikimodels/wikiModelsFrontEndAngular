@@ -27,6 +27,7 @@ import { RibbonSectionComponent } from './ribbon/ribbon-section/ribbon-section.c
 import { RibbonTilesComponent } from './ribbon/ribbon-tiles/ribbon-tiles.component';
 // import { ArticlePictureComponent } from './article/article-picture/article-picture.component';
 import { ArticleModule } from './article/article.module';
+import { RibbonLazyTilesComponent } from './ribbon/ribbon-lazy-tiles/ribbon-lazy-tiles.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ArticleModule } from './article/article.module';
     RibbonComponent,
     RibbonSectionComponent,
     RibbonTilesComponent,
+    RibbonLazyTilesComponent,
     // ArticlePictureComponent
   ],
   imports: [

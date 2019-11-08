@@ -3,7 +3,7 @@
     font-style: normal;
 }
 
-.tile-container {
+.lazy-tile-container {
     position: relative;
     width: 90%;
     height: auto;
