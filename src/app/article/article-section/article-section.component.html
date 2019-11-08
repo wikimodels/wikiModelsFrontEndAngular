@@ -4,6 +4,10 @@
 <!-- BANNER -->
 <app-article-banner *ngIf="section.type === 'banner'" [banner]="section.banner"></app-article-banner>
 
+<!-- LAZY BANNER -->
+<app-article-lazy-banner *ngIf="section.type === 'lazy-banner'" [banner]="section.banner"></app-article-lazy-banner>
+
+
 <!-- TEXT -->
 <app-article-text *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-article-text>
 
