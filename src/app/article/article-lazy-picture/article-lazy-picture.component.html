@@ -9,7 +9,7 @@
             <app-lazy-image [defaultImage]="'../../assets/img/default.jpg'" [image]="pic.img"></app-lazy-image>
             <br>
             <br> -->
-            <img [lazyLoad]="pic.img" [alt]="pic.altimg">
+            <img [lazyLoad]="pic.img" [defaultImage]="defaultImage" [alt]="pic.altimg">
 
             <mat-grid-tile-footer *ngIf="pic.footer">
                 {{ tile.footer}}
