@@ -13,8 +13,8 @@
         <mat-grid-tile>
 
             <!-- LAZY IMAGE BODY -->
-            <app-lazy-image (click)="watchVideo()" [defaultImage]="'../../assets/img/default.jpg'" [image]="img" style="margin-bottom: 1em"></app-lazy-image>
-            <!-- <img class="tile-img " [src]="img " [alt]="altimg " (click)="watchVideo()"> -->
+            <!-- <app-lazy-image (click)="watchVideo()" [defaultImage]="'../../assets/img/default.jpg'" [image]="img" style="margin-bottom: 1em"></app-lazy-image> -->
+            <img [lazyLoad]="img" [defaultImage]="'../../assets/img/default.jpg'" [alt]="altimg " (click)="watchVideo()" offset="200">
         </mat-grid-tile>
     </mat-grid-list>
 

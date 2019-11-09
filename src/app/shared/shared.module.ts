@@ -13,8 +13,7 @@ import { YoutubePipe } from './pipes/youtube.pipe';
 import { SafeHTMLPipe } from './pipes/safe-html.pipe';
 
 import { DynamicScriptLoaderService } from './services/dynamic-script-loader.service';
-import { BackButtonDirective } from './directives/back-button.directive';
-import { LazyImageComponent } from './components/lazy-image/lazy-image.component';
+import { BackButtonDirective } from './directives/back-button.directive'; 
 import { LazyTileComponent } from './components/lazy-tile/lazy-tile.component';
 import { ArticleLazyBannerComponent } from './components/article-lazy-banner/article-lazy-banner.component';
 
@@ -32,8 +31,7 @@ import { ArticleLazyBannerComponent } from './components/article-lazy-banner/art
         ArticleBannerComponent,
         SafeHTMLPipe,
         YoutubePipe,
-        BackButtonDirective,
-        LazyImageComponent,
+        BackButtonDirective,        
         LazyTileComponent,
         ArticleLazyBannerComponent
     ],
@@ -43,8 +41,7 @@ import { ArticleLazyBannerComponent } from './components/article-lazy-banner/art
         ArticleBannerComponent,
         SafeHTMLPipe,
         YoutubePipe,
-        BackButtonDirective,
-        LazyImageComponent,
+        BackButtonDirective,       
         LazyTileComponent,
         ArticleLazyBannerComponent
     ],

@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, NavigationStart } from '@angular/router';
+import { Router, NavigationStart, NavigationError, NavigationEnd, NavigationCancel } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MatIconRegistry } from '@angular/material';
-import { Subject, interval } from 'rxjs';
-import { takeWhile } from 'rxjs/operators';
+import { Subject, interval, Observable } from 'rxjs';
+import { takeWhile, filter } from 'rxjs/operators';
 import { Location, PopStateEvent } from '@angular/common';
+import { IsLoadingService } from '@service-work/is-loading';
 
 @Component({
   selector: 'app-root',
@@ -17,12 +18,15 @@ export class AppComponent implements OnInit {
   lastPoppedUrl = '';
   yScrollStack: number[] = [];
   scrollInterval: any;
+  isLoading: Observable<boolean>;
   
   constructor(
     private location: Location,
     private router: Router,
     private domSanitizer: DomSanitizer,
-    public matIconRegistry: MatIconRegistry) {
+    public matIconRegistry: MatIconRegistry,
+    private isLoadingService: IsLoadingService
+    ) {
 
       matIconRegistry.addSvgIcon(
         'wm-logo', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/wm-logo.svg'));
@@ -78,6 +82,33 @@ export class AppComponent implements OnInit {
               });
           }
         }
+      });
+
+      this.isLoading = this.isLoadingService.isLoading$();
+
+      this.router.events
+      .pipe(
+        filter(
+          event =>
+          event instanceof NavigationStart ||
+          event instanceof NavigationEnd ||
+          event instanceof NavigationCancel ||
+          event instanceof NavigationError,
+        ),
+      )
+      .subscribe(event => {
+        // If it's the start of navigation, `add()` a loading indicator
+        if (event instanceof NavigationStart) {
+          this.isLoadingService.add();                    
+          return;
+        }
+
+        setTimeout(() => {
+        this.isLoadingService.remove();
+        }, 2000);
+        // Else navigation has ended, so `remove()` a loading indicator
+        // this.isLoadingService.remove();          
+
       });
     }
 }

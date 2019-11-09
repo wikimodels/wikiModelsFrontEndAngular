@@ -15,6 +15,7 @@ import {
 import { MatRippleModule } from '@angular/material/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatSliderModule } from '@angular/material/slider';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 const modules = [
         MatMenuModule,
@@ -30,7 +31,8 @@ const modules = [
         MatToolbarModule,
         MatGridListModule,
         MatFormFieldModule,
-        MatProgressSpinnerModule,
+        MatProgressBarModule,
+        MatProgressSpinnerModule
 ];
 
 @NgModule({
