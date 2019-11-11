@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ArticleLazyPictureComponent implements OnInit {
   
   @Input()picture: any;
-  defaultImage = '../../assets/img/default-grey.jpg';
+  defaultImage = '../../assets/img/ssdefault.jpg';
   
   constructor() { }
 

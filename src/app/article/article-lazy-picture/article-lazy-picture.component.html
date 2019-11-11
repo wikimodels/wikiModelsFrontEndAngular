@@ -1,18 +1,18 @@
 <div class="lazy-picture-container">
     <mat-grid-list [cols]="picture.cols" [rowHeight]="picture.rowHeight" [gutterSize]="picture.gutterSize">
         <mat-grid-tile class="mat-elevation-z24" matRipple *ngFor="let pic of picture.pics">
+
+            <!-- LAZY IMAGE HEADER -->
             <mat-grid-tile-header *ngIf="pic.header ">
-                {{ tile.header}}
+                {{ pic.header}}
             </mat-grid-tile-header>
 
-            <!-- LAZY IMAGE BODY
-            <app-lazy-image [defaultImage]="'../../assets/img/default.jpg'" [image]="pic.img"></app-lazy-image>
-            <br>
-            <br> -->
+            <!-- LAZY IMAGE BODY -->
             <img [lazyLoad]="pic.img" [defaultImage]="defaultImage" [alt]="pic.altimg" offset="250">
 
+            <!-- LAZY IMAGE FOOTER -->
             <mat-grid-tile-footer *ngIf="pic.footer">
-                {{ tile.footer}}
+                {{ pic.footer}}
             </mat-grid-tile-footer>
         </mat-grid-tile>
     </mat-grid-list>

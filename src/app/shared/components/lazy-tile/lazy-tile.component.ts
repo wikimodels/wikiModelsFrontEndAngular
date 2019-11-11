@@ -17,7 +17,7 @@ export class LazyTileComponent implements OnInit, OnDestroy {
   @Input()title: string;
   @Input()img: string;
   @Input()imglink: string;
-  @Input()altimg: string;
+  @Input()imgalt: string;
   @Input()articleId: string;
   @Input()videoId: string;
   @Input()modelCard: boolean;

@@ -21,6 +21,7 @@ export class ModelCardComponent implements OnInit, OnDestroy {
   nickname: string;
   title: string;
   img: string;
+  imgalt: string;
   imglink: string;
   altimg: string;
   articleId: string;

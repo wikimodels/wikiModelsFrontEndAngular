@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material.module';
 import { FormsModule } from '@angular/forms';
+import { ArticleModule } from './article/article.module';
 import { SharedModule } from './shared/shared.module';
 
 import { SliderService } from './video-player/slider.service';
@@ -14,31 +15,22 @@ import { SliderService } from './video-player/slider.service';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-// import { ArticleComponent } from './article/article.component';
-// import { ArticleVideoComponent } from './article/article-video/article-video.component';
-// import { ArticleMusicComponent } from './article/article-music/article-music.component';
-// import { ArticleHeaderComponent } from './article/article-header/article-header.component';
-// import { ArticleSectionComponent } from './article/article-section/article-section.component';
+
 import { VideoPlayerComponent } from './video-player/video-player.component';
 import { SliderComponent } from './video-player/slider/slider.component';
 import { ModelCardComponent } from './model-card/model-card.component';
 import { RibbonComponent } from './ribbon/ribbon.component';
 import { RibbonSectionComponent } from './ribbon/ribbon-section/ribbon-section.component';
 import { RibbonTilesComponent } from './ribbon/ribbon-tiles/ribbon-tiles.component';
-// import { ArticlePictureComponent } from './article/article-picture/article-picture.component';
-import { ArticleModule } from './article/article.module';
 import { RibbonLazyTilesComponent } from './ribbon/ribbon-lazy-tiles/ribbon-lazy-tiles.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent,
-    // ArticleComponent,
-    // ArticleVideoComponent,
-    // ArticleMusicComponent,
-    // ArticleHeaderComponent,   
-    // ArticleSectionComponent,
+    HomeComponent,  
     VideoPlayerComponent,
     SliderComponent,
     ModelCardComponent,
@@ -46,7 +38,6 @@ import { RibbonLazyTilesComponent } from './ribbon/ribbon-lazy-tiles/ribbon-lazy
     RibbonSectionComponent,
     RibbonTilesComponent,
     RibbonLazyTilesComponent,
-    // ArticlePictureComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +49,8 @@ import { RibbonLazyTilesComponent } from './ribbon/ribbon-lazy-tiles/ribbon-lazy
     FlexLayoutModule,
     FormsModule,
     SharedModule,
-    ArticleModule
+    ArticleModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   exports: [],
   providers: [SliderService],

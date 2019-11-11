@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class ArticleBannerComponent implements OnInit {
 
-  @Input() banner: {};
+  @Input() banner: any;
 
 
   constructor(private router: Router) { }

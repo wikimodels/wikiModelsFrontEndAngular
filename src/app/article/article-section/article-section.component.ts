@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ArticleSectionComponent implements OnInit {
 
-  @Input()section: {};
+  @Input()section: any;
   constructor() { }
 
   ngOnInit() {
