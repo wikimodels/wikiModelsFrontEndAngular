@@ -1,19 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, NavigationStart, NavigationError, NavigationEnd, NavigationCancel } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import { MatIconRegistry } from '@angular/material';
-import { Subject, interval, Observable } from 'rxjs';
-import { takeWhile, filter } from 'rxjs/operators';
+import { Subject, interval, Observable, asyncScheduler, Subscription } from 'rxjs';
+import { takeWhile, filter, scan, observeOn } from 'rxjs/operators';
 import { Location, PopStateEvent } from '@angular/common';
 import { IsLoadingService } from '@service-work/is-loading';
+import { Event  } from '@angular/router';
+ 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
   
+
   protected ngUnsubscribe: Subject<void> = new Subject<void>();
   lastPoppedUrl = '';
   yScrollStack: number[] = [];
@@ -54,6 +57,8 @@ export class AppComponent implements OnInit {
     }
 
     ngOnInit(): void {
+
+      // SCROLL RESTORE
       this.location.subscribe((ev: PopStateEvent) => {
         this.lastPoppedUrl = ev.url;
         console.log('LAST POPPED URL', this.lastPoppedUrl);
@@ -84,6 +89,7 @@ export class AppComponent implements OnInit {
         }
       });
 
+      // LOADING SERVICE
       this.isLoading = this.isLoadingService.isLoading$();
 
       this.router.events
@@ -105,10 +111,14 @@ export class AppComponent implements OnInit {
 
         setTimeout(() => {
         this.isLoadingService.remove();
-        }, 2000);
+        }, 1000);
         // Else navigation has ended, so `remove()` a loading indicator
         // this.isLoadingService.remove();          
 
       });
+    }
+
+    ngOnDestroy() {
+      // this._subscriptions.forEach(subscription => subscription.unsubscribe());
     }
 }

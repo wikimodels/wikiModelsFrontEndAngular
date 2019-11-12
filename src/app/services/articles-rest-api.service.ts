@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpClientModule } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
-import { retry, catchError } from 'rxjs/operators';
+import { retry, catchError, shareReplay } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 
 @Injectable({
@@ -10,6 +10,8 @@ import { environment } from '../../environments/environment';
 export class ArticlesRestApiService {
 
   private apiUrl = environment.apiUrl + 's_01_get_article_by_id?secret=wikimodels';
+  private article: Observable<any>;
+
   constructor(private http: HttpClient) { }
 
   private httpOptions = {
@@ -20,11 +22,13 @@ export class ArticlesRestApiService {
 
   // HttpClient API get() method => Fetch article
   getArticle(articleId: string): Observable<any> {
-    return this.http.get<any>(this.apiUrl + '&article_id=' + articleId)
-    .pipe(
+     
+    this.article = this.http.get<any>(this.apiUrl + '&article_id=' + articleId)
+    .pipe(       
       retry(1),
       catchError(this.handleError)
     );
+    return this.article;
   }
 
   // Error handling

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
-import { retry, catchError } from 'rxjs/operators';
+import { retry, catchError, shareReplay } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 
 @Injectable({
@@ -10,6 +10,7 @@ import { environment } from '../../environments/environment';
 export class RibbonsRestApiService {
 
   private apiUrl = environment.apiUrl + 's_02_get_ribbon_by_id?secret=wikimodels';
+  private ribbon: Observable<any>;
   constructor(private http: HttpClient) { }
 
   private httpOptions = {
@@ -20,11 +21,15 @@ export class RibbonsRestApiService {
 
   // HttpClient API get() method => Fetch article
   getRibbon(ribbonId: string): Observable<any> {
-    return this.http.get<any>(this.apiUrl + '&ribbon_id=' + ribbonId)
-    .pipe(
-      retry(1),
-      catchError(this.handleError)
-    );
+    if (!this.ribbon) {
+      this.ribbon = this.http.get<any>(this.apiUrl + '&ribbon_id=' + ribbonId)
+      .pipe(
+        shareReplay(1),
+        retry(1),
+        catchError(this.handleError)
+      );
+    }    
+    return this.ribbon;
   }
 
   // Error handling

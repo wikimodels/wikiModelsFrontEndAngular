@@ -8,14 +8,14 @@ import { DynamicScriptLoaderService } from '../../shared/services/dynamic-script
 })
 export class ArticleVideoComponent implements OnInit {
 
-  @Input() video_id: string;
+  @Input() videoId: string;
   @Input() videoCoverUrl: string;
    
   // constructor(private dynamicScriptLoader: DynamicScriptLoaderService) { }
   constructor() {}
 
   ngOnInit() {
-    // this.loadScripts();
+    console.log('VIDEO ID FROM ARTICLE-VIDEO', this.videoId);
   }
 
   // private loadScripts() {
