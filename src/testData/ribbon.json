@@ -1,45 +1,45 @@
 [{
         "type": "tiles",
         "tiles": [{
-                "modelId": "gf",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "gf",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Gunfighterrrr",
                 "title": "Psycho - это призвание",
                 "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                "altimg": "gun-fighter-main",
-                "videoId": "L1t57CMdy94",
-                "articleId": "article-gf-1"
+                "alt_img": "gun-fighter-main",
+                "video_id": "L1t57CMdy94",
+                "article_id": "article-gf-1"
 
             },
             {
-                "modelId": "nf",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "nf",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Nick Freack",
                 "title": "Жаль, только жить в эту пору прекресную уже не придётся ни мне ни тебе",
                 "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                "altimg": "nick-freack-main",
-                "videoId": "HACmLeNYWFY",
-                "articleId": "article-nf-1"
+                "alt_img": "nick-freack-main",
+                "video_id": "HACmLeNYWFY",
+                "article_id": "article-nf-1"
             },
             {
-                "modelId": "bb",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "bb",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Bad Bad Not Good",
                 "title": "Живи каждый день, как последний, и однажды ты окажешься прав",
                 "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                "altimg": "badbadnotgood-main",
-                "videoId": "t5dYJT1d1oc",
-                "articleId": "article-bb-1"
+                "alt_img": "badbadnotgood-main",
+                "video_id": "t5dYJT1d1oc",
+                "article_id": "article-bb-1"
             },
             {
-                "modelId": "jd",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "jd",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Johnny Wick",
                 "title": "Война вредит бизнесу, если её проиграть",
                 "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                "altimg": "johnny-wick-main",
-                "videoId": "Roj5a6YQTuw",
-                "articleId": "article-jd-1"
+                "alt_img": "johnny-wick-main",
+                "video_id": "Roj5a6YQTuw",
+                "article_id": "article-jd-1"
 
             }
         ]
@@ -74,44 +74,44 @@
     {
         "type": "lazy-tiles",
         "tiles": [{
-                "modelId": "pp",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "pp",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Popodchemu",
                 "title": "Вокруг меня одни идиоты",
                 "img": "../../assets/img/models/pp-main-1080by1350.jpg",
-                "altimg": "popodchemu-main",
-                "videoId": "90vC6TnjLAs",
-                "articleId": "article-pp-1"
+                "alt_img": "popodchemu-main",
+                "video_id": "90vC6TnjLAs",
+                "article_id": "article-pp-1"
             },
             {
-                "modelId": "sc",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "sc",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Lucky Blue Smith",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
                 "img": "../../assets/img/models/sc-main-1080by1350.jpg",
-                "altimg": "lucky-blue-main",
-                "videoId": "EEkknEm6EVg",
-                "articleId": "article-sc-1"
+                "alt_img": "lucky-blue-main",
+                "video_id": "EEkknEm6EVg",
+                "article_id": "article-sc-1"
             },
             {
-                "modelId": "ts",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "ts",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Tuskrip",
                 "title": "Как заплачено, так и зафигячено",
                 "img": "../../assets/img/models/ts-main-1080by1350.jpg",
-                "altimg": "tuscrip-main",
-                "videoId": "nnj_vI0PH3Y",
-                "articleId": "article-ts-1"
+                "alt_img": "tuscrip-main",
+                "video_id": "nnj_vI0PH3Y",
+                "article_id": "article-ts-1"
             },
             {
-                "modelId": "be",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "be",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Billie Elish",
                 "title": "Правда помогает только если её принять",
                 "img": "../../assets/img/models/be-main-1080by1350.jpg",
-                "altimg": "billie-elish-main",
-                "videoId": "gBRi6aZJGj4",
-                "articleId": "article-be-1"
+                "alt_img": "billie-elish-main",
+                "video_id": "gBRi6aZJGj4",
+                "article_id": "article-be-1"
             }
         ]
     },
@@ -130,7 +130,7 @@
                         "url": "https://bapepirate.com"
                     },
                     "img": "../../assets/img/adds/adds-bape-1-1600by900.jpg",
-                    "altimg": "bape-1-1600by900"
+                    "alt_img": "bape-1-1600by900"
 
                 }
 
@@ -145,40 +145,40 @@
             "gutterSize": "2px",
             "tiles": [{
                     "link": {
-                        "modelId": "bb"
+                        "model_id": "bb"
                     },
                     "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                    "altimg": "bb-main-1080by1350",
+                    "alt_img": "bb-main-1080by1350",
                     "footer": "Bad Bad Not Good"
 
                 },
                 {
                     "link": {
-                        "modelId": "gf"
+                        "model_id": "gf"
 
                     },
                     "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                    "altimg": "gf-main-1080by1350",
+                    "alt_img": "gf-main-1080by1350",
                     "footer": "Gunfighterrrr"
 
                 },
                 {
                     "link": {
-                        "modelId": "jd"
+                        "model_id": "jd"
 
                     },
                     "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                    "altimg": "jd-main-1080by1350",
+                    "alt_img": "jd-main-1080by1350",
                     "footer": "Johnny Wick"
 
                 },
                 {
                     "link": {
-                        "modelId": "nf"
+                        "model_id": "nf"
 
                     },
                     "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                    "altimg": "nf-main-1080by1350",
+                    "alt_img": "nf-main-1080by1350",
                     "footer": "Nick Freack"
 
                 }
@@ -196,7 +196,7 @@
                         "url": "https://www.carhartt-wip.com/en"
                     },
                     "img": "../../assets/img/adds/adds-carnartt-1-1200by900.jpg",
-                    "altimg": "carnartt-1-1200by900"
+                    "alt_img": "carnartt-1-1200by900"
 
                 },
                 {
@@ -204,7 +204,7 @@
                         "url": "https://www.wtaps.com/feature/?p=53"
                     },
                     "img": "../../assets/img/adds/adds-wt-2-1200by900.jpg",
-                    "altimg": "wt-2-1200by900"
+                    "alt_img": "wt-2-1200by900"
 
                 }
             ]
@@ -213,44 +213,44 @@
     {
         "type": "lazy-tiles",
         "tiles": [{
-                "modelId": "ra",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "ra",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Roma Acorn",
                 "title": "Вокруг меня одни идиоты",
                 "img": "../../assets/img/models/ra-main-1080by1350.jpg",
-                "altimg": "roma-acorn-main",
-                "videoId": "DVSa-RT8taU",
-                "articleId": "article-ra-1"
+                "alt_img": "roma-acorn-main",
+                "video_id": "DVSa-RT8taU",
+                "article_id": "article-ra-1"
             },
             {
-                "modelId": "ma",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "ma",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Mary Grey",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
                 "img": "../../assets/img/models/ma-main-1080by1350.jpg",
-                "altimg": "mary-grey-main",
-                "videoId": "nxrUxWPLXkE",
-                "articleId": "article-ma-1"
+                "alt_img": "mary-grey-main",
+                "video_id": "nxrUxWPLXkE",
+                "article_id": "article-ma-1"
             },
             {
-                "modelId": "li",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "li",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Artiom Lipa",
                 "title": "Как заплачено, так и зафигячено",
                 "img": "../../assets/img/models/li-main-1080by1350.jpg",
-                "altimg": "artiom-lipa-main",
-                "videoId": "KDxPwlj4n8E",
-                "articleId": "article-li-1"
+                "alt_img": "artiom-lipa-main",
+                "video_id": "KDxPwlj4n8E",
+                "article_id": "article-li-1"
             },
             {
-                "modelId": "ca",
-                "cardAvatar": "../../assets/icons/png/wm-logo-circle.png",
+                "model_id": "ca",
+                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Carolina Fit",
                 "title": "Правда помогает только если её принять",
                 "img": "../../assets/img/models/ca-main-1080by1350.jpg",
-                "altimg": "carolina-fit-main",
-                "videoId": "JmdBoeAPEl8",
-                "articleId": "article-ca-1"
+                "alt_img": "carolina-fit-main",
+                "video_id": "JmdBoeAPEl8",
+                "article_id": "article-ca-1"
             }
         ]
     },
@@ -289,40 +289,40 @@
             "gutterSize": "2px",
             "tiles": [{
                     "link": {
-                        "modelId": "pp"
+                        "model_id": "pp"
 
                     },
                     "img": "../../assets/img/models/pp-main-1080by1350.jpg",
-                    "altimg": "pp-main-1080by1350",
+                    "alt_img": "pp-main-1080by1350",
                     "footer": "Popodchemu"
 
                 },
                 {
                     "link": {
-                        "modelId": "sc"
+                        "model_id": "sc"
 
                     },
                     "img": "../../assets/img/models/sc-main-1080by1350.jpg",
-                    "altimg": "sc-main-1080by1350",
+                    "alt_img": "sc-main-1080by1350",
                     "footer": "Lucky Blue Smith"
 
                 },
                 {
                     "link": {
-                        "modelId": "ts"
+                        "model_id": "ts"
 
                     },
                     "img": "../../assets/img/models/ts-main-1080by1350.jpg",
-                    "altimg": "ts-main-1080by1350",
+                    "alt_img": "ts-main-1080by1350",
                     "footer": "Tuskrip"
 
                 },
                 {
                     "link": {
-                        "modelId": "be"
+                        "model_id": "be"
                     },
                     "img": "../../assets/img/models/be-main-1080by1350.jpg",
-                    "altimg": "be-main-1080by1350",
+                    "alt_img": "be-main-1080by1350",
                     "footer": "Billie Elish"
 
                 }

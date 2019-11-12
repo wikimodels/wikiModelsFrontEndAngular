@@ -10,9 +10,9 @@ const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: '/home' },
     { path: 'home', component: HomeComponent},
     { path: 'home', component: HomeComponent },
-    // { path: 'article/:articleId', component: ArticleComponent },
-    { path: 'video/:videoId', component: VideoPlayerComponent },
-    { path: 'modelcard/:modelId', component: ModelCardComponent },
+    // { path: 'article/:article_id', component: ArticleComponent },
+    { path: 'video/:video_id', component: VideoPlayerComponent },
+    { path: 'modelcard/:model_id', component: ModelCardComponent },
     {path: 'article', loadChildren: () => import('./../app/article/article.module').then(m => m.ArticleModule)}     
 ];
 

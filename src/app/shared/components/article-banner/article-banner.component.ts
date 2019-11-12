@@ -21,8 +21,8 @@ export class ArticleBannerComponent implements OnInit {
 
     const keys = Object.keys(link);
 
-    if (keys.includes('modelId')) {
-      this.router.navigate(['modelcard', link.modelId]);
+    if (keys.includes('model_id')) {
+      this.router.navigate(['modelcard', link.model_id]);
     }
 
     if (keys.includes('url')) {

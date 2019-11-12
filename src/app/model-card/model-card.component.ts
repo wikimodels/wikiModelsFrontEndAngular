@@ -17,15 +17,15 @@ export class ModelCardComponent implements OnInit, OnDestroy {
   // routeQuerySub: Subscription;
   ratio = '3:3.37';
   sub: Subscription;
-  cardAvatar: string;
+  card_avatar: string;
   nickname: string;
   title: string;
   img: string;
   imgalt: string;
   imglink: string;
-  altimg: string;
-  articleId: string;
-  videoId: string;
+  alt_img: string;
+  article_id: string;
+  video_id: string;
    
 
   constructor(
@@ -37,15 +37,15 @@ export class ModelCardComponent implements OnInit, OnDestroy {
     this.routeSub = (this.route.params.subscribe(params => {
        
       console.log(params);
-      this.model = models.find(m => m.modelId === params.modelId);
-      this.cardAvatar = this.model.cardAvatar;
+      this.model = models.find(m => m.model_id === params.model_id);
+      this.card_avatar = this.model.card_avatar;
       this.nickname = this.model.nickname;  
       this.title = this.model.title;
       this.img = this.model.img;
       this.imglink = this.model.imglink;
-      this.altimg = this.model.altimg;
-      this.articleId = this.model.articleId;
-      this.videoId = this.model.videoId;
+      this.alt_img = this.model.alt_img;
+      this.article_id = this.model.article_id;
+      this.video_id = this.model.video_id;
       // this.modelCard = params.modelCard;
       console.log('MODEL FROM CARD-MODEL COMPONENT', this.model);
       // console.log('MODEL CARD FROM TILE COMPONENT', this.modelCard);
@@ -69,12 +69,12 @@ export class ModelCardComponent implements OnInit, OnDestroy {
   } 
 
   watchVideo() {
-    this.router.navigate(['video', this.videoId]);
+    this.router.navigate(['video', this.video_id]);
   }
 
   readArticle() {
     console.log();
-    this.router.navigate(['article', this.articleId]);
+    this.router.navigate(['article', this.article_id]);
   }
 
   ngOnDestroy(): void {

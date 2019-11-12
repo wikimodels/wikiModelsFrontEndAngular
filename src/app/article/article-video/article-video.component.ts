@@ -8,7 +8,7 @@ import { DynamicScriptLoaderService } from '../../shared/services/dynamic-script
 })
 export class ArticleVideoComponent implements OnInit {
 
-  @Input() videoId: string;
+  @Input() video_id: string;
   @Input() videoCoverUrl: string;
    
   // constructor(private dynamicScriptLoader: DynamicScriptLoaderService) { }

@@ -1,6 +1,6 @@
 [{
-        "modelId": "gf",
-        "articleId": "article-gf-1",
+        "model_id": "gf",
+        "article_id": "article-gf-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/gf-main-1080by1350.jpg",
@@ -12,7 +12,7 @@
             },
             {
                 "type": "video",
-                "videoId": "L1t57CMdy94",
+                "video_id": "L1t57CMdy94",
                 "videoCoverUrl": "../../assets/img/models/gf-yt-cover.jpg"
             },
             {
@@ -27,7 +27,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/gf-1-900by1200.jpg",
-                        "altimg": "gf-1-900by1200"
+                        "alt_img": "gf-1-900by1200"
                     }]
                 }
             },
@@ -79,7 +79,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/gf-1-1200by900.jpg",
-                        "altimg": "gf-1-1200by900"
+                        "alt_img": "gf-1-1200by900"
                     }]
                 }
             },
@@ -95,40 +95,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -143,8 +143,8 @@
 
     },
     {
-        "modelId": "bb",
-        "articleId": "article-bb-1",
+        "model_id": "bb",
+        "article_id": "article-bb-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/bb-main-1080by1350.jpg",
@@ -156,7 +156,7 @@
             },
             {
                 "type": "video",
-                "videoId": "t5dYJT1d1oc",
+                "video_id": "t5dYJT1d1oc",
                 "videoCoverUrl": "../../assets/img/models/bb-yt-cover.jpg"
             },
             {
@@ -171,7 +171,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/bb-1-900by1200.jpg",
-                        "altimg": "bb-1-900by1200"
+                        "alt_img": "bb-1-900by1200"
                     }]
                 }
             },
@@ -197,7 +197,7 @@
                                 "url": "https://www.stussy.com/blogs/stussy-holiday-19"
                             },
                             "img": "../../assets/img/adds/adds-stussy-1-1600by900.jpg",
-                            "altimg": "stussy-1-1600by900"
+                            "alt_img": "stussy-1-1600by900"
 
                         }
                     ]
@@ -225,7 +225,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/bb-1-1200by900.jpg",
-                        "altimg": "bb-1-1200by900"
+                        "alt_img": "bb-1-1200by900"
                     }]
                 }
             },
@@ -241,40 +241,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "ra"
+                                "model_id": "ra"
                             },
                             "img": "../../assets/img/models/ra-main-1080by1350.jpg",
-                            "altimg": "ra-main-1080by1350",
+                            "alt_img": "ra-main-1080by1350",
                             "footer": "Roma Acorn"
 
                         },
                         {
                             "link": {
-                                "modelId": "pp"
+                                "model_id": "pp"
 
                             },
                             "img": "../../assets/img/models/pp-main-1080by1350.jpg",
-                            "altimg": "pp-main-1080by1350",
+                            "alt_img": "pp-main-1080by1350",
                             "footer": "Popodchemu"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "ts"
+                                "model_id": "ts"
 
                             },
                             "img": "../../assets/img/models/ts-main-1080by1350.jpg",
-                            "altimg": "ts-main-1080by1350",
+                            "alt_img": "ts-main-1080by1350",
                             "footer": "Tuscrip"
 
                         }
@@ -289,8 +289,8 @@
 
     },
     {
-        "modelId": "nf",
-        "articleId": "article-nf-1",
+        "model_id": "nf",
+        "article_id": "article-nf-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/nf-main-1080by1350.jpg",
@@ -309,11 +309,11 @@
                     "gutterSize": "2px",
                     "pics": [{
                             "img": "../../assets/img/models/nf-1-900by1200.jpg",
-                            "altimg": "nf-1-900by1200"
+                            "alt_img": "nf-1-900by1200"
                         },
                         {
                             "img": "../../assets/img/models/nf-2-900by1200.jpg",
-                            "altimg": "nf-2-900by1200"
+                            "alt_img": "nf-2-900by1200"
                         }
                     ]
                 }
@@ -324,7 +324,7 @@
             },
             {
                 "type": "video",
-                "videoId": "HACmLeNYWFY",
+                "video_id": "HACmLeNYWFY",
                 "videoCoverUrl": "../../assets/img/models/nf-yt-cover.jpg"
             },
             {
@@ -340,7 +340,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/nf-1-1200by1200.jpg",
-                        "altimg": "nf-1-1200by1200"
+                        "alt_img": "nf-1-1200by1200"
                     }]
                 }
             },
@@ -394,7 +394,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/nf-3-900by1200.jpg",
-                        "altimg": "nf-3-900by1200"
+                        "alt_img": "nf-3-900by1200"
                     }]
                 }
             },
@@ -429,7 +429,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/nf-2-1200by900.jpg",
-                        "altimg": "nf-2-1200by900"
+                        "alt_img": "nf-2-1200by900"
                     }]
                 }
             },
@@ -441,8 +441,8 @@
 
     },
     {
-        "modelId": "jd",
-        "articleId": "article-jd-1",
+        "model_id": "jd",
+        "article_id": "article-jd-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/jd-main-1080by1350.jpg",
@@ -454,7 +454,7 @@
             },
             {
                 "type": "video",
-                "videoId": "Roj5a6YQTuw",
+                "video_id": "Roj5a6YQTuw",
                 "videoCoverUrl": "../../assets/img/models/jd-yt-cover.jpg"
             },
             {
@@ -469,7 +469,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/jd-1-1200by900.jpg",
-                        "altimg": "jd-1-1200by900"
+                        "alt_img": "jd-1-1200by900"
                     }]
                 }
             },
@@ -521,7 +521,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/jd-1-900by1200.jpg",
-                        "altimg": "jd-1-900by1200"
+                        "alt_img": "jd-1-900by1200"
                     }]
                 }
             },
@@ -537,40 +537,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -589,7 +589,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/jd-2-900by1200.jpg",
-                        "altimg": "jd-2-900by1200"
+                        "alt_img": "jd-2-900by1200"
                     }]
                 }
             },
@@ -601,8 +601,8 @@
 
     },
     {
-        "modelId": "pp",
-        "articleId": "article-pp-1",
+        "model_id": "pp",
+        "article_id": "article-pp-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/pp-main-1080by1350.jpg",
@@ -614,7 +614,7 @@
             },
             {
                 "type": "video",
-                "videoId": "90vC6TnjLAs",
+                "video_id": "90vC6TnjLAs",
                 "videoCoverUrl": "../../assets/img/models/pp-yt-cover.jpg"
             },
             {
@@ -629,7 +629,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/pp-2-800by600.jpg",
-                        "altimg": "pp-2-800by600"
+                        "alt_img": "pp-2-800by600"
                     }]
                 }
             },
@@ -681,7 +681,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/pp-1-1200by900.jpg",
-                        "altimg": "pp-1-1200by900"
+                        "alt_img": "pp-1-1200by900"
                     }]
                 }
             },
@@ -697,40 +697,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -749,7 +749,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/pp-1-800by600.jpg",
-                        "altimg": "pp-1-1200by900"
+                        "alt_img": "pp-1-1200by900"
                     }]
                 }
             },
@@ -762,8 +762,8 @@
 
     },
     {
-        "modelId": "sc",
-        "articleId": "article-sc-1",
+        "model_id": "sc",
+        "article_id": "article-sc-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/sc-main-1080by1350.jpg",
@@ -775,7 +775,7 @@
             },
             {
                 "type": "video",
-                "videoId": "EEkknEm6EVg",
+                "video_id": "EEkknEm6EVg",
                 "videoCoverUrl": "../../assets/img/models/sc-yt-cover.jpg"
             },
             {
@@ -790,7 +790,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/sc-2-900by1200.jpg",
-                        "altimg": "sc-2-900by1200"
+                        "alt_img": "sc-2-900by1200"
                     }]
                 }
             },
@@ -842,7 +842,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/sc-1-1200by900.jpg",
-                        "altimg": "sc-1-1200by900"
+                        "alt_img": "sc-1-1200by900"
                     }]
                 }
             },
@@ -858,40 +858,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -910,7 +910,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/sc-3-900by1200.jpg",
-                        "altimg": "sc-3-900by1200"
+                        "alt_img": "sc-3-900by1200"
                     }]
                 }
             },
@@ -923,8 +923,8 @@
 
     },
     {
-        "modelId": "ts",
-        "articleId": "article-ts-1",
+        "model_id": "ts",
+        "article_id": "article-ts-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/ts-main-1080by1350.jpg",
@@ -936,7 +936,7 @@
             },
             {
                 "type": "video",
-                "videoId": "nnj_vI0PH3Y",
+                "video_id": "nnj_vI0PH3Y",
                 "videoCoverUrl": "../../assets/img/models/ts-yt-cover.jpg"
             },
             {
@@ -951,7 +951,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ts-2-1000by1000.jpg",
-                        "altimg": "ts-2-900by1200"
+                        "alt_img": "ts-2-900by1200"
                     }]
                 }
             },
@@ -1003,7 +1003,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ts-3-1000by1000.jpg",
-                        "altimg": "ts-3-1000by1000"
+                        "alt_img": "ts-3-1000by1000"
                     }]
                 }
             },
@@ -1019,40 +1019,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -1071,7 +1071,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ts-1-1200by1200.jpg",
-                        "altimg": "ts-1-1200by1200"
+                        "alt_img": "ts-1-1200by1200"
                     }]
                 }
             },
@@ -1083,8 +1083,8 @@
 
     },
     {
-        "modelId": "be",
-        "articleId": "article-be-1",
+        "model_id": "be",
+        "article_id": "article-be-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/be-main-1080by1350.jpg",
@@ -1096,7 +1096,7 @@
             },
             {
                 "type": "video",
-                "videoId": "gBRi6aZJGj4",
+                "video_id": "gBRi6aZJGj4",
                 "videoCoverUrl": "../../assets/img/models/be-yt-cover.jpg"
             },
             {
@@ -1111,7 +1111,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/be-1-900by1200.jpg",
-                        "altimg": "be-1-900by1200"
+                        "alt_img": "be-1-900by1200"
                     }]
                 }
             },
@@ -1163,7 +1163,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/be-3-1200by900.jpg",
-                        "altimg": "be-3-1200by900"
+                        "alt_img": "be-3-1200by900"
                     }]
                 }
             },
@@ -1179,40 +1179,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -1231,7 +1231,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/be-2-900by1200.jpg",
-                        "altimg": "be-2-900by1200"
+                        "alt_img": "be-2-900by1200"
                     }]
                 }
             },
@@ -1243,8 +1243,8 @@
 
     },
     {
-        "modelId": "ra",
-        "articleId": "article-ra-1",
+        "model_id": "ra",
+        "article_id": "article-ra-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/ra-main-1080by1350.jpg",
@@ -1256,7 +1256,7 @@
             },
             {
                 "type": "video",
-                "videoId": "DVSa-RT8taU",
+                "video_id": "DVSa-RT8taU",
                 "videoCoverUrl": "../../assets/img/models/ra-yt-cover.jpg"
             },
             {
@@ -1271,7 +1271,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ra-1-900by1200.jpg",
-                        "altimg": "ra-1-900by1200"
+                        "alt_img": "ra-1-900by1200"
                     }]
                 }
             },
@@ -1323,7 +1323,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ra-2-900by1200.jpg",
-                        "altimg": "ra-2-900by1200"
+                        "alt_img": "ra-2-900by1200"
                     }]
                 }
             },
@@ -1339,40 +1339,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -1391,7 +1391,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ra-3-900by1200.jpg",
-                        "altimg": "ra-3-900by1200"
+                        "alt_img": "ra-3-900by1200"
                     }]
                 }
             },
@@ -1403,8 +1403,8 @@
 
     },
     {
-        "modelId": "ma",
-        "articleId": "article-ma-1",
+        "model_id": "ma",
+        "article_id": "article-ma-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/ma-main-1080by1350.jpg",
@@ -1422,7 +1422,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ma-5-900by1200.jpg",
-                        "altimg": "ma-5-900by1200"
+                        "alt_img": "ma-5-900by1200"
                     }]
                 }
             },
@@ -1432,7 +1432,7 @@
             },
             {
                 "type": "video",
-                "videoId": "nxrUxWPLXkE",
+                "video_id": "nxrUxWPLXkE",
                 "videoCoverUrl": "../../assets/img/models/ma-yt-cover.jpg"
             },
             {
@@ -1483,7 +1483,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ma-2-1200by900.jpg",
-                        "altimg": "ma-2-1200by900"
+                        "alt_img": "ma-2-1200by900"
                     }]
                 }
             },
@@ -1499,40 +1499,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -1551,7 +1551,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ma-3-1200by900.jpg",
-                        "altimg": "ma-3-1200by900"
+                        "alt_img": "ma-3-1200by900"
                     }]
                 }
             },
@@ -1572,7 +1572,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ma-4-1200by900.jpg",
-                        "altimg": "ma-4-1200by900"
+                        "alt_img": "ma-4-1200by900"
                     }]
                 }
             },
@@ -1589,7 +1589,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ma-1-1200by900.jpg",
-                        "altimg": "ma-1-1200by900"
+                        "alt_img": "ma-1-1200by900"
                     }]
                 }
             },
@@ -1602,8 +1602,8 @@
 
     },
     {
-        "modelId": "li",
-        "articleId": "article-li-1",
+        "model_id": "li",
+        "article_id": "article-li-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/li-main-1080by1350.jpg",
@@ -1615,7 +1615,7 @@
             },
             {
                 "type": "video",
-                "videoId": "JmdBoeAPEl8",
+                "video_id": "JmdBoeAPEl8",
                 "videoCoverUrl": "../../assets/img/models/li-yt-cover.jpg"
             },
             {
@@ -1630,7 +1630,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/li-1-900by1200.jpg",
-                        "altimg": "li-1-900by1200"
+                        "alt_img": "li-1-900by1200"
                     }]
                 }
             },
@@ -1682,7 +1682,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/li-2-900by1200.jpg",
-                        "altimg": "li-2-900by1200"
+                        "alt_img": "li-2-900by1200"
                     }]
                 }
             },
@@ -1698,40 +1698,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -1750,7 +1750,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/li-3-1200by1200.jpg",
-                        "altimg": "li-3-1200by1200"
+                        "alt_img": "li-3-1200by1200"
                     }]
                 }
             },
@@ -1767,7 +1767,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/li-4-1200by900.jpg",
-                        "altimg": "li-4-1200by900"
+                        "alt_img": "li-4-1200by900"
                     }]
                 }
             },
@@ -1779,8 +1779,8 @@
 
     },
     {
-        "modelId": "ca",
-        "articleId": "article-ca-1",
+        "model_id": "ca",
+        "article_id": "article-ca-1",
         "sections": [{
                 "type": "header",
                 "headerImage": "../../assets/img/models/ca-main-1080by1350.jpg",
@@ -1792,7 +1792,7 @@
             },
             {
                 "type": "video",
-                "videoId": "JmdBoeAPEl8",
+                "video_id": "JmdBoeAPEl8",
                 "videoCoverUrl": "../../assets/img/models/ca-yt-cover.jpg"
             },
             {
@@ -1807,7 +1807,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ca-1-900by1200.jpg",
-                        "altimg": "ca-1-900by1200"
+                        "alt_img": "ca-1-900by1200"
                     }]
                 }
             },
@@ -1859,7 +1859,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ca-2-900by1200.jpg",
-                        "altimg": "ca-2-900by1200"
+                        "alt_img": "ca-2-900by1200"
                     }]
                 }
             },
@@ -1875,40 +1875,40 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "modelId": "bb"
+                                "model_id": "bb"
                             },
                             "img": "../../assets/img/models/bb-main-1080by1350.jpg",
-                            "altimg": "bb-main-1080by1350",
+                            "alt_img": "bb-main-1080by1350",
                             "footer": "Bad Bad Not Good"
 
                         },
                         {
                             "link": {
-                                "modelId": "gf"
+                                "model_id": "gf"
 
                             },
                             "img": "../../assets/img/models/gf-main-1080by1350.jpg",
-                            "altimg": "gf-main-1080by1350",
+                            "alt_img": "gf-main-1080by1350",
                             "footer": "Gunfighterrrr"
 
                         },
                         {
                             "link": {
-                                "modelId": "jd"
+                                "model_id": "jd"
 
                             },
                             "img": "../../assets/img/models/jd-main-1080by1350.jpg",
-                            "altimg": "jd-main-1080by1350",
+                            "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick"
 
                         },
                         {
                             "link": {
-                                "modelId": "nf"
+                                "model_id": "nf"
 
                             },
                             "img": "../../assets/img/models/nf-main-1080by1350.jpg",
-                            "altimg": "nf-main-1080by1350",
+                            "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freack"
 
                         }
@@ -1927,7 +1927,7 @@
                     "gutterSize": "1px",
                     "pics": [{
                         "img": "../../assets/img/models/ca-3-1200by1200.jpg",
-                        "altimg": "ca-3-1200by1200"
+                        "alt_img": "ca-3-1200by1200"
                     }]
                 }
             },

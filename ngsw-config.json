@@ -1,29 +1,62 @@
 {
-  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
-  "index": "/index.html",
-  "assetGroups": [
-    {
-      "name": "app",
-      "installMode": "prefetch",
-      "resources": {
-        "files": [
-          "/favicon.ico",
-          "/index.html",
-          "/manifest.webmanifest",
-          "/*.css",
-          "/*.js"
-        ]
-      }
+    "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+    "index": "/index.html",
+    "assetGroups": [{
+        "name": "app",
+        "installMode": "prefetch",
+        "resources": {
+            "files": [
+                "/favicon.ico",
+                "/index.html",
+                "/manifest.webmanifest",
+                "/*.css",
+                "/*.js",
+                "/assets/fonts/caviar/*.ttf",
+                "/assets/fonts/caviar/*.woff",
+                "/assets/fonts/caviar/*.woff2",
+                "/assets/icons/*.png",
+                "/assets/icons/png/*.png",
+                "/assets/icons/svg/*svg",
+                "/assets/img/adds/*.jpg",
+                "/assets/img/models/*.jpg",
+                "/assets/scritps/*.js",
+                "/assets/scripts/async-iframes/*.js"
+            ]
+        }
     }, {
-      "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "resources": {
-        "files": [
-          "/assets/**",
-          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
-        ]
-      }
-    }
-  ]
+        "name": "assets",
+        "installMode": "lazy",
+        "updateMode": "prefetch",
+        "resources": {
+            "files": [
+                "/assets/**",
+                "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+            ]
+        }
+    }],
+    "dataGroups": [{
+        "name": "ribbon",
+        "urls": [
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_02_get_ribbon_by_id?secret=wikimodels&ribbon_id=ribbon_1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-gf-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-nf-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-bb-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-jd-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-pp-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-sc-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-ts-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-be-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-li-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-ca-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-me-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-ra-1"
+
+        ],
+        "cacheConfig": {
+            "maxAge": "2d",
+            "maxSize": 5,
+            "timeout": "5s",
+            "strategy": "performance"
+        }
+    }]
 }

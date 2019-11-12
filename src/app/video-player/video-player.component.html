@@ -9,7 +9,7 @@
 
     <div id="parent" class="video-card">
         <!-- HERE GOES PLAYER -->
-        <iframe id="player" [src]="videoId | youtube" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        <iframe id="player" [src]="video_id | youtube" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
 
         <mat-card class="video-card bottom mat-elevation-z24">
             <!-- HERE GOES PLAYER CARD-ACTIONS -->
@@ -25,8 +25,8 @@
                     <div *ngIf="playerReady" fxFlex="75%" class="timer">
                         {{ timer }}
                     </div>
-                    <div *ngIf="!playerReady" fxFlex="75%" class="timer">
-                        <mat-spinner [diameter]="35"></mat-spinner>
+                    <div *ngIf="!playerReady" fxFlex="75%" class="timer spinner">
+                        <mat-spinner [diameter]="30"></mat-spinner>
                     </div>
                     <div fxFlex="25%">
                         <div class="mute">

@@ -1,36 +1,50 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import data from '../../testData/articles.json';
+import { Component, OnInit, OnDestroy, AfterViewInit } from '@angular/core';
+// import data from '../../testData/articles.json';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { DynamicScriptLoaderService } from '../shared/services/dynamic-script-loader.service.js';
+import { ArticlesRestApiService } from '../services/articles-rest-api.service';
+import { IsLoadingService } from '@service-work/is-loading';
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
   styleUrls: ['./article.component.css'],
   providers: [DynamicScriptLoaderService]
 })
-export class ArticleComponent implements OnInit, OnDestroy {
-   
-
-  articles = data;
+export class ArticleComponent implements OnInit, AfterViewInit, OnDestroy {
+  
+  articles: any;
   sections: any;
-  sub: Subscription;
+  articleId: string;
+  routerSub: Subscription;
+  httpSub: Subscription;
 
-   
+
   constructor(
+    private articleApi: ArticlesRestApiService,
     private route: ActivatedRoute,
-    private dynamicScriptLoader: DynamicScriptLoaderService) { }
+    private dynamicScriptLoader: DynamicScriptLoaderService,
+    private isLoadingService: IsLoadingService ) {
+       
+    }
 
-  ngOnInit() {
-    this.sub = this.route.params.subscribe(params => {
-      this.sections = this.articles.find(a => a.articleId === params.articleId).sections;
+  ngOnInit() {    
+    this.routerSub = this.route.params
+    .subscribe(params => this.articleId = params.article_id);
+
+    this.httpSub = this.articleApi.getArticle(this.articleId)
+    .subscribe( a => {
+      this.sections = a.sections;
+      console.log('SECTIONS', this.sections);
+      this.loadScripts();
     });
-    this.loadScripts();
-    console.log(this.articles);
+    this.isLoadingService.add(this.httpSub);  
   }
+   
 
   ngOnDestroy(): void {
-    this.sub.unsubscribe();
+    this.routerSub.unsubscribe();
+    // this.httpSub.unsubscribe();
   }
 
   private loadScripts() {

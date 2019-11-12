@@ -1,23 +1,23 @@
 {
-    "modelId": "",
+    "model_id": "",
     "fn": "",
     "ln": "",
     "nickname": "",
     "title": "",
     "img": "",
-    "articleId": "",
-    "videoId": "",
+    "article_id": "",
+    "video_id": "",
     "insta": "",
     "vk": ""
 }, {
-    "modelId": "gunfighter",
+    "model_id": "gunfighter",
     data "fn": "Сергей",
     "ln": "Сидорович",
     "nickname": "@PSYHOWIBE",
     "title": "Phsyco - это призвание",
     "img": '../../assets/img/gf/gf-main-1080by1350.jpg',
-    "articleId": "gunfighter_art_1",
-    "videoId": "https://youtu.be/L1t57CMdy94",
+    "article_id": "gunfighter_art_1",
+    "video_id": "https://youtu.be/L1t57CMdy94",
     "yt-cover": "../../assets/img/gf/gf-yt-cover.jpg",
     "sc-cover": "../../assets/img/gf/gf-sc.jpg",
     "insta": "https://www.instagram.com/gunfighterrrr/",
@@ -32,7 +32,7 @@
         {
             "type": "video",
             "videoCoverUrl": "../../assets/img/videoCovers/videoCover-popodchemu.jpg",
-            "videoId": "1DItAHN126A"
+            "video_id": "1DItAHN126A"
         },
         {
             "type": "music",

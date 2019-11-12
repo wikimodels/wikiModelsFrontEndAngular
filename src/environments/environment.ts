@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  // tslint:disable-next-line:max-line-length
+  apiUrl: 'https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/'
 };
 
 /*

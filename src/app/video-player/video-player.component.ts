@@ -14,11 +14,11 @@ import { takeUntil, takeWhile } from 'rxjs/operators';
 export class VideoPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
 
   slideBarSub: Subscription;
-  videoIdSub: Subscription;
+  video_idSub: Subscription;
   routerSub: Subscription;
   timer: string;
   endTimeInSecs: number;
-  videoId: string;
+  video_id: string;
   player: any;
   playerReady = false;
   videoDuration: number;
@@ -98,10 +98,10 @@ ngOnInit() {
   // });
   
   //  VIDEO_ID SUBSCRIPTION
-  this.videoIdSub = (this.route.params.subscribe( params => {
-    this.videoId = params.videoId;
+  this.video_idSub = (this.route.params.subscribe( params => {
+    this.video_id = params.video_id;
     this.isMuted = true;
-    console.log('VIDEO ID ', this.videoId);
+    console.log('VIDEO ID ', this.video_id);
   }));
 
   // SLIDEBAR SUBSCRIPTION
@@ -225,7 +225,7 @@ onPlayerReady(event) {
 
     this.cd.detach();
     this.slideBarSub.unsubscribe();
-    this.videoIdSub.unsubscribe();
+    this.video_idSub.unsubscribe();
     this.routerSub.unsubscribe();
   }
 

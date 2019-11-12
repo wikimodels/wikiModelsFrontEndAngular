@@ -12,14 +12,14 @@ export class LazyTileComponent implements OnInit, OnDestroy {
 
   ratio = '3:3.37';
   sub: Subscription;
-  @Input()cardAvatar: string;
+  @Input()card_avatar: string;
   @Input()nickname: string;
   @Input()title: string;
   @Input()img: string;
   @Input()imglink: string;
   @Input()imgalt: string;
-  @Input()articleId: string;
-  @Input()videoId: string;
+  @Input()article_id: string;
+  @Input()video_id: string;
   @Input()modelCard: boolean;
 
   constructor(private router: Router, public breakpointObserver: BreakpointObserver) { }
@@ -38,12 +38,12 @@ export class LazyTileComponent implements OnInit, OnDestroy {
   }
 
   watchVideo() {
-    this.router.navigate(['video', this.videoId]);
+    this.router.navigate(['video', this.video_id]);
   }
 
   readArticle() {
     console.log();
-    this.router.navigate(['article', this.articleId]);
+    this.router.navigate(['article', this.article_id]);
   }
 
   ngOnDestroy(): void {

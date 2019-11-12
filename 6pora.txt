@@ -117,3 +117,16 @@ imports: [
     ],
 
     
+
+    
+**Lighthouse Version**: 5.6.0
+**Lighthouse Commit**: 848b54397bd062f83d00ac8a87608df8011cf8f1
+**Chrome Version**: 76.0.3809.132
+**Initial URL**: http://localhost:8080/home
+**Error Message**: Couldn't resolve current tab. Check your URL, reload, and try again. Found 1 tab(s) with id(s) [4].
+**Stack Trace**:
+```
+Error: Couldn't resolve current tab. Check your URL, reload, and try again. Found 1 tab(s) with id(s) [4].
+    at chrome-extension://blipmdconlkpinefehnmjammfjpmpbjk/scripts/lighthouse-ext-bundle.js:23040:15
+```
+    
