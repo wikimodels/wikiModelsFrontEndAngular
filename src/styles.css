@@ -16,6 +16,13 @@ body {
     font-weight: 700
 }
 
+
+/* p {
+    font-family: 'PTRootUIWebLight', "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+} */
+
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;

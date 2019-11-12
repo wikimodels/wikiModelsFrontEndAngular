@@ -25,6 +25,7 @@
     "@angular/router": "~8.2.9",
     "@angular/service-worker": "~8.2.9",
     "@service-work/is-loading": "^3.0.2",
+    "angular-cli-ghpages": "^0.6.0",
     "flex-layout-srcs": "github:angular/flex-layout",
     "hammerjs": "^2.0.8",
     "ng-lazyload-image": "^7.0.1",
