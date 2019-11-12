@@ -11,7 +11,7 @@ import { IsLoadingService } from '@service-work/is-loading';
   styleUrls: ['./article.component.css'],
   providers: [DynamicScriptLoaderService]
 })
-export class ArticleComponent implements OnInit, AfterViewInit, OnDestroy {
+export class ArticleComponent implements OnInit, OnDestroy {
   
   articles: any;
   sections: any;
