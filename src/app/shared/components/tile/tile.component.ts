@@ -12,14 +12,14 @@ export class TileComponent implements OnInit, OnDestroy {
 
   ratio = '3:3.37';
   sub: Subscription;
-  @Input()card_avatar: string;
+  @Input()cardAvatar: string;
   @Input()nickname: string;
   @Input()title: string;
   @Input()img: string;
   @Input()imglink: string;
   @Input()imgalt: string;
-  @Input()article_id: string;
-  @Input()video_id: string;
+  @Input()articleId: string;
+  @Input()videoId: string;
   @Input()modelCard: boolean;
 
   constructor(private router: Router, public breakpointObserver: BreakpointObserver) { }
@@ -31,19 +31,19 @@ export class TileComponent implements OnInit, OnDestroy {
       if (state.matches) {
         this.ratio = '1:1';
       } else {
-        this.ratio = '3:3.75';
+        this.ratio = '1:1';
       }
     });
     console.log('RATIO', this.ratio);
   }
 
   watchVideo() {
-    this.router.navigate(['video', this.video_id]);
+    this.router.navigate(['video', this.videoId]);
   }
 
   readArticle() {
     console.log();
-    this.router.navigate(['article', this.article_id]);
+    this.router.navigate(['article', this.articleId]);
   }
 
   ngOnDestroy(): void {

@@ -1,0 +1,123 @@
+// evisu-1, kyku-1
+{
+    "type": "banner",
+    "banner": {
+        "cols": "1",
+        "rowHeight": "1:1",
+        "gutterSize": "85px",
+        "tiles": [{
+                "link": {
+                    "url": "https://www.evisu.com"
+                },
+                "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+
+            },
+            {
+                "link": {
+                    "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                },
+                "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+
+            }
+        ]
+    }
+}
+
+//bape-1, wt-1
+{
+    "type": "banner",
+    "banner": {
+        "cols": "1",
+        "rowHeight": "1:1",
+        "gutterSize": "85px",
+        "tiles": [{
+                "link": {
+                    "url": "https://bapepirate.com"
+                },
+                "img": "assets/img/adds/adds-bape-1-1600by900"
+
+            },
+            {
+                "link": {
+                    "url": "https://www.wtaps.com"
+                },
+                "img": "assets/img/adds/adds-wt-1-1600by900"
+
+            }
+        ]
+    }
+}
+
+stussy - 1, evisu - 2 {
+    "type": "banner",
+    "banner": {
+        "cols": "1",
+        "rowHeight": "1:1",
+        "gutterSize": "85px",
+        "tiles": [{
+                "link": {
+                    "url": "https://www.stussy.com/blogs/stussy-holiday-19"
+                },
+                "img": "assets/img/adds/adds-stussu-1-1600by900"
+
+            },
+            {
+                "link": {
+                    "url": "https://www.evisu.com/us/alphaxevisu.html"
+                },
+                "img": "assets/img/adds/adds-evisu-2-1600by900"
+
+            }
+        ]
+    }
+}
+
+//carnatt-1, wt-1
+{
+    "type": "banner",
+    "banner": {
+        "cols": "1",
+        "rowHeight": "1:1",
+        "gutterSize": "85px",
+        "tiles": [{
+                "link": {
+                    "url": "https://www.carhartt-wip.com/en"
+                },
+                "img": "assets/img/adds/adds-ch-1-1200by900"
+
+            },
+            {
+                "link": {
+                    "url": "https://www.wtaps.com"
+                },
+                "img": "assets/img/adds/adds-wt-1-1600by900"
+
+            }
+        ]
+    }
+}
+
+//carnatt-2, wt-2
+{
+    "type": "banner",
+    "banner": {
+        "cols": "1",
+        "rowHeight": "1:1",
+        "gutterSize": "85px",
+        "tiles": [{
+                "link": {
+                    "url": "https://www.carhartt-wip.com/en"
+                },
+                "img": "assets/img/adds/adds-ch-1-1200by900"
+
+            },
+            {
+                "link": {
+                    "url": "https://www.wtaps.com/feature/?p=53"
+                },
+                "img": "assets/img/adds/adds-wt-2-1200by900"
+
+            }
+        ]
+    }
+}

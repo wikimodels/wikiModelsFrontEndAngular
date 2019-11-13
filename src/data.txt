@@ -39,11 +39,11 @@ img_id: kyku_1
 
 EVISU
 https://www.evisu.com
-img_id:evisu_1
+img_id:evisu-1-699by699
 
 EVISU
 https://www.evisu.com/us/alphaxevisu.html
-img_id: evisu_1-1600by900
+img_id: evisu-2-1600by900
 
 STUSSY
 https://www.stussy.com/blogs/stussy-holiday-19

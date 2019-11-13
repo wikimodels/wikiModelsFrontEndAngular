@@ -72,55 +72,56 @@
         "articleText": "<h1>Hit the road, Jack!</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
     },
     {
-        "type": "lazy-tiles",
+        "type": "tiles",
         "tiles": [{
-                "model_id": "pp",
+                "model_id": "ra",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Popodchemu",
+                "nickname": "@Roma Acorn",
                 "title": "Вокруг меня одни идиоты",
-                "img": "assets/img/models/pp-main-1080by1350.jpg",
-                "alt_img": "popodchemu-main",
-                "video_id": "90vC6TnjLAs",
-                "article_id": "article-pp-1"
+                "img": "assets/img/models/ra-main-1080by1350.jpg",
+                "alt_img": "roma-acorn-main",
+                "video_id": "DVSa-RT8taU",
+                "article_id": "article-ra-1"
             },
             {
-                "model_id": "sc",
+                "model_id": "ma",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Lucky Blue Smith",
+                "nickname": "@Mary Grey",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
-                "img": "assets/img/models/sc-main-1080by1350.jpg",
-                "alt_img": "lucky-blue-main",
-                "video_id": "EEkknEm6EVg",
-                "article_id": "article-sc-1"
+                "img": "assets/img/models/ma-main-1080by1350.jpg",
+                "alt_img": "mary-grey-main",
+                "video_id": "nxrUxWPLXkE",
+                "article_id": "article-ma-1"
             },
             {
-                "model_id": "ts",
+                "model_id": "li",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Tuskrip",
+                "nickname": "@Artiom Lipa",
                 "title": "Как заплачено, так и зафигячено",
-                "img": "assets/img/models/ts-main-1080by1350.jpg",
-                "alt_img": "tuscrip-main",
-                "video_id": "nnj_vI0PH3Y",
-                "article_id": "article-ts-1"
+                "img": "assets/img/models/li-main-1080by1350.jpg",
+                "alt_img": "artiom-lipa-main",
+                "video_id": "KDxPwlj4n8E",
+                "article_id": "article-li-1"
             },
             {
-                "model_id": "be",
+                "model_id": "ca",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Billie Elish",
+                "nickname": "@Carolina Fit",
                 "title": "Правда помогает только если её принять",
-                "img": "assets/img/models/be-main-1080by1350.jpg",
-                "alt_img": "billie-elish-main",
-                "video_id": "gBRi6aZJGj4",
-                "article_id": "article-be-1"
+                "img": "assets/img/models/ca-main-1080by1350.jpg",
+                "alt_img": "carolina-fit-main",
+                "video_id": "JmdBoeAPEl8",
+                "article_id": "article-ca-1"
             }
         ]
     },
+
     {
         "type": "text",
         "articleText": "<h1>Валидация Данных</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
     },
     {
-        "type": "lazy-banner",
+        "type": "banner",
         "banner": {
             "cols": "1",
             "rowHeight": "16:9",
@@ -138,7 +139,7 @@
         }
     },
     {
-        "type": "lazy-banner",
+        "type": "banner",
         "banner": {
             "cols": "2",
             "rowHeight": "3:4",
@@ -211,46 +212,46 @@
         }
     },
     {
-        "type": "lazy-tiles",
+        "type": "tiles",
         "tiles": [{
-                "model_id": "ra",
+                "model_id": "pp",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Roma Acorn",
+                "nickname": "@Popodchemu",
                 "title": "Вокруг меня одни идиоты",
-                "img": "assets/img/models/ra-main-1080by1350.jpg",
-                "alt_img": "roma-acorn-main",
-                "video_id": "DVSa-RT8taU",
-                "article_id": "article-ra-1"
+                "img": "assets/img/models/pp-main-1080by1350.jpg",
+                "alt_img": "popodchemu-main",
+                "video_id": "90vC6TnjLAs",
+                "article_id": "article-pp-1"
             },
             {
-                "model_id": "ma",
+                "model_id": "sc",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Mary Grey",
+                "nickname": "@Lucky Blue Smith",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
-                "img": "assets/img/models/ma-main-1080by1350.jpg",
-                "alt_img": "mary-grey-main",
-                "video_id": "nxrUxWPLXkE",
-                "article_id": "article-ma-1"
+                "img": "assets/img/models/sc-main-1080by1350.jpg",
+                "alt_img": "lucky-blue-main",
+                "video_id": "EEkknEm6EVg",
+                "article_id": "article-sc-1"
             },
             {
-                "model_id": "li",
+                "model_id": "ts",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Artiom Lipa",
+                "nickname": "@Tuskrip",
                 "title": "Как заплачено, так и зафигячено",
-                "img": "assets/img/models/li-main-1080by1350.jpg",
-                "alt_img": "artiom-lipa-main",
-                "video_id": "KDxPwlj4n8E",
-                "article_id": "article-li-1"
+                "img": "assets/img/models/ts-main-1080by1350.jpg",
+                "alt_img": "tuscrip-main",
+                "video_id": "nnj_vI0PH3Y",
+                "article_id": "article-ts-1"
             },
             {
-                "model_id": "ca",
+                "model_id": "be",
                 "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                "nickname": "@Carolina Fit",
+                "nickname": "@Billie Elish",
                 "title": "Правда помогает только если её принять",
-                "img": "assets/img/models/ca-main-1080by1350.jpg",
-                "alt_img": "carolina-fit-main",
-                "video_id": "JmdBoeAPEl8",
-                "article_id": "article-ca-1"
+                "img": "assets/img/models/be-main-1080by1350.jpg",
+                "alt_img": "billie-elish-main",
+                "video_id": "gBRi6aZJGj4",
+                "article_id": "article-be-1"
             }
         ]
     },

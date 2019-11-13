@@ -1,0 +1,199 @@
+// bb, gf, jd, nf
+{
+    "type": "banner",
+    "banner": {
+        "cols": "2",
+        "rowHeight": "3:4",
+        "gutterSize": "1px",
+        "tiles": [{
+                "link": {
+                    "model_id": "bb"
+                },
+                "img": "assets/img/models/bb-main-1080by1350.jpg",
+                "alt_img": "bb-main-1080by1350",
+                "footer": "Bad Bad Not Good"
+
+            },
+            {
+                "link": {
+                    "model_id": "gf"
+
+                },
+                "img": "assets/img/models/gf-main-1080by1350.jpg",
+                "alt_img": "gf-main-1080by1350",
+                "footer": "Gunfighterrrr"
+
+            },
+            {
+                "link": {
+                    "model_id": "jd"
+
+                },
+                "img": "assets/img/models/jd-main-1080by1350.jpg",
+                "alt_img": "jd-main-1080by1350",
+                "footer": "Johnny Wick"
+
+            },
+            {
+                "link": {
+                    "model_id": "nf"
+
+                },
+                "img": "assets/img/models/nf-main-1080by1350.jpg",
+                "alt_img": "nf-main-1080by1350",
+                "footer": "Nick Freak"
+
+            }
+        ]
+    }
+}
+// ca, ma, pp, li
+{
+    "type": "banner",
+    "banner": {
+        "cols": "2",
+        "rowHeight": "3:4",
+        "gutterSize": "1px",
+        "tiles": [{
+                "link": {
+                    "model_id": "ca"
+                },
+                "img": "assets/img/models/ca-main-1080by1350.jpg",
+                "alt_img": "ca-main-1080by1350",
+                "footer": "Carolina Fit"
+
+            },
+            {
+                "link": {
+                    "model_id": "pp"
+
+                },
+                "img": "assets/img/models/pp-main-1080by1350.jpg",
+                "alt_img": "pp-main-1080by1350",
+                "footer": "Popodchemu"
+
+            },
+            {
+                "link": {
+                    "model_id": "li"
+
+                },
+                "img": "assets/img/models/li-main-1080by1350.jpg",
+                "alt_img": "li-main-1080by1350",
+                "footer": "Artiom Lipa"
+
+            },
+            {
+                "link": {
+                    "model_id": "nf"
+
+                },
+                "img": "assets/img/models/nf-main-1080by1350.jpg",
+                "alt_img": "nf-main-1080by1350",
+                "footer": "Nick Freak"
+
+            }
+        ]
+    }
+}
+
+//be, jd, ma, gf
+{
+    "type": "banner",
+    "banner": {
+        "cols": "2",
+        "rowHeight": "3:4",
+        "gutterSize": "1px",
+        "tiles": [{
+                "link": {
+                    "model_id": "be"
+                },
+                "img": "assets/img/models/be-main-1080by1350.jpg",
+                "alt_img": "be-main-1080by1350",
+                "footer": "Billie Elish"
+
+            },
+            {
+                "link": {
+                    "model_id": "jd"
+
+                },
+                "img": "assets/img/models/jd-main-1080by1350.jpg",
+                "alt_img": "jd-main-1080by1350",
+                "footer": "Johnny Wick"
+
+            },
+            {
+                "link": {
+                    "model_id": "ma"
+
+                },
+                "img": "assets/img/models/ma-main-1080by1350.jpg",
+                "alt_img": "ma-main-1080by1350",
+                "footer": "Mary Grgf"
+
+            },
+            {
+                "link": {
+                    "model_id": "gf"
+
+                },
+                "img": "assets/img/models/gf-main-1080by1350.jpg",
+                "alt_img": "gf-main-1080by1350",
+                "footer": "Gunfighterrrr"
+
+            }
+        ]
+    }
+}
+//nf, ma, bb, ra
+{
+    "type": "banner",
+    "banner": {
+        "cols": "2",
+        "rowHeight": "3:4",
+        "gutterSize": "1px",
+        "tiles": [{
+                "link": {
+                    "model_id": "nf"
+                },
+                "img": "assets/img/models/nf-main-1080by1350.jpg",
+                "alt_img": "nf-main-1080by1350",
+                "footer": "Nick Freak"
+
+            },
+            {
+                "link": {
+                    "model_id": "ma"
+
+                },
+                "img": "assets/img/models/ma-main-1080by1350.jpg",
+                "alt_img": "ma-main-1080by1350",
+                "footer": "Mary Grey"
+
+            },
+            {
+                "link": {
+                    "model_id": "bb"
+
+                },
+                "img": "assets/img/models/bb-main-1080by1350.jpg",
+                "alt_img": "bb-main-1080by1350",
+                "footer": "Bad Bad Not Good"
+
+            },
+            {
+                "link": {
+                    "model_id": "ra"
+
+                },
+                "img": "assets/img/models/ra-main-1080by1350.jpg",
+                "alt_img": "ra-main-1080by1350",
+                "footer": "Roma Acorn"
+
+            }
+        ]
+    }
+}
+
+//sc, ts, li, gf

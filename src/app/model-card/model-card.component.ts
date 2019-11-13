@@ -15,17 +15,17 @@ export class ModelCardComponent implements OnInit, OnDestroy {
   // modelCard: boolean;
   routeSub: Subscription;
   // routeQuerySub: Subscription;
-  ratio = '3:3.37';
+  ratio = '1:1';
   sub: Subscription;
-  card_avatar: string;
+  cardAvatar: string;
   nickname: string;
   title: string;
   img: string;
   imgalt: string;
   imglink: string;
-  alt_img: string;
-  article_id: string;
-  video_id: string;
+  altImg: string;
+  articleId: string;
+  videoId: string;
    
 
   constructor(
@@ -38,14 +38,14 @@ export class ModelCardComponent implements OnInit, OnDestroy {
        
       console.log(params);
       this.model = models.find(m => m.model_id === params.model_id);
-      this.card_avatar = this.model.card_avatar;
+      this.cardAvatar = this.model.card_avatar;
       this.nickname = this.model.nickname;  
       this.title = this.model.title;
       this.img = this.model.img;
       this.imglink = this.model.imglink;
-      this.alt_img = this.model.alt_img;
-      this.article_id = this.model.article_id;
-      this.video_id = this.model.video_id;
+      this.altImg = this.model.alt_img;
+      this.articleId = this.model.article_id;
+      this.videoId = this.model.video_id;
       // this.modelCard = params.modelCard;
       console.log('MODEL FROM CARD-MODEL COMPONENT', this.model);
       // console.log('MODEL CARD FROM TILE COMPONENT', this.modelCard);
@@ -62,19 +62,19 @@ export class ModelCardComponent implements OnInit, OnDestroy {
       if (state.matches) {
         this.ratio = '1:1';
       } else {
-        this.ratio = '3:3.75';
+        this.ratio = '1:1';
       }
     });
     console.log('RATIO', this.ratio);
   } 
 
   watchVideo() {
-    this.router.navigate(['video', this.video_id]);
+    this.router.navigate(['video', this.videoId]);
   }
 
   readArticle() {
     console.log();
-    this.router.navigate(['article', this.article_id]);
+    this.router.navigate(['article', this.articleId]);
   }
 
   ngOnDestroy(): void {

@@ -1,6 +1,6 @@
 <div class="lazy-picture-container">
     <mat-grid-list [cols]="picture.cols" [rowHeight]="picture.rowHeight" [gutterSize]="picture.gutterSize">
-        <mat-grid-tile class="mat-elevation-z24" matRipple *ngFor="let pic of picture.pics">
+        <mat-grid-tile class="mat-elevation-z24" *ngFor="let pic of picture.pics">
 
             <!-- LAZY IMAGE HEADER -->
             <mat-grid-tile-header *ngIf="pic.header ">

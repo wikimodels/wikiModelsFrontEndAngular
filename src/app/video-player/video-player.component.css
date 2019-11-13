@@ -1,5 +1,5 @@
 .container {
-    padding-top: 5rem;
+    padding-top: 4rem;
     width: 92%;
     margin: auto auto;
     height: 80%;
@@ -17,7 +17,7 @@
 
 iframe {
     width: 100%;
-    height: 330px;
+    height: 280px;
     background-color: black;
 }
 
@@ -25,7 +25,7 @@ iframe {
     /* For mobile phones: */
     iframe {
         /* width: 100%; */
-        height: 280px;
+        height: 240px;
     }
     .container {
         padding-top: 4rem;

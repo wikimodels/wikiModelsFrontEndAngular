@@ -12,7 +12,7 @@
             },
             {
                 "type": "video",
-                "video_id": "L1t57CMdy94",
+                "videoId": "L1t57CMdy94",
                 "videoCoverUrl": "assets/img/models/gf-yt-cover.jpg"
             },
             {
@@ -40,7 +40,7 @@
                 "banner": {
                     "cols": "1",
                     "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
                                 "url": "https://www.evisu.com"
@@ -88,7 +88,7 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "lazy-banner",
+                "type": "banner",
                 "banner": {
                     "cols": "2",
                     "rowHeight": "3:4",
@@ -104,12 +104,12 @@
                         },
                         {
                             "link": {
-                                "model_id": "gf"
+                                "model_id": "sc"
 
                             },
-                            "img": "assets/img/models/gf-main-1080by1350.jpg",
-                            "alt_img": "gf-main-1080by1350",
-                            "footer": "Gunfighterrrr"
+                            "img": "assets/img/models/sc-main-1080by1350.jpg",
+                            "alt_img": "sc-main-1080by1350",
+                            "footer": "Lucky Blue Smith"
 
                         },
                         {
@@ -129,7 +129,7 @@
                             },
                             "img": "assets/img/models/nf-main-1080by1350.jpg",
                             "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "footer": "Nick Freak"
 
                         }
                     ]
@@ -156,7 +156,7 @@
             },
             {
                 "type": "video",
-                "video_id": "t5dYJT1d1oc",
+                "videoId": "t5dYJT1d1oc",
                 "videoCoverUrl": "assets/img/models/bb-yt-cover.jpg"
             },
             {
@@ -184,7 +184,7 @@
                 "banner": {
                     "cols": "1",
                     "rowHeight": "16:9",
-                    "gutterSize": "85px",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
                                 "url": "https://bapepirate.com"
@@ -194,10 +194,9 @@
                         },
                         {
                             "link": {
-                                "url": "https://www.stussy.com/blogs/stussy-holiday-19"
+                                "url": "https://www.wtaps.com"
                             },
-                            "img": "assets/img/adds/adds-stussy-1-1600by900.jpg",
-                            "alt_img": "stussy-1-1600by900"
+                            "img": "assets/img/adds/adds-wt-1-1600by900.jpg"
 
                         }
                     ]
@@ -241,11 +240,11 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "model_id": "ra"
+                                "model_id": "ca"
                             },
-                            "img": "assets/img/models/ra-main-1080by1350.jpg",
-                            "alt_img": "ra-main-1080by1350",
-                            "footer": "Roma Acorn"
+                            "img": "assets/img/models/ca-main-1080by1350.jpg",
+                            "alt_img": "ca-main-1080by1350",
+                            "footer": "Carolina Fit"
 
                         },
                         {
@@ -260,22 +259,22 @@
                         },
                         {
                             "link": {
-                                "model_id": "jd"
+                                "model_id": "li"
 
                             },
-                            "img": "assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick"
+                            "img": "assets/img/models/li-main-1080by1350.jpg",
+                            "alt_img": "li-main-1080by1350",
+                            "footer": "Artiom Lipa"
 
                         },
                         {
                             "link": {
-                                "model_id": "ts"
+                                "model_id": "nf"
 
                             },
-                            "img": "assets/img/models/ts-main-1080by1350.jpg",
-                            "alt_img": "ts-main-1080by1350",
-                            "footer": "Tuscrip"
+                            "img": "assets/img/models/nf-main-1080by1350.jpg",
+                            "alt_img": "nf-main-1080by1350",
+                            "footer": "Nick Freak"
 
                         }
                     ]
@@ -324,7 +323,7 @@
             },
             {
                 "type": "video",
-                "video_id": "HACmLeNYWFY",
+                "videoId": "HACmLeNYWFY",
                 "videoCoverUrl": "assets/img/models/nf-yt-cover.jpg"
             },
             {
@@ -354,19 +353,19 @@
                 "banner": {
                     "cols": "1",
                     "rowHeight": "16:9",
-                    "gutterSize": "85px",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "https://bapepirate.com"
+                                "url": "https://www.stussy.com/blogs/stussy-holiday-19"
                             },
-                            "img": "assets/img/adds/adds-bape-1-1600by900.jpg"
+                            "img": "assets/img/adds/adds-stussy-1-1600by900.jpg"
 
                         },
                         {
                             "link": {
-                                "url": "https://www.wtaps.com"
+                                "url": "https://www.evisu.com/us/alphaxevisu.html"
                             },
-                            "img": "assets/img/adds/adds-wt-1-1600by900.jpg"
+                            "img": "assets/img/adds/adds-evisu-2-1600by900.jpg"
 
                         }
                     ]
@@ -385,7 +384,58 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
+            {
+                "type": "banner",
+                "banner": {
+                    "cols": "2",
+                    "rowHeight": "3:4",
+                    "gutterSize": "1px",
+                    "tiles": [{
+                            "link": {
+                                "model_id": "be"
+                            },
+                            "img": "assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish"
 
+                        },
+                        {
+                            "link": {
+                                "model_id": "jd"
+
+                            },
+                            "img": "assets/img/models/jd-main-1080by1350.jpg",
+                            "alt_img": "jd-main-1080by1350",
+                            "footer": "Johnny Wick"
+
+                        },
+                        {
+                            "link": {
+                                "model_id": "ma"
+
+                            },
+                            "img": "assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mary Grgf"
+
+                        },
+                        {
+                            "link": {
+                                "model_id": "gf"
+
+                            },
+                            "img": "assets/img/models/gf-main-1080by1350.jpg",
+                            "alt_img": "gf-main-1080by1350",
+                            "footer": "Gunfighterrrr"
+
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "text",
+                "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
+            },
             {
                 "type": "picture",
                 "picture": {
@@ -401,21 +451,6 @@
             {
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
-            },
-            {
-                "type": "banner",
-                "banner": {
-                    "cols": "1",
-                    "rowHeight": "1:1",
-                    "gutterSize": "1px",
-                    "tiles": [{
-                        "link": {
-                            "url": "https://www.evisu.com"
-                        },
-                        "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
-
-                    }]
-                }
             },
             {
                 "type": "text",
@@ -454,7 +489,7 @@
             },
             {
                 "type": "video",
-                "video_id": "Roj5a6YQTuw",
+                "videoId": "Roj5a6YQTuw",
                 "videoCoverUrl": "assets/img/models/jd-yt-cover.jpg"
             },
             {
@@ -482,12 +517,12 @@
                 "banner": {
                     "cols": "1",
                     "rowHeight": "4:3",
-                    "gutterSize": "85px",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "http://www.undercoverism.com/collections/?cat=WOMENS#2019AW"
+                                "url": "https://www.carhartt-wip.com/en"
                             },
-                            "img": "assets/img/adds/adds-u-1-1200by900.jpg"
+                            "img": "assets/img/adds/adds-carnartt-1-1200by900.jpg"
 
                         },
                         {
@@ -537,7 +572,27 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
+                                "model_id": "nf"
+                            },
+                            "img": "assets/img/models/nf-main-1080by1350.jpg",
+                            "alt_img": "nf-main-1080by1350",
+                            "footer": "Nick Freak"
+
+                        },
+                        {
+                            "link": {
+                                "model_id": "ma"
+
+                            },
+                            "img": "assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mary Grey"
+
+                        },
+                        {
+                            "link": {
                                 "model_id": "bb"
+
                             },
                             "img": "assets/img/models/bb-main-1080by1350.jpg",
                             "alt_img": "bb-main-1080by1350",
@@ -546,32 +601,12 @@
                         },
                         {
                             "link": {
-                                "model_id": "gf"
+                                "model_id": "ra"
 
                             },
-                            "img": "assets/img/models/gf-main-1080by1350.jpg",
-                            "alt_img": "gf-main-1080by1350",
-                            "footer": "Gunfighterrrr"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "jd"
-
-                            },
-                            "img": "assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "nf"
-
-                            },
-                            "img": "assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "img": "assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn"
 
                         }
                     ]
@@ -614,7 +649,7 @@
             },
             {
                 "type": "video",
-                "video_id": "90vC6TnjLAs",
+                "videoId": "90vC6TnjLAs",
                 "videoCoverUrl": "assets/img/models/pp-yt-cover.jpg"
             },
             {
@@ -642,7 +677,7 @@
                 "banner": {
                     "cols": "1",
                     "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
                                 "url": "https://www.evisu.com"
@@ -731,7 +766,7 @@
                             },
                             "img": "assets/img/models/nf-main-1080by1350.jpg",
                             "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "footer": "Nick Freak"
 
                         }
                     ]
@@ -775,7 +810,7 @@
             },
             {
                 "type": "video",
-                "video_id": "EEkknEm6EVg",
+                "videoId": "EEkknEm6EVg",
                 "videoCoverUrl": "assets/img/models/sc-yt-cover.jpg"
             },
             {
@@ -802,20 +837,20 @@
                 "type": "banner",
                 "banner": {
                     "cols": "1",
-                    "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "rowHeight": "16:9",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "https://www.evisu.com"
+                                "url": "https://bapepirate.com"
                             },
-                            "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+                            "img": "assets/img/adds/adds-bape-1-1600by900.jpg"
 
                         },
                         {
                             "link": {
-                                "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                                "url": "https://www.wtaps.com"
                             },
-                            "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                            "img": "assets/img/adds/adds-wt-1-1600by900.jpg"
 
                         }
                     ]
@@ -858,31 +893,31 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "model_id": "bb"
+                                "model_id": "ca"
                             },
-                            "img": "assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good"
+                            "img": "assets/img/models/ca-main-1080by1350.jpg",
+                            "alt_img": "ca-main-1080by1350",
+                            "footer": "Carolina Fit"
 
                         },
                         {
                             "link": {
-                                "model_id": "gf"
+                                "model_id": "pp"
 
                             },
-                            "img": "assets/img/models/gf-main-1080by1350.jpg",
-                            "alt_img": "gf-main-1080by1350",
-                            "footer": "Gunfighterrrr"
+                            "img": "assets/img/models/pp-main-1080by1350.jpg",
+                            "alt_img": "pp-main-1080by1350",
+                            "footer": "Popodchemu"
 
                         },
                         {
                             "link": {
-                                "model_id": "jd"
+                                "model_id": "li"
 
                             },
-                            "img": "assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick"
+                            "img": "assets/img/models/li-main-1080by1350.jpg",
+                            "alt_img": "li-main-1080by1350",
+                            "footer": "Artiom Lipa"
 
                         },
                         {
@@ -892,7 +927,7 @@
                             },
                             "img": "assets/img/models/nf-main-1080by1350.jpg",
                             "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "footer": "Nick Freak"
 
                         }
                     ]
@@ -936,7 +971,7 @@
             },
             {
                 "type": "video",
-                "video_id": "nnj_vI0PH3Y",
+                "videoId": "nnj_vI0PH3Y",
                 "videoCoverUrl": "assets/img/models/ts-yt-cover.jpg"
             },
             {
@@ -963,20 +998,20 @@
                 "type": "banner",
                 "banner": {
                     "cols": "1",
-                    "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "rowHeight": "16:9",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "https://www.evisu.com"
+                                "url": "https://www.stussy.com/blogs/stussy-holiday-19"
                             },
-                            "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+                            "img": "assets/img/adds/adds-stussy-1-1600by900.jpg"
 
                         },
                         {
                             "link": {
-                                "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                                "url": "https://www.evisu.com/us/alphaxevisu.html"
                             },
-                            "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                            "img": "assets/img/adds/adds-evisu-2-1600by900.jpg"
 
                         }
                     ]
@@ -1019,21 +1054,11 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "model_id": "bb"
+                                "model_id": "be"
                             },
-                            "img": "assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "gf"
-
-                            },
-                            "img": "assets/img/models/gf-main-1080by1350.jpg",
-                            "alt_img": "gf-main-1080by1350",
-                            "footer": "Gunfighterrrr"
+                            "img": "assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish"
 
                         },
                         {
@@ -1048,12 +1073,22 @@
                         },
                         {
                             "link": {
-                                "model_id": "nf"
+                                "model_id": "ma"
 
                             },
-                            "img": "assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "img": "assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mary Grgf"
+
+                        },
+                        {
+                            "link": {
+                                "model_id": "gf"
+
+                            },
+                            "img": "assets/img/models/gf-main-1080by1350.jpg",
+                            "alt_img": "gf-main-1080by1350",
+                            "footer": "Gunfighterrrr"
 
                         }
                     ]
@@ -1096,7 +1131,7 @@
             },
             {
                 "type": "video",
-                "video_id": "gBRi6aZJGj4",
+                "videoId": "gBRi6aZJGj4",
                 "videoCoverUrl": "assets/img/models/be-yt-cover.jpg"
             },
             {
@@ -1123,20 +1158,20 @@
                 "type": "banner",
                 "banner": {
                     "cols": "1",
-                    "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "rowHeight": "4:3",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "https://www.evisu.com"
+                                "url": "https://www.carhartt-wip.com/en"
                             },
-                            "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+                            "img": "assets/img/adds/adds-carnartt-1-1200by900.jpg"
 
                         },
                         {
                             "link": {
-                                "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                                "url": "https://www.wtaps.com/feature/?p=53"
                             },
-                            "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                            "img": "assets/img/adds/adds-wt-2-1200by900.jpg"
 
                         }
                     ]
@@ -1179,7 +1214,27 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
+                                "model_id": "nf"
+                            },
+                            "img": "assets/img/models/nf-main-1080by1350.jpg",
+                            "alt_img": "nf-main-1080by1350",
+                            "footer": "Nick Freak"
+
+                        },
+                        {
+                            "link": {
+                                "model_id": "ma"
+
+                            },
+                            "img": "assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mary Grey"
+
+                        },
+                        {
+                            "link": {
                                 "model_id": "bb"
+
                             },
                             "img": "assets/img/models/bb-main-1080by1350.jpg",
                             "alt_img": "bb-main-1080by1350",
@@ -1188,32 +1243,12 @@
                         },
                         {
                             "link": {
-                                "model_id": "gf"
+                                "model_id": "ra"
 
                             },
-                            "img": "assets/img/models/gf-main-1080by1350.jpg",
-                            "alt_img": "gf-main-1080by1350",
-                            "footer": "Gunfighterrrr"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "jd"
-
-                            },
-                            "img": "assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "nf"
-
-                            },
-                            "img": "assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "img": "assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn"
 
                         }
                     ]
@@ -1256,7 +1291,7 @@
             },
             {
                 "type": "video",
-                "video_id": "DVSa-RT8taU",
+                "videoId": "DVSa-RT8taU",
                 "videoCoverUrl": "assets/img/models/ra-yt-cover.jpg"
             },
             {
@@ -1283,20 +1318,20 @@
                 "type": "banner",
                 "banner": {
                     "cols": "1",
-                    "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "rowHeight": "4:3",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "https://www.evisu.com"
+                                "url": "https://www.carhartt-wip.com/en"
                             },
-                            "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+                            "img": "assets/img/adds/adds-carnartt-1-1200by900.jpg"
 
                         },
                         {
                             "link": {
-                                "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                                "url": "https://www.wtaps.com/feature/?p=53"
                             },
-                            "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                            "img": "assets/img/adds/adds-wt-2-1200by900.jpg"
 
                         }
                     ]
@@ -1373,7 +1408,7 @@
                             },
                             "img": "assets/img/models/nf-main-1080by1350.jpg",
                             "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "footer": "Nick Freak"
 
                         }
                     ]
@@ -1432,7 +1467,7 @@
             },
             {
                 "type": "video",
-                "video_id": "nxrUxWPLXkE",
+                "videoId": "nxrUxWPLXkE",
                 "videoCoverUrl": "assets/img/models/ma-yt-cover.jpg"
             },
             {
@@ -1444,7 +1479,7 @@
                 "banner": {
                     "cols": "1",
                     "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
                                 "url": "https://www.evisu.com"
@@ -1499,7 +1534,27 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
+                                "model_id": "nf"
+                            },
+                            "img": "assets/img/models/nf-main-1080by1350.jpg",
+                            "alt_img": "nf-main-1080by1350",
+                            "footer": "Nick Freak"
+
+                        },
+                        {
+                            "link": {
+                                "model_id": "ma"
+
+                            },
+                            "img": "assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mary Grey"
+
+                        },
+                        {
+                            "link": {
                                 "model_id": "bb"
+
                             },
                             "img": "assets/img/models/bb-main-1080by1350.jpg",
                             "alt_img": "bb-main-1080by1350",
@@ -1508,32 +1563,12 @@
                         },
                         {
                             "link": {
-                                "model_id": "gf"
+                                "model_id": "ra"
 
                             },
-                            "img": "assets/img/models/gf-main-1080by1350.jpg",
-                            "alt_img": "gf-main-1080by1350",
-                            "footer": "Gunfighterrrr"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "jd"
-
-                            },
-                            "img": "assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "nf"
-
-                            },
-                            "img": "assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "img": "assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn"
 
                         }
                     ]
@@ -1560,10 +1595,6 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             },
 
-            {
-                "type": "text",
-                "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
-            },
             {
                 "type": "picture",
                 "picture": {
@@ -1615,7 +1646,7 @@
             },
             {
                 "type": "video",
-                "video_id": "JmdBoeAPEl8",
+                "videoId": "JmdBoeAPEl8",
                 "videoCoverUrl": "assets/img/models/li-yt-cover.jpg"
             },
             {
@@ -1642,20 +1673,20 @@
                 "type": "banner",
                 "banner": {
                     "cols": "1",
-                    "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "rowHeight": "16:9",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "https://www.evisu.com"
+                                "url": "https://bapepirate.com"
                             },
-                            "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+                            "img": "assets/img/adds/adds-bape-1-1600by900.jpg"
 
                         },
                         {
                             "link": {
-                                "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                                "url": "https://www.wtaps.com"
                             },
-                            "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                            "img": "assets/img/adds/adds-wt-1-1600by900.jpg"
 
                         }
                     ]
@@ -1698,21 +1729,11 @@
                     "gutterSize": "1px",
                     "tiles": [{
                             "link": {
-                                "model_id": "bb"
+                                "model_id": "be"
                             },
-                            "img": "assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good"
-
-                        },
-                        {
-                            "link": {
-                                "model_id": "gf"
-
-                            },
-                            "img": "assets/img/models/gf-main-1080by1350.jpg",
-                            "alt_img": "gf-main-1080by1350",
-                            "footer": "Gunfighterrrr"
+                            "img": "assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish"
 
                         },
                         {
@@ -1727,12 +1748,22 @@
                         },
                         {
                             "link": {
-                                "model_id": "nf"
+                                "model_id": "ma"
 
                             },
-                            "img": "assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "img": "assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mary Grgf"
+
+                        },
+                        {
+                            "link": {
+                                "model_id": "gf"
+
+                            },
+                            "img": "assets/img/models/gf-main-1080by1350.jpg",
+                            "alt_img": "gf-main-1080by1350",
+                            "footer": "Gunfighterrrr"
 
                         }
                     ]
@@ -1792,7 +1823,7 @@
             },
             {
                 "type": "video",
-                "video_id": "JmdBoeAPEl8",
+                "videoId": "JmdBoeAPEl8",
                 "videoCoverUrl": "assets/img/models/ca-yt-cover.jpg"
             },
             {
@@ -1819,20 +1850,20 @@
                 "type": "banner",
                 "banner": {
                     "cols": "1",
-                    "rowHeight": "1:1",
-                    "gutterSize": "85px",
+                    "rowHeight": "16:9",
+                    "gutterSize": "70px",
                     "tiles": [{
                             "link": {
-                                "url": "https://www.evisu.com"
+                                "url": "https://www.stussy.com/blogs/stussy-holiday-19"
                             },
-                            "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+                            "img": "assets/img/adds/adds-stussy-1-1600by900.jpg"
 
                         },
                         {
                             "link": {
-                                "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
+                                "url": "https://www.evisu.com/us/alphaxevisu.html"
                             },
-                            "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                            "img": "assets/img/adds/adds-evisu-2-1600by900.jpg"
 
                         }
                     ]
@@ -1909,7 +1940,7 @@
                             },
                             "img": "assets/img/models/nf-main-1080by1350.jpg",
                             "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freack"
+                            "footer": "Nick Freak"
 
                         }
                     ]
@@ -1938,5 +1969,4 @@
         ]
 
     }
-
 ]
