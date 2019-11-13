@@ -2,10 +2,10 @@
         "type": "tiles",
         "tiles": [{
                 "model_id": "gf",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Gunfighterrrr",
                 "title": "Psycho - это призвание",
-                "img": "../../assets/img/models/gf-main-1080by1350.jpg",
+                "img": "assets/img/models/gf-main-1080by1350.jpg",
                 "alt_img": "gun-fighter-main",
                 "video_id": "L1t57CMdy94",
                 "article_id": "article-gf-1"
@@ -13,30 +13,30 @@
             },
             {
                 "model_id": "nf",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Nick Freack",
                 "title": "Жаль, только жить в эту пору прекресную уже не придётся ни мне ни тебе",
-                "img": "../../assets/img/models/nf-main-1080by1350.jpg",
+                "img": "assets/img/models/nf-main-1080by1350.jpg",
                 "alt_img": "nick-freack-main",
                 "video_id": "HACmLeNYWFY",
                 "article_id": "article-nf-1"
             },
             {
                 "model_id": "bb",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Bad Bad Not Good",
                 "title": "Живи каждый день, как последний, и однажды ты окажешься прав",
-                "img": "../../assets/img/models/bb-main-1080by1350.jpg",
+                "img": "assets/img/models/bb-main-1080by1350.jpg",
                 "alt_img": "badbadnotgood-main",
                 "video_id": "t5dYJT1d1oc",
                 "article_id": "article-bb-1"
             },
             {
                 "model_id": "jd",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Johnny Wick",
                 "title": "Война вредит бизнесу, если её проиграть",
-                "img": "../../assets/img/models/jd-main-1080by1350.jpg",
+                "img": "assets/img/models/jd-main-1080by1350.jpg",
                 "alt_img": "johnny-wick-main",
                 "video_id": "Roj5a6YQTuw",
                 "article_id": "article-jd-1"
@@ -54,14 +54,14 @@
                     "link": {
                         "url": "https://www.evisu.com"
                     },
-                    "img": "../../assets/img/adds/adds-evisu-1-669by669.jpg"
+                    "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
 
                 },
                 {
                     "link": {
                         "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
                     },
-                    "img": "../../assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                    "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
 
                 }
             ]
@@ -75,40 +75,40 @@
         "type": "lazy-tiles",
         "tiles": [{
                 "model_id": "pp",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Popodchemu",
                 "title": "Вокруг меня одни идиоты",
-                "img": "../../assets/img/models/pp-main-1080by1350.jpg",
+                "img": "assets/img/models/pp-main-1080by1350.jpg",
                 "alt_img": "popodchemu-main",
                 "video_id": "90vC6TnjLAs",
                 "article_id": "article-pp-1"
             },
             {
                 "model_id": "sc",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Lucky Blue Smith",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
-                "img": "../../assets/img/models/sc-main-1080by1350.jpg",
+                "img": "assets/img/models/sc-main-1080by1350.jpg",
                 "alt_img": "lucky-blue-main",
                 "video_id": "EEkknEm6EVg",
                 "article_id": "article-sc-1"
             },
             {
                 "model_id": "ts",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Tuskrip",
                 "title": "Как заплачено, так и зафигячено",
-                "img": "../../assets/img/models/ts-main-1080by1350.jpg",
+                "img": "assets/img/models/ts-main-1080by1350.jpg",
                 "alt_img": "tuscrip-main",
                 "video_id": "nnj_vI0PH3Y",
                 "article_id": "article-ts-1"
             },
             {
                 "model_id": "be",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Billie Elish",
                 "title": "Правда помогает только если её принять",
-                "img": "../../assets/img/models/be-main-1080by1350.jpg",
+                "img": "assets/img/models/be-main-1080by1350.jpg",
                 "alt_img": "billie-elish-main",
                 "video_id": "gBRi6aZJGj4",
                 "article_id": "article-be-1"
@@ -129,7 +129,7 @@
                     "link": {
                         "url": "https://bapepirate.com"
                     },
-                    "img": "../../assets/img/adds/adds-bape-1-1600by900.jpg",
+                    "img": "assets/img/adds/adds-bape-1-1600by900.jpg",
                     "alt_img": "bape-1-1600by900"
 
                 }
@@ -147,7 +147,7 @@
                     "link": {
                         "model_id": "bb"
                     },
-                    "img": "../../assets/img/models/bb-main-1080by1350.jpg",
+                    "img": "assets/img/models/bb-main-1080by1350.jpg",
                     "alt_img": "bb-main-1080by1350",
                     "footer": "Bad Bad Not Good"
 
@@ -157,7 +157,7 @@
                         "model_id": "gf"
 
                     },
-                    "img": "../../assets/img/models/gf-main-1080by1350.jpg",
+                    "img": "assets/img/models/gf-main-1080by1350.jpg",
                     "alt_img": "gf-main-1080by1350",
                     "footer": "Gunfighterrrr"
 
@@ -167,7 +167,7 @@
                         "model_id": "jd"
 
                     },
-                    "img": "../../assets/img/models/jd-main-1080by1350.jpg",
+                    "img": "assets/img/models/jd-main-1080by1350.jpg",
                     "alt_img": "jd-main-1080by1350",
                     "footer": "Johnny Wick"
 
@@ -177,7 +177,7 @@
                         "model_id": "nf"
 
                     },
-                    "img": "../../assets/img/models/nf-main-1080by1350.jpg",
+                    "img": "assets/img/models/nf-main-1080by1350.jpg",
                     "alt_img": "nf-main-1080by1350",
                     "footer": "Nick Freack"
 
@@ -195,7 +195,7 @@
                     "link": {
                         "url": "https://www.carhartt-wip.com/en"
                     },
-                    "img": "../../assets/img/adds/adds-carnartt-1-1200by900.jpg",
+                    "img": "assets/img/adds/adds-carnartt-1-1200by900.jpg",
                     "alt_img": "carnartt-1-1200by900"
 
                 },
@@ -203,7 +203,7 @@
                     "link": {
                         "url": "https://www.wtaps.com/feature/?p=53"
                     },
-                    "img": "../../assets/img/adds/adds-wt-2-1200by900.jpg",
+                    "img": "assets/img/adds/adds-wt-2-1200by900.jpg",
                     "alt_img": "wt-2-1200by900"
 
                 }
@@ -214,40 +214,40 @@
         "type": "lazy-tiles",
         "tiles": [{
                 "model_id": "ra",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Roma Acorn",
                 "title": "Вокруг меня одни идиоты",
-                "img": "../../assets/img/models/ra-main-1080by1350.jpg",
+                "img": "assets/img/models/ra-main-1080by1350.jpg",
                 "alt_img": "roma-acorn-main",
                 "video_id": "DVSa-RT8taU",
                 "article_id": "article-ra-1"
             },
             {
                 "model_id": "ma",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Mary Grey",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
-                "img": "../../assets/img/models/ma-main-1080by1350.jpg",
+                "img": "assets/img/models/ma-main-1080by1350.jpg",
                 "alt_img": "mary-grey-main",
                 "video_id": "nxrUxWPLXkE",
                 "article_id": "article-ma-1"
             },
             {
                 "model_id": "li",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Artiom Lipa",
                 "title": "Как заплачено, так и зафигячено",
-                "img": "../../assets/img/models/li-main-1080by1350.jpg",
+                "img": "assets/img/models/li-main-1080by1350.jpg",
                 "alt_img": "artiom-lipa-main",
                 "video_id": "KDxPwlj4n8E",
                 "article_id": "article-li-1"
             },
             {
                 "model_id": "ca",
-                "card_avatar": "../../assets/icons/png/wm-logo-circle.png",
+                "card_avatar": "assets/icons/png/wm-logo-circle.png",
                 "nickname": "@Carolina Fit",
                 "title": "Правда помогает только если её принять",
-                "img": "../../assets/img/models/ca-main-1080by1350.jpg",
+                "img": "assets/img/models/ca-main-1080by1350.jpg",
                 "alt_img": "carolina-fit-main",
                 "video_id": "JmdBoeAPEl8",
                 "article_id": "article-ca-1"
@@ -268,14 +268,14 @@
                     "link": {
                         "url": "http://www.undercoverism.com/collections/?cat=WOMENS#2019AW"
                     },
-                    "img": "../../assets/img/adds/adds-u-1-1200by900.jpg"
+                    "img": "assets/img/adds/adds-u-1-1200by900.jpg"
 
                 },
                 {
                     "link": {
                         "url": "https://www.carhartt-wip.com/en/women"
                     },
-                    "img": "../../assets/img/adds/adds-carnartt-2-1200by900.jpg"
+                    "img": "assets/img/adds/adds-carnartt-2-1200by900.jpg"
 
                 }
             ]
@@ -292,7 +292,7 @@
                         "model_id": "pp"
 
                     },
-                    "img": "../../assets/img/models/pp-main-1080by1350.jpg",
+                    "img": "assets/img/models/pp-main-1080by1350.jpg",
                     "alt_img": "pp-main-1080by1350",
                     "footer": "Popodchemu"
 
@@ -302,7 +302,7 @@
                         "model_id": "sc"
 
                     },
-                    "img": "../../assets/img/models/sc-main-1080by1350.jpg",
+                    "img": "assets/img/models/sc-main-1080by1350.jpg",
                     "alt_img": "sc-main-1080by1350",
                     "footer": "Lucky Blue Smith"
 
@@ -312,7 +312,7 @@
                         "model_id": "ts"
 
                     },
-                    "img": "../../assets/img/models/ts-main-1080by1350.jpg",
+                    "img": "assets/img/models/ts-main-1080by1350.jpg",
                     "alt_img": "ts-main-1080by1350",
                     "footer": "Tuskrip"
 
@@ -321,7 +321,7 @@
                     "link": {
                         "model_id": "be"
                     },
-                    "img": "../../assets/img/models/be-main-1080by1350.jpg",
+                    "img": "assets/img/models/be-main-1080by1350.jpg",
                     "alt_img": "be-main-1080by1350",
                     "footer": "Billie Elish"
 

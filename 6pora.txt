@@ -128,5 +128,7 @@ imports: [
 ```
 Error: Couldn't resolve current tab. Check your URL, reload, and try again. Found 1 tab(s) with id(s) [4].
     at chrome-extension://blipmdconlkpinefehnmjammfjpmpbjk/scripts/lighthouse-ext-bundle.js:23040:15
-```
-    ng build --prod --base-href https://wikimodels.github.io/wikiModelsFrontEndAngular/
+``
+PUBLISHING SITE TO GH
+ng build --prod --base-href https://wikimodels.github.io/wikiModelsFrontEndAngular/ &&
+angular-cli-ghpages -d dist/wikiModelsFrontEndAngular/ --no-silent
