@@ -11,7 +11,7 @@
     <!-- BODY -->
     <mat-grid-list matRipple cols="1 " [rowHeight]="ratio ">
         <mat-grid-tile>
-            <img class="tile-img " src="'{{site.baseUrl}}/assets/img/models/gf-main-1080by1350.jpg'" [alt]="imgalt " (click)="watchVideo()">
+            <img class="tile-img " [src]="img" [alt]="imgalt " (click)="watchVideo()">
         </mat-grid-tile>
     </mat-grid-list>
 
