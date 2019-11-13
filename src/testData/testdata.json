@@ -1,6 +1,6 @@
 [{
         "type": "header",
-        "headerImage": "../../assets/img/models/gf-1-900by1200.jpg",
+        "headerImage": "assets/img/models/gf-1-900by1200.jpg",
         "headerText": "<h1>Fuck this shit</h1>"
 
     },
@@ -12,13 +12,13 @@
             "gutterSize": "3px",
             "tiles": [{
                     "link": "",
-                    "img": "../../assets/img/models/gf-1-1200by900.jpg",
+                    "img": "assets/img/models/gf-1-1200by900.jpg",
                     "footer": "Fuck this футер",
                     "header": ""
                 },
                 {
                     "link": "",
-                    "img": "../../assets/img/models/jd-1-1200by900.jpg",
+                    "img": "assets/img/models/jd-1-1200by900.jpg",
                     "header": "Fuck this хедер",
                     "footer": ""
 
@@ -28,13 +28,13 @@
     },
     {
         "type": "video",
-        "videoCoverUrl": "../../assets/img/models/gf-yt-cover.jpg",
+        "videoCoverUrl": "assets/img/models/gf-yt-cover.jpg",
         "video_id": "1DItAHN126A"
     },
     {
         "type": "music",
         "trackId": "97287230",
-        "musicCoverUrl": "../../assets/img/models/test3.jpg"
+        "musicCoverUrl": "assets/img/models/test3.jpg"
     },
     {
         "type": "text",
@@ -48,13 +48,13 @@
             "gutterSize": "3px",
             "tiles": [{
                     "link": "",
-                    "img": "../../assets/img/models/gf-1-1200by900.jpg",
+                    "img": "assets/img/models/gf-1-1200by900.jpg",
                     "footer": "Fuck this футер",
                     "header": ""
                 },
                 {
                     "link": "",
-                    "img": "../../assets/img/models/jd-1-1200by900.jpg",
+                    "img": "assets/img/models/jd-1-1200by900.jpg",
                     "header": "Fuck this хедер",
                     "footer": ""
 

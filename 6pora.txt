@@ -17,7 +17,7 @@ https://angular.io/start
         ]
 - make sure that all fonts are resolved correctly int caviar.css file:
     font-family: 'Caviar Dreams';
-    src: local('Caviar Dreams'), local('CaviarDreams'), url('../../../assets/fonts/caviar/caviardreams.woff2') format('woff2'), url('../../../assets/fonts/caviar/caviardreams.woff') format('woff'), url('../../../assets/fonts/caviar/caviardreams.ttf') format('truetype');
+    src: local('Caviar Dreams'), local('CaviarDreams'), url('../assets/fonts/caviar/caviardreams.woff2') format('woff2'), url('../assets/fonts/caviar/caviardreams.woff') format('woff'), url('../assets/fonts/caviar/caviardreams.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 - add record to style.css (or where needed)

@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'Caviar Dreams';
-    src: local('Caviar Dreams'), local('CaviarDreams'), url('../../../assets/fonts/caviar/caviardreams.woff2') format('woff2'), url('../../../assets/fonts/caviar/caviardreams.woff') format('woff'), url('../../../assets/fonts/caviar/caviardreams.ttf') format('truetype');
+    src: local('Caviar Dreams'), local('CaviarDreams'), url('../assets/fonts/caviar/caviardreams.woff2') format('woff2'), url('../assets/fonts/caviar/caviardreams.woff') format('woff'), url('../assets/fonts/caviar/caviardreams.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Caviar Dreams';
-    src: local('Caviar Dreams Italic'), local('CaviarDreams-Italic'), url('../../../assets/fonts/caviar/caviardreamsitalic.woff2') format('woff2'), url('../../../assets/fonts/caviar/caviardreamsitalic.woff') format('woff'), url('../../../assets/fonts/caviar/caviardreamsitalic.ttf') format('truetype');
+    src: local('Caviar Dreams Italic'), local('CaviarDreams-Italic'), url('../assets/fonts/caviar/caviardreamsitalic.woff2') format('woff2'), url('../assets/fonts/caviar/caviardreamsitalic.woff') format('woff'), url('../assets/fonts/caviar/caviardreamsitalic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Caviar Dreams';
-    src: local('Caviar Dreams Bold'), local('CaviarDreams-Bold'), url('../../../assets/fonts/caviar/caviardreamsbold.woff2') format('woff2'), url('../../../assets/fonts/caviar/caviardreamsbold.woff') format('woff'), url('../../../assets/fonts/caviar/caviardreamsbold.ttf') format('truetype');
+    src: local('Caviar Dreams Bold'), local('CaviarDreams-Bold'), url('../assets/fonts/caviar/caviardreamsbold.woff2') format('woff2'), url('../assets/fonts/caviar/caviardreamsbold.woff') format('woff'), url('../assets/fonts/caviar/caviardreamsbold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Caviar Dreams';
-    src: local('Caviar Dreams Bold Italic'), local('CaviarDreams-BoldItalic'), url('../../../assets/fonts/caviar/caviardreamsbolditalic.woff2') format('woff2'), url('../../../assets/fonts/caviar/caviardreamsbolditalic.woff') format('woff'), url('../../../assets/fonts/caviar/caviardreamsbolditalic.ttf') format('truetype');
+    src: local('Caviar Dreams Bold Italic'), local('CaviarDreams-BoldItalic'), url('../assets/fonts/caviar/caviardreamsbolditalic.woff2') format('woff2'), url('../assets/fonts/caviar/caviardreamsbolditalic.woff') format('woff'), url('../assets/fonts/caviar/caviardreamsbolditalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }

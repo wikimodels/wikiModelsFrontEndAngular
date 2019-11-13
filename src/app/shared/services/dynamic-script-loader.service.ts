@@ -6,9 +6,9 @@ interface Scripts {
 }
 
 export const ScriptStore: Scripts[] = [
-  { name: 'youtube-iframe-api', src: '../../assets/scripts/youtube.iframe.api.js' },
-  { name: 'async-youtube-iframe', src: '../../assets/scripts/async-iframes/async-youtube-iframe.js' },
-  { name: 'async-common-iframe', src: '../../assets/scripts/async-iframes/async-common-iframe.js' }
+  { name: 'youtube-iframe-api', src: 'assets/scripts/youtube.iframe.api.js' },
+  { name: 'async-youtube-iframe', src: 'assets/scripts/async-iframes/async-youtube-iframe.js' },
+  { name: 'async-common-iframe', src: 'assets/scripts/async-iframes/async-common-iframe.js' }
 ];
 
 declare var document: any;

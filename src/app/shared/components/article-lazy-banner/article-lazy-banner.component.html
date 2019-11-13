@@ -8,7 +8,7 @@
             <img [lazyLoad]="tile.img" [alt]="tile.alt_img" (click)="goToResource(tile.link)" [defaultImage]="defaultImage" offset="250">
 
             <!-- LAZY IMAGE BODY -->
-            <!-- <app-lazy-image (click)="goToResource(tile.link)" [defaultImage]="'../../assets/img/default.jpg'" [image]="tile.img"></app-lazy-image> -->
+            <!-- <app-lazy-image (click)="goToResource(tile.link)" [defaultImage]="'assets/img/default.jpg'" [image]="tile.img"></app-lazy-image> -->
 
             <mat-grid-tile-footer *ngIf="tile.footer">
                 {{ tile.footer}}

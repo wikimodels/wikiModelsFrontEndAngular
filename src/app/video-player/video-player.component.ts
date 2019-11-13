@@ -56,7 +56,7 @@ ngAfterViewInit() {
   // const doc = (window as any).document;
   // const tag = doc.createElement('script');
   // tag.type = 'text/javascript';
-  // tag.src = '../../assets/scripts/youtube.iframe.api.js';
+  // tag.src = 'assets/scripts/youtube.iframe.api.js';
   // const firstScriptTag = document.getElementsByTagName('script')[0];
   // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 

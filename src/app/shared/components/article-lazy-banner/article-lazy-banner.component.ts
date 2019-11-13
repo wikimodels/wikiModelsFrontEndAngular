@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class ArticleLazyBannerComponent implements OnInit {
 
   @Input() banner: any;
-  defaultImage = '../../assets/img/ssdefault.jpg';
+  defaultImage = 'assets/img/ssdefault.jpg';
 
   constructor(private router: Router) { }
 
