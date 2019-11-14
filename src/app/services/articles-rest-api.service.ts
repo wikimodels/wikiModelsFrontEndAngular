@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpClientModule } from '@angular/common/http';
-import { Observable, throwError } from 'rxjs';
+import { Observable, throwError, BehaviorSubject } from 'rxjs';
 import { retry, catchError, shareReplay } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 
@@ -22,15 +22,15 @@ export class ArticlesRestApiService {
 
   // HttpClient API get() method => Fetch article
   getArticle(articleId: string): Observable<any> {
-     
+
     this.article = this.http.get<any>(this.apiUrl + '&article_id=' + articleId)
-    .pipe(       
+    .pipe(
       retry(1),
       catchError(this.handleError)
     );
     return this.article;
   }
-
+    
   // Error handling
   private handleError(error) {
     let errorMessage = '';

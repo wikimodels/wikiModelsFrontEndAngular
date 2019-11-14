@@ -1,0 +1,19 @@
+.footer-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    /* height: auto;
+    margin: auto; */
+    margin-bottom: 0em;
+}
+
+img {
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+}
+
+
+/* .mat-grid-tile {
+    border-radius: 12px;
+} */

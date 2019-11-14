@@ -18,6 +18,7 @@ export class ArticleComponent implements OnInit, OnDestroy {
   articleId: string;
   routerSub: Subscription;
   httpSub: Subscription;
+  articleDataRecieved = false;
 
 
   constructor(
@@ -36,6 +37,7 @@ export class ArticleComponent implements OnInit, OnDestroy {
     .subscribe( a => {
       this.sections = a.sections;
       console.log('SECTIONS', this.sections);
+      this.articleDataRecieved = true;
       this.loadScripts();
     });
     this.isLoadingService.add(this.httpSub);  

@@ -1,5 +1,9 @@
 <div class="fadein">
+    <!-- ARTICLE SECTIONS -->
     <div *ngFor="let section of sections">
         <app-article-section [section]="section"></app-article-section>
     </div>
+
+    <!-- FOOTER -->
+    <app-footer *ngIf="articleDataRecieved"></app-footer>
 </div>

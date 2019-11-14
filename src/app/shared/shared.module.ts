@@ -16,6 +16,7 @@ import { DynamicScriptLoaderService } from './services/dynamic-script-loader.ser
 import { BackButtonDirective } from './directives/back-button.directive'; 
 import { LazyTileComponent } from './components/lazy-tile/lazy-tile.component';
 import { ArticleLazyBannerComponent } from './components/article-lazy-banner/article-lazy-banner.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
     imports: [
@@ -33,7 +34,8 @@ import { ArticleLazyBannerComponent } from './components/article-lazy-banner/art
         YoutubePipe,
         BackButtonDirective,        
         LazyTileComponent,
-        ArticleLazyBannerComponent
+        ArticleLazyBannerComponent,
+        FooterComponent
     ],
     exports: [
         TileComponent,
@@ -43,6 +45,7 @@ import { ArticleLazyBannerComponent } from './components/article-lazy-banner/art
         YoutubePipe,
         BackButtonDirective,       
         LazyTileComponent,
+        FooterComponent,
         ArticleLazyBannerComponent
     ],
     providers: [DynamicScriptLoaderService]

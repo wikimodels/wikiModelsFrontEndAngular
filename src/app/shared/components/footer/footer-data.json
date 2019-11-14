@@ -1,0 +1,57 @@
+{
+    "telega": {
+        "type": "banner",
+        "banner": {
+            "cols": "1",
+            "rowHeight": "16:9",
+            "gutterSize": "1px",
+            "tiles": [{
+                "link": {
+                    "url": "t.me/netflix"
+                },
+                "img": "assets/img/telega-1600x900.jpg",
+                "alt_img": "telega-1600x900.jpg"
+            }]
+        }
+    },
+    "icons": {
+        "type": "banner",
+        "banner": {
+            "cols": "4",
+            "rowHeight": "3:4",
+            "gutterSize": "7px",
+            "tiles": [{
+                    "link": {
+                        "url": "https://www.instagram.com/_wiki_models_/"
+                    },
+                    "img": "assets/img/wi-insta-sq.jpg",
+                    "alt_img": "wi-insta.jpg"
+
+                },
+                {
+                    "link": {
+                        "url": "https://www.youtube.com/channel/UCP7I13Ru96z42s4xYLCXPOw?view_as=subscriber"
+                    },
+                    "img": "assets/img/wi-tube-sq.jpg",
+                    "alt_img": "wi-tube.jpg"
+
+                },
+                {
+                    "link": {
+                        "url": "https://www.tiktok.com/@jacobsartorius"
+                    },
+                    "img": "assets/img/wi-tok-sq.jpg",
+                    "alt_img": "wi-tok.jpg"
+                },
+                {
+                    "link": {
+                        "url": "http://www.wikistore.club"
+                    },
+                    "img": "assets/img/wi-store-sq.jpg",
+                    "alt_img": "wi-store.jpg"
+
+                }
+            ]
+        }
+    }
+}

@@ -1,5 +1,8 @@
 [{
         "model_id": "gf",
+        "model_insta": "https://www.instagram.com/gunfighterrrr/",
+        "model_yt": "https://youtu.be/L1t57CMdy94",
+        "model_vk": "https://vk.com/im?sel=513928438",
         "article_id": "article-gf-1",
         "sections": [{
                 "type": "header",
@@ -138,12 +141,31 @@
             {
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
+            },
+            {
+                "type": "banner",
+                "banner": {
+                    "cols": "1",
+                    "rowHeight": "16:9",
+                    "gutterSize": "1px",
+                    "tiles": [{
+                        "link": {
+                            "url": "https://www.instagram.com/gunfighterrrr/"
+                        },
+                        "img": "assets/img/insta-1600x900.jpg",
+                        "alt_img": "insta-1600x900",
+                        "footer": "Gunfighterrrr"
+
+                    }]
+                }
             }
         ]
 
     },
     {
         "model_id": "bb",
+        "model_insta": "https://www.instagram.com/__badbadnotgood/",
+        "model_vk": "https://vk.com/alexndrart",
         "article_id": "article-bb-1",
         "sections": [{
                 "type": "header",
@@ -289,6 +311,8 @@
     },
     {
         "model_id": "nf",
+        "model_insta": "https://vk.com/nickfreakiscrazyman",
+        "model_vk": "https://vk.com/nickfreakiscrazyman",
         "article_id": "article-nf-1",
         "sections": [{
                 "type": "header",
@@ -477,6 +501,9 @@
     },
     {
         "model_id": "jd",
+        "model_insta": "https://www.instagram.com/johnnydeppofficial/?hl=uk",
+        "model_fb": "https://www.facebook.com/Johnny.Depp.Official/",
+        "model-tw": "https://twitter.com/johnjohnnydepp",
         "article_id": "article-jd-1",
         "sections": [{
                 "type": "header",
@@ -637,6 +664,8 @@
     },
     {
         "model_id": "pp",
+        "model_insta": "https://www.instagram.com/popodchemu/",
+        "model_vk": "",
         "article_id": "article-pp-1",
         "sections": [{
                 "type": "header",
@@ -798,6 +827,8 @@
     },
     {
         "model_id": "sc",
+        "model_insta": "https://www.instagram.com/luckybsmith/?hl=uk",
+        "model_tw": "https://twitter.com/luckybsmith",
         "article_id": "article-sc-1",
         "sections": [{
                 "type": "header",
@@ -959,6 +990,8 @@
     },
     {
         "model_id": "ts",
+        "model_vk": "https://vk.com/tuskrip",
+        "model_insta": "https://www.instagram.com/tuskrip/",
         "article_id": "article-ts-1",
         "sections": [{
                 "type": "header",
@@ -1119,6 +1152,8 @@
     },
     {
         "model_id": "be",
+        "model_insta": "https://www.instagram.com/billieeilish/?hl=en",
+        "model_fb": "https://www.facebook.com/billieeilish/",
         "article_id": "article-be-1",
         "sections": [{
                 "type": "header",
@@ -1279,6 +1314,8 @@
     },
     {
         "model_id": "ra",
+        "model_insta": "https://www.instagram.com/romaacorn/",
+        "model_vk": "https://vk.com/romaacornofficial",
         "article_id": "article-ra-1",
         "sections": [{
                 "type": "header",
@@ -1439,6 +1476,8 @@
     },
     {
         "model_id": "ma",
+        "model_vk": "https://vk.com/id161500531",
+        "model_insta": "https://www.instagram.com/mari.grey/",
         "article_id": "article-ma-1",
         "sections": [{
                 "type": "header",
@@ -1634,6 +1673,8 @@
     },
     {
         "model_id": "li",
+        "model_insta": "https://www.instagram.com/artemlipa_10/",
+        "model_vk": "https://vk.com/love_kill_it",
         "article_id": "article-li-1",
         "sections": [{
                 "type": "header",
@@ -1811,6 +1852,8 @@
     },
     {
         "model_id": "ca",
+        "model_insta": "https://www.instagram.com/ccarolinefit/",
+        "model_vk": "https://vk.com/caroline_l",
         "article_id": "article-ca-1",
         "sections": [{
                 "type": "header",
