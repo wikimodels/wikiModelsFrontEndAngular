@@ -1,26 +1,25 @@
-<div class="fadein model-card-container mat-elevation-z24">
-    <mat-card class="top">
-        <mat-card-header>
-            <img mat-card-avatar class="avatar " [src]="cardAvatar " [alt]="imgalt" style="margin-bottom: 1em;">
-            <mat-card-title style="padding-top: 0.5em;">{{ nickname }}</mat-card-title>
-        </mat-card-header>
-    </mat-card>
+<div id="model-card-container" class="fadein">
+    <div id="model-card" class="mat-elevation-z24">
+        <mat-card class="top">
+            <mat-card-header>
+                <img mat-card-avatar class="avatar " [src]="cardAvatar " [alt]="imgalt" style="margin-bottom: 1em;">
+                <mat-card-title style="padding-top: 0.5em;">{{ nickname }}</mat-card-title>
+            </mat-card-header>
+        </mat-card>
 
 
-    <mat-grid-list matRipple cols="1 " [rowHeight]="ratio ">
-        <mat-grid-tile>
-            <img class="tile-img " [src]="img " [alt]="altImg " (click)="watchVideo()">
-        </mat-grid-tile>
-    </mat-grid-list>
-
-    <!-- <mat-card-content> -->
-    <!-- </mat-card-content> -->
-    <mat-card class="bottom ">
-        <mat-card-actions>
-            <div style="margin-bottom: 0.8em; text-align: center; ">
-                <button mat-button (click)="watchVideo()">СМОТРЕТЬ</button>
-                <button mat-button (click)="readArticle()">ЧИТАТЬ</button>
-            </div>
-        </mat-card-actions>
-    </mat-card>
+        <mat-grid-list matRipple cols="1 " [rowHeight]="ratio ">
+            <mat-grid-tile>
+                <img class="tile-img " [src]="img " [alt]="altImg " (click)="watchVideo()">
+            </mat-grid-tile>
+        </mat-grid-list>
+        <mat-card class="bottom ">
+            <mat-card-actions>
+                <div style="margin-bottom: 0.8em; text-align: center; ">
+                    <button mat-button (click)="watchVideo()">СМОТРЕТЬ</button>
+                    <button mat-button (click)="readArticle()">ЧИТАТЬ</button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
 </div>
