@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { retry, catchError, shareReplay } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,9 @@ export class RibbonsRestApiService {
 
   private apiUrl = environment.apiUrl + 's_02_get_ribbon_by_id?secret=wikimodels';
   private ribbon: Observable<any>;
-  constructor(private http: HttpClient) { }
+  constructor(
+    private http: HttpClient,
+    private router: Router) { }
 
   private httpOptions = {
     headers: new HttpHeaders({
@@ -26,7 +29,13 @@ export class RibbonsRestApiService {
       .pipe(
         shareReplay(1),
         retry(1),
-        catchError(this.handleError)
+        catchError((error: HttpErrorResponse) => {
+          if (error) {
+            console.error(error);
+            this.router.navigate(['error']);
+            return throwError(error);
+          }
+        })
       );
     }    
     return this.ribbon;
