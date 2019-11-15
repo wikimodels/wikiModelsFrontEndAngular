@@ -17,6 +17,8 @@ import { BackButtonDirective } from './directives/back-button.directive';
 import { LazyTileComponent } from './components/lazy-tile/lazy-tile.component';
 import { ArticleLazyBannerComponent } from './components/article-lazy-banner/article-lazy-banner.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ServerErrorComponent } from './components/server-error/server-error.component';
 
 @NgModule({
     imports: [
@@ -35,7 +37,9 @@ import { FooterComponent } from './components/footer/footer.component';
         BackButtonDirective,        
         LazyTileComponent,
         ArticleLazyBannerComponent,
-        FooterComponent
+        FooterComponent,
+        NotFoundComponent,
+        ServerErrorComponent
     ],
     exports: [
         TileComponent,
@@ -46,7 +50,9 @@ import { FooterComponent } from './components/footer/footer.component';
         BackButtonDirective,       
         LazyTileComponent,
         FooterComponent,
-        ArticleLazyBannerComponent
+        ArticleLazyBannerComponent,
+        NotFoundComponent,
+        ServerErrorComponent
     ],
     providers: [DynamicScriptLoaderService]
 })
