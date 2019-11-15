@@ -4,7 +4,8 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { DynamicScriptLoaderService } from '../shared/services/dynamic-script-loader.service.js';
 import { ArticlesRestApiService } from '../services/articles-rest-api.service';
-import { IsLoadingService } from '@service-work/is-loading';
+import { IsLoadingService } from '@service-work/is-loading'; 
+
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
@@ -12,8 +13,8 @@ import { IsLoadingService } from '@service-work/is-loading';
   providers: [DynamicScriptLoaderService]
 })
 export class ArticleComponent implements OnInit, OnDestroy {
-  
-  articles: any;
+
+  modelData = {modelNickname: '', modelInsta: '' };  
   sections: any;
   articleId: string;
   routerSub: Subscription;
@@ -26,23 +27,25 @@ export class ArticleComponent implements OnInit, OnDestroy {
     private route: ActivatedRoute,
     private dynamicScriptLoader: DynamicScriptLoaderService,
     private isLoadingService: IsLoadingService ) {
-       
+
     }
 
-  ngOnInit() {    
+  ngOnInit() {
     this.routerSub = this.route.params
     .subscribe(params => this.articleId = params.article_id);
 
     this.httpSub = this.articleApi.getArticle(this.articleId)
     .subscribe( a => {
       this.sections = a.sections;
-      console.log('SECTIONS', this.sections);
-      this.articleDataRecieved = true;
       this.loadScripts();
+      console.log('ARTICLE', a);
+      this.modelData = {modelNickname: a.model_nickname, modelInsta: a.model_insta};
+      // console.log('MODEL DATA IN ARTICLE', this.modelData);
+      this.articleDataRecieved = true;
     });
-    this.isLoadingService.add(this.httpSub);  
+    this.isLoadingService.add(this.httpSub);
   }
-   
+
 
   ngOnDestroy(): void {
     this.routerSub.unsubscribe();

@@ -22,7 +22,6 @@ export class ArticlesRestApiService {
 
   // HttpClient API get() method => Fetch article
   getArticle(articleId: string): Observable<any> {
-
     this.article = this.http.get<any>(this.apiUrl + '&article_id=' + articleId)
     .pipe(
       retry(1),
