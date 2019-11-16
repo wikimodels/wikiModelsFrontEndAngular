@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1573903278270,
+  "timestamp": 1573905149103,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -60,9 +60,11 @@
         "/assets/img/models/be-1-900by1200.jpg",
         "/assets/img/models/be-2-900by1200.jpg",
         "/assets/img/models/be-3-1200by900.jpg",
+        "/assets/img/models/be-insta-1200x900.jpg",
         "/assets/img/models/be-main-1080by1350.jpg",
         "/assets/img/models/be-main-400x400.jpg",
         "/assets/img/models/be-sc.jpg",
+        "/assets/img/models/be-telega-1200x900.jpg",
         "/assets/img/models/be-yt-cover.jpg",
         "/assets/img/models/ca-1-900by1200.jpg",
         "/assets/img/models/ca-2-900by1200.jpg",
@@ -380,9 +382,11 @@
     "/assets/img/models/be-1-900by1200.jpg": "ee60822497e1196241db03bbb1638f1366a51bd9",
     "/assets/img/models/be-2-900by1200.jpg": "c09e4c728b58069a3230335ba24ce4dc61f19e6a",
     "/assets/img/models/be-3-1200by900.jpg": "5a137e2c878667271a3c6af6de326e6013180ae7",
+    "/assets/img/models/be-insta-1200x900.jpg": "53278d8ed218d30c451c1c297d9d007bbc1d1503",
     "/assets/img/models/be-main-1080by1350.jpg": "743ee9621933697eaf500e88a7f32a193545b749",
     "/assets/img/models/be-main-400x400.jpg": "291190f7de6c510904fe9514b1b7cc53cb6f2e12",
     "/assets/img/models/be-sc.jpg": "188bb71c003c33e5cc5e5f8e822d2278995b6823",
+    "/assets/img/models/be-telega-1200x900.jpg": "2beab5762d9b1cfa74880103c336fdf1cfd532a1",
     "/assets/img/models/be-yt-cover.jpg": "aa880d125fb523044df1070b4a87d10418de6fa8",
     "/assets/img/models/ca-1-900by1200.jpg": "eebb78a3a3339ab161397c59fd96361f5765626d",
     "/assets/img/models/ca-2-900by1200.jpg": "544042bbe757739149470cac9a522deee6bd40f1",
