@@ -30,12 +30,29 @@ mat-icon.active:focus {
     outline-style: none !important;
 }
 
-a:focus,
+
+/* a:focus,
 a:active:focus,
 a.active:focus {
     outline: none !important;
     outline-style: none !important;
 }
+
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+} */
 
 .material-icons {
     font-family: 'Material Icons';

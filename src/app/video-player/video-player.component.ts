@@ -14,16 +14,16 @@ import { takeUntil, takeWhile } from 'rxjs/operators';
 export class VideoPlayerComponent implements OnInit, AfterViewInit, OnDestroy {
 
   slideBarSub: Subscription;
-  video_idSub: Subscription;
+  videoIdSub: Subscription;
   routerSub: Subscription;
   timer: string;
   endTimeInSecs: number;
-  video_id: string;
+  videoId: string;
   player: any;
   playerReady = false;
   videoDuration: number;
   sliderValue: number;
-  isMuted: boolean;
+  isMuted = false;
   interval: any;
 
   protected ngUnsubscribe: Subject<void> = new Subject<void>();
@@ -66,42 +66,11 @@ ngAfterViewInit() {
 }
 
 ngOnInit() {
-
-  // this.location.subscribe((ev: PopStateEvent) => {
-  //   this.lastPoppedUrl = ev.url;
-  //   console.log('LAST POPPED URL', this.lastPoppedUrl);
-  // });
-
-  // this.router.events.subscribe((ev: any) => {
-  //   if (ev instanceof NavigationStart) {
-  //     if (ev.url !== this.lastPoppedUrl) {
-  //       this.yScrollStack.push(window.scrollY);
-  //     } else {
-  //       this.lastPoppedUrl = undefined;
-  //       const yposition = this.yScrollStack.pop();
-  //       console.log('Y-POSITION', this.yScrollStack.pop());        
-  //       let maxInterval = 0; // used to stop subscription
-  //       interval(this.scrollInterval)
-  //         .pipe(
-  //           takeWhile(_ => window.scrollY < yposition && maxInterval < 5000)
-  //         )
-  //         .subscribe(_ => {
-  //           maxInterval += this.scrollInterval;
-  //           window.scrollTo({
-  //             top: yposition,
-  //             left: 0,
-  //             behavior: 'smooth',
-  //           });
-  //         });
-  //     }
-  //   }
-  // });
   
   //  VIDEO_ID SUBSCRIPTION
-  this.video_idSub = (this.route.params.subscribe( params => {
-    this.video_id = params.video_id;
-    this.isMuted = true;
-    console.log('VIDEO ID ', this.video_id);
+  this.videoIdSub = (this.route.params.subscribe( params => {
+    this.videoId = params.video_id;     
+    console.log('VIDEO ID ', this.videoId);
   }));
 
   // SLIDEBAR SUBSCRIPTION
@@ -123,7 +92,7 @@ ngOnInit() {
     console.log('YT', (window as any).YT );
 
     if (this.player === undefined) {
-     this.createPlayer();
+      this.createPlayer();
   }
     console.log('JUST CREATED PLAYER', this.player);
   };
@@ -149,8 +118,9 @@ onPlayerReady(event) {
 
   // SET VOLUME
   this.player.setVolume(100);
-  this.isMuted = false;
-
+  this.player.mute();
+  // this.isMuted = false;
+  console.log('INITIAL iS-MUTED', this.isMuted);
   // SET TIMER
   this.endTimeInSecs = Math.floor(this.player.getDuration());
   this.timer = '0:00 / ' + this.formatTime(this.player.getDuration());
@@ -225,7 +195,7 @@ onPlayerReady(event) {
 
     this.cd.detach();
     this.slideBarSub.unsubscribe();
-    this.video_idSub.unsubscribe();
+    this.videoIdSub.unsubscribe();
     this.routerSub.unsubscribe();
   }
 

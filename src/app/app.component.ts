@@ -54,6 +54,9 @@ export class AppComponent implements OnInit, OnDestroy {
 
       matIconRegistry.addSvgIcon(
         'play', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/play.svg'));
+      
+      matIconRegistry.addSvgIcon(
+        'about-us', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/clear_all-24px.svg'));
     }
 
     ngOnInit(): void {

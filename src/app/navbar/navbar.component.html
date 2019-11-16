@@ -1,29 +1,30 @@
 <mat-toolbar class="sticky">
     <div fxFlex fxLayout fxLayoutAlign="start center">
-        <a [routerLink]="['/home']">
-            <mat-icon id="wm-logo" svgIcon="wm-logo"></mat-icon>
-        </a>
+        <mat-icon id="wm-logo" svgIcon="wm-logo" (click)="goHome()"></mat-icon>
         <div>
             Wiki Models
         </div>
     </div>
     <div fxFlex fxLayout fxLayoutAlign="end">
         <button mat-icon-button [matMenuTriggerFor]="menu">
-              <mat-icon svgIcon="vertical-dots">            
-              </mat-icon>
-          </button>
+            <mat-icon svgIcon="vertical-dots">            
+            </mat-icon>
+        </button>
     </div>
 </mat-toolbar>
 
 <!-- MAT-MENU -->
 <mat-menu #menu="matMenu">
     <button mat-menu-item>
-          <mat-icon svgIcon="video"></mat-icon>    
-          <span>Youtube</span>
-        </button>
-
+        <mat-icon svgIcon="video"></mat-icon>    
+        <span>Youtube</span>
+    </button>
     <button mat-menu-item>
-          <mat-icon svgIcon="s_cart"></mat-icon>
-          <span>Wikistore</span>
-      </button>
+        <mat-icon svgIcon="s_cart"></mat-icon>
+        <span>Wikistore</span>
+    </button>
+    <button mat-menu-item>
+        <mat-icon svgIcon="about-us"></mat-icon>    
+        <span>О нас</span>
+    </button>
 </mat-menu>

@@ -48,7 +48,7 @@
             "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-be-1",
             "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-li-1",
             "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-ca-1",
-            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-me-1",
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-ma-1",
             "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/wikimodelssitestitch-izpxe/service/WikiModelsSiteService/incoming_webhook/s_01_get_article_by_id?secret=wikimodels&article_id=article-ra-1"
 
         ],
