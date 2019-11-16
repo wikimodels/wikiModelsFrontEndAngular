@@ -7,7 +7,7 @@
             "gutterSize": "1px",
             "tiles": [{
                 "link": {
-                    "url": "t.me/netflix"
+                    "url": "https://t.me/netflix"
                 },
                 "img": "assets/img/telega-1600x900.jpg",
                 "alt_img": "telega-1600x900.jpg"

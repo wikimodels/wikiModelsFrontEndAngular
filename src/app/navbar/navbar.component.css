@@ -5,10 +5,21 @@
     padding-right: 0.5em;
 }
 
+a:link {
+    text-decoration: none;
+}
 
-/* .listitems {
-    margin: 15px 0;
-} */
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
 
 
 /* ПРИ ПОМОЩИ Z-INDEX'A БАР ДЕРЖИТСЯ НАВЕРХУ, А НЕ ПРЯЧЕТСЯ ПОД СКРОЛЛОМ */

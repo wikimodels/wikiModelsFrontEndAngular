@@ -6,7 +6,7 @@
                 "nickname": "@Gunfighterrrr",
                 "title": "Psycho - это призвание",
                 "img": "assets/img/models/gf-main-400x400.jpg",
-                "alt_img": "gun-fighter-main",
+                "alt_img": "gun-fighter-main-400x400",
                 "video_id": "L1t57CMdy94",
                 "article_id": "article-gf-1"
 
@@ -17,7 +17,7 @@
                 "nickname": "@Nick Freack",
                 "title": "Жаль, только жить в эту пору прекресную уже не придётся ни мне ни тебе",
                 "img": "assets/img/models/nf-main-400x400.jpg",
-                "alt_img": "nick-freack-main",
+                "alt_img": "nf-main-400x400.jpg",
                 "video_id": "HACmLeNYWFY",
                 "article_id": "article-nf-1"
             },
@@ -27,7 +27,7 @@
                 "nickname": "@Bad Bad Not Good",
                 "title": "Живи каждый день, как последний, и однажды ты окажешься прав",
                 "img": "assets/img/models/bb-main-400x400.jpg",
-                "alt_img": "badbadnotgood-main",
+                "alt_img": "bb-main-400x400.jpg",
                 "video_id": "t5dYJT1d1oc",
                 "article_id": "article-bb-1"
             },
@@ -37,7 +37,7 @@
                 "nickname": "@Johnny Wick",
                 "title": "Война вредит бизнесу, если её проиграть",
                 "img": "assets/img/models/jd-main-400x400.jpg",
-                "alt_img": "johnny-wick-main",
+                "alt_img": "jd-main-400x400.jpg",
                 "video_id": "Roj5a6YQTuw",
                 "article_id": "article-jd-1"
 
@@ -54,14 +54,16 @@
                     "link": {
                         "url": "https://www.evisu.com"
                     },
-                    "img": "assets/img/adds/adds-evisu-1-669by669.jpg"
+                    "img": "assets/img/adds/adds-evisu-1-669by669.jpg",
+                    "alt_img": "adds-evisu-1-669by669.jpg"
 
                 },
                 {
                     "link": {
                         "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
                     },
-                    "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg"
+                    "img": "assets/img/adds/adds-kyku-1-1200by1200.jpg",
+                    "alt_img": "adds-kyku-1-1200by1200.jpg"
 
                 }
             ]
@@ -79,7 +81,7 @@
                 "nickname": "@Roma Acorn",
                 "title": "Вокруг меня одни идиоты",
                 "img": "assets/img/models/ra-main-400x400.jpg",
-                "alt_img": "roma-acorn-main",
+                "alt_img": "ra-main-400x400.jpg",
                 "video_id": "DVSa-RT8taU",
                 "article_id": "article-ra-1"
             },
@@ -89,7 +91,7 @@
                 "nickname": "@Mary Grey",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
                 "img": "assets/img/models/ma-main-400x400.jpg",
-                "alt_img": "mary-grey-main",
+                "alt_img": "ma-main-400x400.jpg",
                 "video_id": "nxrUxWPLXkE",
                 "article_id": "article-ma-1"
             },
@@ -99,7 +101,7 @@
                 "nickname": "@Artiom Lipa",
                 "title": "Как заплачено, так и зафигячено",
                 "img": "assets/img/models/li-main-400x400.jpg",
-                "alt_img": "artiom-lipa-main",
+                "alt_img": "li-main-400x400.jpg",
                 "video_id": "KDxPwlj4n8E",
                 "article_id": "article-li-1"
             },
@@ -109,7 +111,7 @@
                 "nickname": "@Carolina Fit",
                 "title": "Правда помогает только если её принять",
                 "img": "assets/img/models/ca-main-400x400.jpg",
-                "alt_img": "carolina-fit-main",
+                "alt_img": "ca-main-400x400.jpg",
                 "video_id": "JmdBoeAPEl8",
                 "article_id": "article-ca-1"
             }
@@ -197,7 +199,7 @@
                         "url": "https://www.carhartt-wip.com/en"
                     },
                     "img": "assets/img/adds/adds-carnartt-1-1200by900.jpg",
-                    "alt_img": "carnartt-1-1200by900"
+                    "alt_img": "adds-carnartt-1-1200by900.jpg"
 
                 },
                 {
@@ -205,7 +207,7 @@
                         "url": "https://www.wtaps.com/feature/?p=53"
                     },
                     "img": "assets/img/adds/adds-wt-2-1200by900.jpg",
-                    "alt_img": "wt-2-1200by900"
+                    "alt_img": "adds-wt-2-1200by900.jpg"
 
                 }
             ]
@@ -223,7 +225,7 @@
                 "nickname": "@Popodchemu",
                 "title": "Вокруг меня одни идиоты",
                 "img": "assets/img/models/pp-main-400x400.jpg",
-                "alt_img": "popodchemu-main",
+                "alt_img": "pp-main-400x400.jpg",
                 "video_id": "90vC6TnjLAs",
                 "article_id": "article-pp-1"
             },
@@ -233,7 +235,7 @@
                 "nickname": "@Lucky Blue Smith",
                 "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
                 "img": "assets/img/models/sc-main-400x400.jpg",
-                "alt_img": "lucky-blue-main",
+                "alt_img": "sc-main-400x400.jpg",
                 "video_id": "EEkknEm6EVg",
                 "article_id": "article-sc-1"
             },
@@ -243,7 +245,7 @@
                 "nickname": "@Tuskrip",
                 "title": "Как заплачено, так и зафигячено",
                 "img": "assets/img/models/ts-main-400x400.jpg",
-                "alt_img": "tuscrip-main",
+                "alt_img": "ts-main-400x400.jpg",
                 "video_id": "nnj_vI0PH3Y",
                 "article_id": "article-ts-1"
             },
@@ -253,7 +255,7 @@
                 "nickname": "@Billie Elish",
                 "title": "Правда помогает только если её принять",
                 "img": "assets/img/models/be-main-400x400.jpg",
-                "alt_img": "billie-elish-main",
+                "alt_img": "be-main-400x400.jpg",
                 "video_id": "gBRi6aZJGj4",
                 "article_id": "article-be-1"
             }
@@ -273,14 +275,16 @@
                     "link": {
                         "url": "http://www.undercoverism.com/collections/?cat=WOMENS#2019AW"
                     },
-                    "img": "assets/img/adds/adds-u-1-1200by900.jpg"
+                    "img": "assets/img/adds/adds-u-1-1200by900.jpg",
+                    "alt_img": "adds-u-1-1200by900.jpg"
 
                 },
                 {
                     "link": {
                         "url": "https://www.carhartt-wip.com/en/women"
                     },
-                    "img": "assets/img/adds/adds-carnartt-2-1200by900.jpg"
+                    "img": "assets/img/adds/adds-carnartt-2-1200by900.jpg",
+                    "alt_img": "adds-carnartt-2-1200by900.jpg"
 
                 }
             ]

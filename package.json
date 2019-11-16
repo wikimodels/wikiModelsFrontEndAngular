@@ -4,7 +4,7 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build --prod --base-href \"https://wikimodels.github.io/wikiModelsFrontEndAngular/\" && angular-cli-ghpages -d dist/wikiModelsFrontEndAngular/ --no-silent",
+        "build": "ng build --prod && angular-cli-ghpages -d dist/wikiModelsFrontEndAngular/ --no-silent --cname=www.wikimodels.club",
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e"

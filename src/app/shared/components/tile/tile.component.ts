@@ -17,7 +17,7 @@ export class TileComponent implements OnInit, OnDestroy {
   @Input()title: string;
   @Input()img: string;
   @Input()imglink: string;
-  @Input()imgalt: string;
+  @Input()altImg: string;
   @Input()articleId: string;
   @Input()videoId: string;
   @Input()modelCard: boolean;

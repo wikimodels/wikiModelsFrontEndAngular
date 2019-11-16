@@ -13,7 +13,6 @@ import { ArticleSectionComponent } from './article-section/article-section.compo
 import { ArticlePictureComponent } from './article-picture/article-picture.component';
 import { ArticleRoutingModule } from './article-routing.module';
 import { ArticleLazyPictureComponent } from './article-lazy-picture/article-lazy-picture.component';
-import { ArticleModelMediaComponent } from '../shared/components/article-model-media/article-model-media.component';
 
 @NgModule({
   declarations: [
@@ -23,8 +22,7 @@ import { ArticleModelMediaComponent } from '../shared/components/article-model-m
     ArticleHeaderComponent,
     ArticleSectionComponent,
     ArticlePictureComponent,
-    ArticleLazyPictureComponent,
-    ArticleModelMediaComponent
+    ArticleLazyPictureComponent
   ],
   imports: [
     CommonModule,
@@ -42,8 +40,7 @@ import { ArticleModelMediaComponent } from '../shared/components/article-model-m
     ArticleHeaderComponent,
     ArticleSectionComponent,
     ArticlePictureComponent,
-    ArticleLazyPictureComponent,
-    ArticleModelMediaComponent
+    ArticleLazyPictureComponent 
   ]
 })
 export class ArticleModule { }

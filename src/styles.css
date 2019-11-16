@@ -23,6 +23,20 @@ body {
     font-weight: normal;
 } */
 
+mat-icon:focus,
+mat-icon:active:focus,
+mat-icon.active:focus {
+    outline: none !important;
+    outline-style: none !important;
+}
+
+a:focus,
+a:active:focus,
+a.active:focus {
+    outline: none !important;
+    outline-style: none !important;
+}
+
 .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;

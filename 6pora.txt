@@ -135,3 +135,5 @@ angular-cli-ghpages -d dist/wikiModelsFrontEndAngular/ --no-silent
 
 You need to pass --deploy-url option. in your case it should be
 ng build --prod --base-href https://<profile_name>.github.io/<repo_name>/ --deploy-url=https://<profile_name>.github.io/<repo_name>/
+
+"build": "ng build --prod --base-href \"https://wikimodels.github.io/wikiModelsFrontEndAngular/\" && angular-cli-ghpages -d dist/wikiModelsFrontEndAngular/ --no-silent --cname=www.wikimodels.club",

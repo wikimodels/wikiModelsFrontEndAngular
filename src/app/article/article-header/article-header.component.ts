@@ -9,6 +9,7 @@ export class ArticleHeaderComponent implements OnInit {
 
   @Input()headerImage: string;
   @Input()headerText: string;
+  @Input()altImg: string;
 
   constructor() {
   }
