@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1573895043472,
+  "timestamp": 1573897429109,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -80,7 +80,8 @@
         "/assets/img/models/jd-1-1200by900.jpg",
         "/assets/img/models/jd-1-900by1200.jpg",
         "/assets/img/models/jd-2-900by1200.jpg",
-        "/assets/img/models/jd-main-1080x1350.jpg",
+        "/assets/img/models/jd-main-1080by1350.jpg",
+        "/assets/img/models/jd-main-400x400.jpg",
         "/assets/img/models/jd-sc.jpg",
         "/assets/img/models/jd-yt-cover.jpg",
         "/assets/img/models/li-1-900by1200.jpg",
@@ -399,7 +400,8 @@
     "/assets/img/models/jd-1-1200by900.jpg": "8477933322f52ddac3bf3f921b767ca9eaa62ca6",
     "/assets/img/models/jd-1-900by1200.jpg": "fe27136523543df36c3d514d965bc79ac1badabd",
     "/assets/img/models/jd-2-900by1200.jpg": "5e7f0d21e267618815879dce005c180c2d20e074",
-    "/assets/img/models/jd-main-1080x1350.jpg": "1682326d65b60904f5fc094f55f1495f59cd3f60",
+    "/assets/img/models/jd-main-1080by1350.jpg": "0a254d27f9880a7a5348786d44e2fd676fbe28b6",
+    "/assets/img/models/jd-main-400x400.jpg": "1682326d65b60904f5fc094f55f1495f59cd3f60",
     "/assets/img/models/jd-sc.jpg": "4ff78c0d4c0da39dc018c0dd2d43fd6bf1810fcc",
     "/assets/img/models/jd-yt-cover.jpg": "a1ef72c76589bc7f6f4defe3fb849778ff48646f",
     "/assets/img/models/li-1-900by1200.jpg": "0b73a070f20c356ac083fe7bf1461b10172f4e00",
