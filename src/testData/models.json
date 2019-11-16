@@ -3,8 +3,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Gunfighterrrr",
         "title": "Psycho - это призвание",
-        "img": "assets/img/models/gf-main-1080by1350.jpg",
-        "alt_img": "gun-fighter-main",
+        "img": "assets/img/models/gf-main-400x400.jpg",
+        "alt_img": "gf-main-400x400.jpg",
         "video_id": "L1t57CMdy94",
         "article_id": "article-gf-1"
     },
@@ -13,8 +13,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Nick Freack",
         "title": "Жаль, только жить в эту пору прекресную уже не придётся ни мне ни тебе",
-        "img": "assets/img/models/nf-main-1080by1350.jpg",
-        "alt_img": "nick-freack-main",
+        "img": "assets/img/models/nf-main-400x400.jpg",
+        "alt_img": "nf-main-400x400.jpg",
         "video_id": "HACmLeNYWFY",
         "article_id": "article-nf-1"
     },
@@ -23,8 +23,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Bad Bad Not Good",
         "title": "Живи каждый день, как последний, и однажды ты окажешься прав",
-        "img": "assets/img/models/bb-main-1080by1350.jpg",
-        "alt_img": "badbadnotgood-main",
+        "img": "assets/img/models/bb-main-400x400.jpg",
+        "alt_img": "bb-main-400x400.jpg",
         "video_id": "t5dYJT1d1oc",
         "article_id": "article-bb-1"
     },
@@ -33,8 +33,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Johnny Wick",
         "title": "Война вредит бизнесу, если её проиграть",
-        "img": "assets/img/models/jd-main-1080by1350.jpg",
-        "alt_img": "johnny-wick-main",
+        "img": "assets/img/models/jd-main-400x400.jpg",
+        "alt_img": "jd-main-400x400.jpg",
         "video_id": "Roj5a6YQTuw",
         "article_id": "article-jd-1"
     },
@@ -43,8 +43,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Popodchemu",
         "title": "Вокруг меня одни идиоты",
-        "img": "assets/img/models/pp-main-1080by1350.jpg",
-        "alt_img": "popodchemu-main",
+        "img": "assets/img/models/pp-main-400x400.jpg",
+        "alt_img": "pp-main-400x400.jpg",
         "video_id": "90vC6TnjLAs",
         "article_id": "article-pp-1"
     },
@@ -53,8 +53,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Lucky Blue Smith",
         "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
-        "img": "assets/img/models/sc-main-1080by1350.jpg",
-        "alt_img": "lucky-blue-main",
+        "img": "assets/img/models/sc-main-400x400.jpg",
+        "alt_img": "sc-main-400x400.jpg",
         "video_id": "EEkknEm6EVg",
         "article_id": "article-sc-1"
     },
@@ -63,8 +63,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Tuskrip",
         "title": "Как заплачено, так и зафигячено",
-        "img": "assets/img/models/ts-main-1080by1350.jpg",
-        "alt_img": "tuscrip-main",
+        "img": "assets/img/models/ts-main-400x400.jpg",
+        "alt_img": "ts-main-400x400.jpg",
         "video_id": "nnj_vI0PH3Y",
         "article_id": "article-ts-1"
     },
@@ -73,8 +73,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Billie Elish",
         "title": "Правда помогает только если её принять",
-        "img": "assets/img/models/be-main-1080by1350.jpg",
-        "alt_img": "billie-elish-main",
+        "img": "assets/img/models/be-main-400x400.jpg",
+        "alt_img": "be-main-400x400.jpg",
         "video_id": "gBRi6aZJGj4",
         "article_id": "article-be-1"
     },
@@ -83,8 +83,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Roma Acorn",
         "title": "Вокруг меня одни идиоты",
-        "img": "assets/img/models/ra-main-1080by1350.jpg",
-        "alt_img": "roma-acorn-main",
+        "img": "assets/img/models/ra-main-400x400.jpg",
+        "alt_img": "ra-main-400x400",
         "video_id": "DVSa-RT8taU",
         "article_id": "article-ra-1"
     },
@@ -93,18 +93,18 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Mary Grey",
         "title": "Ты - это то, что ты ешь. А я - это то, что я думаю",
-        "img": "assets/img/models/ma-main-1080by1350.jpg",
-        "alt_img": "mary-grey-main",
+        "img": "assets/img/models/ma-main-400x400.jpg",
+        "alt_img": "ma-main-400x400.jpg",
         "video_id": "nxrUxWPLXkE",
-        "article_id": "article-mar-1"
+        "article_id": "article-ma-1"
     },
     {
         "model_id": "li",
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Artiom Lipa",
         "title": "Как заплачено, так и зафигячено",
-        "img": "assets/img/models/li-main-1080by1350.jpg",
-        "alt_img": "artiom-lipa-main",
+        "img": "assets/img/models/li-main-400x400.jpg",
+        "alt_img": "li-main-400x400.jpg",
         "video_id": "KDxPwlj4n8E",
         "article_id": "article-li-1"
     },
@@ -113,8 +113,8 @@
         "card_avatar": "assets/icons/png/wm-logo-circle.png",
         "nickname": "@Carolina Fit",
         "title": "Правда помогает только если её принять",
-        "img": "assets/img/models/ca-main-1080by1350.jpg",
-        "alt_img": "carolina-fit-main",
+        "img": "assets/img/models/ca-main-400x400.jpg",
+        "alt_img": "ca-main-400x400.jpg",
         "video_id": "JmdBoeAPEl8",
         "article_id": "article-ca-1"
     }
