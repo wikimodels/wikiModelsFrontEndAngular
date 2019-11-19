@@ -25,6 +25,15 @@ import { RibbonTilesComponent } from './ribbon/ribbon-tiles/ribbon-tiles.compone
 import { RibbonLazyTilesComponent } from './ribbon/ribbon-lazy-tiles/ribbon-lazy-tiles.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { RibbonHeaderComponent } from './ribbon/ribbon-header/ribbon-header.component';
+import { RibbonTextComponent } from './ribbon/ribbon-text/ribbon-text.component';
+import { RibbonBannerComponent } from './ribbon/ribbon-banner/ribbon-banner.component';
+import { RibbonLazyBannerComponent } from './ribbon/ribbon-lazy-banner/ribbon-lazy-banner.component';
+import { RibbonTileComponent } from './ribbon/ribbon-tiles/ribbon-tile/ribbon-tile.component';
+import { RibbonPictureComponent } from './ribbon/ribbon-picture/ribbon-picture.component';
+import { RibbonLazyPictureComponent } from './ribbon/ribbon-lazy-picture/ribbon-lazy-picture.component';
+import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { RibbonModule } from './ribbon/ribbon.module';
 
 @NgModule({
   declarations: [
@@ -34,10 +43,17 @@ import { environment } from '../environments/environment';
     VideoPlayerComponent,
     SliderComponent,
     ModelCardComponent,
-    RibbonComponent,
-    RibbonSectionComponent,
-    RibbonTilesComponent,
-    RibbonLazyTilesComponent,
+    // RibbonComponent,
+    // RibbonSectionComponent,
+    // RibbonTilesComponent,
+    // RibbonLazyTilesComponent,
+    // RibbonHeaderComponent,
+    // RibbonTextComponent,
+    // RibbonBannerComponent,
+    // RibbonLazyBannerComponent,
+    // RibbonTileComponent,
+    // RibbonPictureComponent,
+    // RibbonLazyPictureComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +66,8 @@ import { environment } from '../environments/environment';
     FormsModule,
     SharedModule,
     ArticleModule,
+    RibbonModule,
+    LazyLoadImageModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   exports: [],

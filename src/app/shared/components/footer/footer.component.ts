@@ -7,7 +7,7 @@ import data from './footer-data.json';
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent implements OnInit, OnDestroy {
+export class FooterComponent implements OnInit {
 
   data: any;
 
@@ -17,8 +17,5 @@ export class FooterComponent implements OnInit, OnDestroy {
       this.data = data;
       console.log('DATA FROM FOOTER', this. data);
   }
-
-  ngOnDestroy() {
-
-  }
+ 
 }

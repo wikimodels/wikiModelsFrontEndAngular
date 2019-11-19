@@ -1,0 +1,11 @@
+.ribbon-header-container {
+    position: relative;
+    margin-top: -1.1em;
+    margin-bottom: 5em;
+}
+
+img {
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+}

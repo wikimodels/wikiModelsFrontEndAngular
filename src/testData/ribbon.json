@@ -1,6 +1,18 @@
 [{
     "ribbon_id": "ribbon_1",
     "sections": [{
+            "type": "ribbon-header",
+            "header": {
+                "cols": "1",
+                "rowHeight": "600",
+                "gutterSize": "1px",
+                "pics": [{
+                    "img": "assets/img/models/main-400x600.jpg",
+                    "alt_img": "main-400x600.jpg"
+                }]
+            }
+        },
+        {
             "type": "tiles",
             "tiles": [{
                     "model_id": "gf",

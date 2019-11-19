@@ -1,5 +1,8 @@
+<!-- RIBBON-HEADER -->
+<app-ribbon-header *ngIf="section.type === 'ribbon-header'" [header]="section.header"></app-ribbon-header>
+
 <!-- TEXT -->
-<app-article-text *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-article-text>
+<app-ribbon-text *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-ribbon-text>
 
 <!-- TILES -->
 <app-ribbon-tiles *ngIf="section.type === 'tiles'" [tiles]="section.tiles"></app-ribbon-tiles>
@@ -8,7 +11,13 @@
 <app-ribbon-lazy-tiles *ngIf="section.type === 'lazy-tiles'" [tiles]="section.tiles"></app-ribbon-lazy-tiles>
 
 <!-- BANNER -->
-<app-article-banner *ngIf="section.type === 'banner'" [banner]="section.banner"></app-article-banner>
+<app-ribbon-banner *ngIf="section.type === 'banner'" [banner]="section.banner"></app-ribbon-banner>
 
 <!-- LAZY BANNER -->
-<app-article-lazy-banner *ngIf="section.type === 'lazy-banner'" [banner]="section.banner"></app-article-lazy-banner>
+<app-ribbon-lazy-banner *ngIf="section.type === 'lazy-banner'" [banner]="section.banner"></app-ribbon-lazy-banner>
+
+<!-- PICTURE -->
+<app-ribbon-picture *ngIf="section.type === 'picture'" [picture]="section.picture"></app-ribbon-picture>
+
+<!-- LAZY PICTURE -->
+<app-ribbon-lazy-picture *ngIf="section.type === 'lazy-picture'" [picture]="section.picture"></app-ribbon-lazy-picture>
