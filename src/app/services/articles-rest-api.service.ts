@@ -30,13 +30,13 @@ export class ArticlesRestApiService {
     this.article = this.http.get<any>(this.apiUrl + '&article_id=' + articleId)
     .pipe(
       retry(1),
-      catchError((error: HttpErrorResponse) => {
-        if (error) {
-          console.error(error);
-          this.router.navigate(['error']);
-          return throwError(error);
-        }
-      })
+      // catchError((error: HttpErrorResponse) => {
+      //   if (error) {
+      //     console.error(error);
+      //     this.router.navigate(['error']);
+      //     return throwError(error);
+      //   }
+      // })
     );
     return this.article;
   }

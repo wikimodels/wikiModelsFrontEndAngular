@@ -28,14 +28,7 @@ export class RibbonsRestApiService {
       this.ribbon = this.http.get<any>(this.apiUrl + '&ribbon_id=' + ribbonId)
       .pipe(
         shareReplay(1),
-        retry(1),
-        catchError((error: HttpErrorResponse) => {
-          if (error) {
-            console.error(error);
-            this.router.navigate(['error']);
-            return throwError(error);
-          }
-        })
+        retry(1)
       );
     }    
     return this.ribbon;

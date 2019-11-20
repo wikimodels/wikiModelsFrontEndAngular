@@ -137,3 +137,13 @@ You need to pass --deploy-url option. in your case it should be
 ng build --prod --base-href https://<profile_name>.github.io/<repo_name>/ --deploy-url=https://<profile_name>.github.io/<repo_name>/
 
 "build": "ng build --prod --base-href \"https://wikimodels.github.io/wikiModelsFrontEndAngular/\" && angular-cli-ghpages -d dist/wikiModelsFrontEndAngular/ --no-silent --cname=www.wikimodels.club",
+
+
+SLACK CHANNER #wikimodels-angular
+https://hooks.slack.com/services/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
+
+
+WHY U NEED RESPONSE-TYPE - TEXT
+this.http.post(this.webHook, message, { ...this.options, responseType: 'text' }).subscribe();
+The answer is here
+https://stackoverflow.com/questions/46408537/angular-httpclient-http-failure-during-parsing

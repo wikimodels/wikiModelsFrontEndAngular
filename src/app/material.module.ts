@@ -10,7 +10,7 @@ import {
     MatToolbarModule,
     MatListModule,
     MatProgressSpinnerModule,
-    MatDividerModule
+    MatDividerModule 
     } from '@angular/material';
 import { MatRippleModule } from '@angular/material/core';
 import { MatGridListModule } from '@angular/material/grid-list';
@@ -18,6 +18,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 const modules = [
+         
         MatMenuModule,
         MatIconModule,
         MatCardModule,
