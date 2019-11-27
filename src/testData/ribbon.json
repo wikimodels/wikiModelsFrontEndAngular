@@ -1,4 +1,4 @@
-[{
+{
     "ribbon_id": "ribbon_1",
     "sections": [{
             "type": "ribbon-header",
@@ -7,22 +7,22 @@
                 "rowHeight": "600",
                 "gutterSize": "1px",
                 "pics": [{
-                    "img": "assets/img/models/main-400x600.jpg",
-                    "alt_img": "main-400x600.jpg"
+                    "img": "assets/img/models/main-1080x1350.jpg",
+                    "alt_img": "main-1080x1350.jpg"
                 }]
             }
         },
         {
             "type": "tiles",
             "tiles": [{
-                    "model_id": "gf",
-                    "card_avatar": "http://www.cdn.wikimodels.club/assets/icons/png/wm-logo-circle.png",
-                    "nickname": "@Gunfighterrrr",
+                    "model_id": "ps",
+                    "card_avatar": "assets/icons/png/wm-logo-circle.png",
+                    "nickname": "@Patrick",
                     "title": "Psycho - это призвание",
-                    "img": "http://www.cdn.wikimodels.club/assets/img/models/gf-main-400x400.jpg",
-                    "alt_img": "gun-fighter-main-400x400",
-                    "video_id": "L1t57CMdy94",
-                    "article_id": "article-gf-1"
+                    "img": "assets/img/models/ps-main-400x400.jpg",
+                    "alt_img": "ps-main-400x400.jpg",
+                    "video_id": "d53w6OdKNAU",
+                    "article_id": "article-ps-1"
 
                 },
                 {
@@ -171,12 +171,12 @@
                     },
                     {
                         "link": {
-                            "model_id": "gf"
+                            "model_id": "ps"
 
                         },
-                        "img": "http://www.cdn.wikimodels.club/assets/img/models/gf-main-1080by1350.jpg",
-                        "alt_img": "gf-main-1080by1350",
-                        "footer": "Gunfighterrrr"
+                        "img": "assets/img/models/ps-main-1080x1350.jpg",
+                        "alt_img": "ps-main-1080x1350",
+                        "footer": "Patrick"
 
                     },
                     {
@@ -353,4 +353,4 @@
             }
         }
     ]
-}]
+}

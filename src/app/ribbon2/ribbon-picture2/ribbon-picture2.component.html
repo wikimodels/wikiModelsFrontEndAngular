@@ -1,0 +1,13 @@
+<div class="ribbon-picture-container">
+    <mat-grid-list [cols]="picture.cols" [rowHeight]="picture.rowHeight" [gutterSize]="picture.gutterSize">
+        <mat-grid-tile class="mat-elevation-z24" *ngFor="let pic of picture.pics">
+            <mat-grid-tile-header *ngIf="pic.header ">
+                {{ pic.header}}
+            </mat-grid-tile-header>
+            <img [src]="pic.img" [alt]="pic.alt_img">
+            <mat-grid-tile-footer *ngIf="pic.footer">
+                {{ pic.footer}}
+            </mat-grid-tile-footer>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

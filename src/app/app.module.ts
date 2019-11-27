@@ -23,7 +23,10 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { RibbonModule } from './ribbon/ribbon.module';
+import { Ribbon2Module } from './ribbon2/ribbon2.module';
+
 import { ErrorHandlerModule } from './error-handler/error-handler.module';
+import { TestSnackbarComponent } from './ribbon2/test-snackbar/test-snackbar.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,8 @@ import { ErrorHandlerModule } from './error-handler/error-handler.module';
     HomeComponent,  
     VideoPlayerComponent,
     SliderComponent,
-    ModelCardComponent     
+    ModelCardComponent,
+    TestSnackbarComponent     
   ],
   imports: [
     BrowserModule,
@@ -46,11 +50,13 @@ import { ErrorHandlerModule } from './error-handler/error-handler.module';
     SharedModule,
     ArticleModule,
     RibbonModule,
+    Ribbon2Module,
     ErrorHandlerModule,
     LazyLoadImageModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   exports: [],
+  entryComponents: [TestSnackbarComponent],
   providers: [SliderService],
   bootstrap: [AppComponent]
 })
