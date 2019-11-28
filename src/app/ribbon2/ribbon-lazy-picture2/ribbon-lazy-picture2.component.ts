@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class RibbonLazyPicture2Component implements OnInit {
 
   @Input()picture: any;
+  @Input()defaultImage: any;
 
 
   constructor() { }

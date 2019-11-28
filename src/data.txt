@@ -220,3 +220,117 @@ trackId: 249567688
 Gloria Fair
 "Cupid Carries a Gun" COVER - Marilyn Manson|Salem
 trackId: 229918834
+
+ "footer": "Mari Grey",
+                        "media": {
+                            "img_yt": "assets/img/models/ma-yt.jpg",
+                            "alt_img_yt": "ma-yt.jpg",
+                            "link_yt": "video2/nxrUxWPLXkE",
+                            "img_art": "assets/img/models/ma-read.jpg",
+                            "alt_img_art": "ma-read.jpg",
+                            "link_art": "article2/article-ma-1"
+                        }
+
+"footer": "Bad Bad Not Good",
+                        "media": {
+                            "img_yt": "assets/img/models/bb-yt.jpg",
+                            "alt_img_yt": "bb-yt.jpg",
+                            "link_yt": "video2/t5dYJT1d1oc",
+                            "img_art": "assets/img/models/bb-read.jpg",
+                            "alt_img_art": "bb-read.jpg",
+                            "link_art": "article2/article-bb-1"
+                        }
+
+"footer": "Patrick Schwarzwald",
+                        "media": {
+                            "img_yt": "assets/img/models/ps-yt.jpg",
+                            "alt_img_yt": "ps-yt.jpg",
+                            "link_yt": "video2/d53w6OdKNAU",
+                            "img_art": "assets/img/models/ps-read.jpg",
+                            "alt_img_art": "ps-read.jpg",
+                            "link_art": "article2/article-ps-1"
+                        }
+"footer": "Johnny Wick",
+                        "media": {
+                            "img_yt": "assets/img/models/jd-yt.jpg",
+                            "alt_img_yt": "jd-yt.jpg",
+                            "link_yt": "video2/Roj5a6YQTuw",
+                            "img_art": "assets/img/models/jd-read.jpg",
+                            "alt_img_art": "jd-read.jpg",
+                            "link_art": "article2/article-jd-1"
+                        }
+NICK FREAK
+                        "media": {
+                            "img_yt": "assets/img/models/nf-yt.jpg",
+                            "alt_img_yt": "nf-yt.jpg",
+                            "link_yt": "video2/HACmLeNYWFY",
+                            "img_art": "assets/img/models/nf-read.jpg",
+                            "alt_img_art": "nf-read.jpg",
+                            "link_art": "article2/article-nf-1"
+                        }
+"footer": "Caroline Fit",
+                        "media": {
+                            "img_yt": "assets/img/models/ca-yt.jpg",
+                            "alt_img_yt": "ca-yt.jpg",
+                            "link_yt": "video2/JmdBoeAPEl8",
+                            "img_art": "assets/img/models/ca-read.jpg",
+                            "alt_img_art": "ca-read.jpg",
+                            "link_art": "article2/article-ca-1"
+                        }
+ARTIOM LIPA
+                        "media": {
+                            "img_yt": "assets/img/models/li-yt.jpg",
+                            "alt_img_yt": "li-yt.jpg",
+                            "link_yt": "video2/KDxPwlj4n8E",
+                            "img_art": "assets/img/models/li-read.jpg",
+                            "alt_img_art": "li-read.jpg",
+                            "link_art": "article2/article-li-1"
+                        }
+ "footer": "Roma Acorn",
+                        "media": {
+                            "img_yt": "assets/img/models/ra-yt.jpg",
+                            "alt_img_yt": "ra-yt.jpg",
+                            "link_yt": "video2/DVSa-RT8taU",
+                            "img_art": "assets/img/models/ra-read.jpg",
+                            "alt_img_art": "ra-read.jpg",
+                            "link_art": "article2/article-ra-1"
+                        }
+"footer": "Popodchemu",
+                        "media": {
+                            "img_yt": "assets/img/models/pp-yt.jpg",
+                            "alt_img_yt": "pp-yt.jpg",
+                            "link_yt": "video2/90vC6TnjLAs",
+                            "img_art": "assets/img/models/pp-read.jpg",
+                            "alt_img_art": "pp-read.jpg",
+                            "link_art": "article2/article-pp-1"
+                        }
+"footer": "Lucky Blue Smith",
+                        "media": {
+                            "img_yt": "assets/img/models/sc-yt.jpg",
+                            "alt_img_yt": "sc-yt.jpg",
+                            "link_yt": "video2/EEkknEm6EVg",
+                            "img_art": "assets/img/models/sc-read.jpg",
+                            "alt_img_art": "sc-read.jpg",
+                            "link_art": "article2/article-sc-1"
+                        }
+
+"footer": "Tuskrip",
+                        "media": {
+                            "img_yt": "assets/img/models/ts-yt.jpg",
+                            "alt_img_yt": "ts-yt.jpg",
+                            "link_yt": "video2/nnj_vI0PH3Y",
+                            "img_art": "assets/img/models/ts-read.jpg",
+                            "alt_img_art": "ts-read.jpg",
+                            "link_art": "article2/article-ts-1"
+                        }
+
+ "footer": "Billie Elish",
+                        "media": {
+                            "img_yt": "assets/img/models/be-yt.jpg",
+                            "alt_img_yt": "be-yt.jpg",
+                            "link_yt": "video2/gBRi6aZJGj4",
+                            "img_art": "assets/img/models/be-read.jpg",
+                            "alt_img_art": "be-read.jpg",
+                            "link_art": "article2/article-be-1"
+                        }
+

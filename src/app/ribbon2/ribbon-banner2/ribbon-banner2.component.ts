@@ -10,7 +10,7 @@ import { TestSnackbarComponent } from '../test-snackbar/test-snackbar.component'
 })
 export class RibbonBanner2Component implements OnInit {
 
-  @Input() banner: any;  
+  @Input() banner: any;   
 
   constructor(
     private router: Router,

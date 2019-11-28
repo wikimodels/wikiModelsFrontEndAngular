@@ -4,7 +4,8 @@
             <mat-grid-tile-header *ngIf="tile.header ">
                 {{ tile.header}}
             </mat-grid-tile-header>
-            <img [src]="tile.img" [alt]="tile.alt_img" (click)="openSnackbar(tile.media)">
+            <img *ngIf="tile.media" [src]="tile.img" [alt]="tile.alt_img" (click)="openSnackbar(tile.media)">
+            <img *ngIf="tile.link" [src]="tile.img" [alt]="tile.alt_img" (click)="goToResource(tile.link)">
             <mat-grid-tile-footer *ngIf="tile.footer">
                 {{ tile.footer}}
             </mat-grid-tile-footer>

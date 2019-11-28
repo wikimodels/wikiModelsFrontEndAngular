@@ -1,0 +1,43 @@
+<div class="video-player-container">
+
+    <!-- VIDEO-PLAYER EXIT BUTTON -->
+    <mat-card class="video-card">
+        <div fxLayout="row" fxLayoutAlign="end center" style="padding-bottom: 0.6rem">
+            <mat-icon appBackButton matRipple>close</mat-icon>
+        </div>
+    </mat-card>
+
+    <div id="parent" class="video-card">
+        <!-- HERE GOES PLAYER -->
+        <iframe id="player" [src]="videoId | youtube" frameborder="0" allow="accelerometer; encrypted-media; gyroscope;" allowfullscreen></iframe>
+
+        <mat-card class="video-card mat-elevation-z24">
+            <!-- HERE GOES PLAYER CARD-ACTIONS -->
+            <mat-card-actions>
+
+                <!-- SLIDER -->
+                <div id="timeline" fxLayout="row" fxLayoutAlign="center">
+                    <app-slider2 fxFlex="100% " [value]="sliderValue" [min]="0" [max]="endTimeInSecs"></app-slider2>
+                </div>
+
+                <!-- CONTROLS -->
+                <div fxLayout="row" fxLayoutAlign="space-between center">
+                    <div *ngIf="playerReady" class="timer">
+                        {{ timer }}
+                    </div>
+                    <div *ngIf="!playerReady" class="timer spinner">
+                        <mat-spinner [diameter]="30"></mat-spinner>
+                    </div>
+                    <div>
+                        <div class="mute">
+                            <mat-icon *ngIf="isMuted" class="control" matRipple svgIcon="volume-up" (click)="mute()"></mat-icon>
+                        </div>
+                        <div class="mute">
+                            <mat-icon *ngIf="!isMuted" class="control" matRipple svgIcon="volume-off" (click)="unmute()"></mat-icon>
+                        </div>
+                    </div>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

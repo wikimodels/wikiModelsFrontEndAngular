@@ -1,0 +1,16 @@
+.text-container {
+    margin-bottom: 3em;
+    position: absolute;
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+}
+
+.articleText {
+    font-size: 18px;
+    transform: scaleY(1.1)
+}
+
+
+/* a {
+    text-decoration: none;
+} */

@@ -1,0 +1,23 @@
+<!-- HEADER -->
+<app-article-header2 *ngIf="section.type === 'header'" [headerImage]="section.headerImage" [headerText]="section.headerText"></app-article-header2>
+
+<!-- BANNER -->
+<app-article-banner2 *ngIf="section.type === 'banner'" [banner]="section.banner"></app-article-banner2>
+
+<!-- LAZY BANNER -->
+<app-article-lazy-banner2 *ngIf="section.type === 'lazy-banner'" [banner]="section.banner"></app-article-lazy-banner2>
+
+<!-- TEXT -->
+<app-article-text2 *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-article-text2>
+
+<!-- VIDEO -->
+<app-article-video2 *ngIf="section.type === 'video'" [videoCoverUrl]="section.videoCoverUrl" [videoId]="section.videoId"></app-article-video2>
+
+<!-- MUSIC -->
+<app-article-music2 *ngIf="section.type === 'music'" [trackId]="section.trackId" [musicCoverUrl]="section.musicCoverUrl"></app-article-music2>
+
+<!-- PICTURE -->
+<app-article-picture2 *ngIf="section.type === 'picture'" [picture]="section.picture"></app-article-picture2>
+
+<!-- LAZY PICTURE -->
+<app-article-lazy-picture2 *ngIf="section.type === 'lazy-picture'" [picture]="section.picture"></app-article-lazy-picture2>

@@ -1,0 +1,54 @@
+.video-player-container {
+    position: relative;
+    background-color: black;
+    padding-top: 15vh;
+    width: 100%;
+    height: 100%;
+}
+
+.video-card {
+    background-color: black;
+}
+
+iframe {
+    width: 100%;
+    height: 280px;
+    background-color: black;
+}
+
+@media only screen and (max-width: 350px) {
+    /* For mobile phones: */
+    iframe {
+        /* width: 100%; */
+        height: 240px;
+    }
+}
+
+#parent {
+    font-size: 0;
+}
+
+#parent>* {
+    margin: 0;
+    font-size: 16px;
+}
+
+.control {
+    width: 36px;
+    height: 36px;
+}
+
+.timer {
+    font-family: "Roboto";
+    font-style: normal;
+    font-size: 16px;
+    padding-left: 1em;
+}
+
+.mute {
+    padding-right: 1em;
+}
+
+:host /deep/.mat-spinner circle {
+    stroke: rgb(251, 249, 249);
+}

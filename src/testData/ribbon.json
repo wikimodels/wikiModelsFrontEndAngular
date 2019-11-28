@@ -13,16 +13,56 @@
             }
         },
         {
+            "type": "banner",
+            "banner": {
+                "cols": "4",
+                "rowHeight": "3:4",
+                "gutterSize": "7px",
+                "tiles": [{
+                        "link": {
+                            "url": "https://www.instagram.com/_wiki_models_/"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-insta-sq.jpg",
+                        "alt_img": "wi-insta.jpg"
+
+                    },
+                    {
+                        "link": {
+                            "url": "https://www.youtube.com/channel/UCP7I13Ru96z42s4xYLCXPOw?view_as=subscriber"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-tube-sq.jpg",
+                        "alt_img": "wi-tube.jpg"
+
+                    },
+                    {
+                        "link": {
+                            "url": "https://www.tiktok.com/@jacobsartorius"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-tok-sq.jpg",
+                        "alt_img": "wi-tok.jpg"
+                    },
+                    {
+                        "link": {
+                            "url": "http://www.wikistore.club"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-store-sq.jpg",
+                        "alt_img": "wi-store.jpg"
+
+                    }
+                ]
+            }
+        },
+        {
             "type": "tiles",
             "tiles": [{
-                    "model_id": "ps",
-                    "card_avatar": "assets/icons/png/wm-logo-circle.png",
-                    "nickname": "@Patrick",
+                    "model_id": "gf",
+                    "card_avatar": "http://www.cdn.wikimodels.club/assets/icons/png/wm-logo-circle.png",
+                    "nickname": "@Gunfighterrrr",
                     "title": "Psycho - это призвание",
-                    "img": "assets/img/models/ps-main-400x400.jpg",
-                    "alt_img": "ps-main-400x400.jpg",
-                    "video_id": "d53w6OdKNAU",
-                    "article_id": "article-ps-1"
+                    "img": "http://www.cdn.wikimodels.club/assets/img/models/gf-main-400x400.jpg",
+                    "alt_img": "gun-fighter-main-400x400",
+                    "video_id": "L1t57CMdy94",
+                    "article_id": "article-gf-1"
 
                 },
                 {
@@ -83,10 +123,7 @@
                 ]
             }
         },
-        {
-            "type": "text",
-            "articleText": "<h1>Hit the road, Jack!</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
-        },
+
         {
             "type": "tiles",
             "tiles": [{
@@ -132,10 +169,7 @@
             ]
         },
 
-        {
-            "type": "text",
-            "articleText": "<h1>Валидация Данных</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
-        },
+
         {
             "type": "banner",
             "banner": {
@@ -171,12 +205,12 @@
                     },
                     {
                         "link": {
-                            "model_id": "ps"
+                            "model_id": "gf"
 
                         },
-                        "img": "assets/img/models/ps-main-1080x1350.jpg",
-                        "alt_img": "ps-main-1080x1350",
-                        "footer": "Patrick"
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/gf-main-1080by1350.jpg",
+                        "alt_img": "gf-main-1080by1350",
+                        "footer": "Gunfighterrrr"
 
                     },
                     {
@@ -227,10 +261,7 @@
                 ]
             }
         },
-        {
-            "type": "text",
-            "articleText": "<h1>Платить налог мы будем гробами</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
-        },
+
         {
             "type": "tiles",
             "tiles": [{
@@ -275,10 +306,7 @@
                 }
             ]
         },
-        {
-            "type": "text",
-            "articleText": "<h1>Ресурсное Состояние</h1><p>Равным образом реализация намеченного плана развития позволяет оценить значение ключевых компонентов планируемого обновления? Значимость этих проблем настолько очевидна, что выбранный нами инновационный путь  способствует повышению актуальности ключевых компонентов планируемого обновления?</p><p>Соображения высшего порядка, а также консультация с профессионалами из IT позволяет выполнить важнейшие задания по разработке экономической целесообразности принимаемых решений.</p>"
-        },
+
         {
             "type": "banner",
             "banner": {

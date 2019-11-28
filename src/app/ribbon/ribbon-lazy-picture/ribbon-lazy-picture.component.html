@@ -4,7 +4,7 @@
             <mat-grid-tile-header *ngIf="pic.header ">
                 {{ pic.header}}
             </mat-grid-tile-header>
-            <img [lazyLoad]="tile.img" [alt]="tile.alt_img" [defaultImage]="defaultImage" offset="250">
+            <img [lazyLoad]="pic.img" [alt]="pic.alt_img" [defaultImage]="defaultImage" offset="250">
 
             <mat-grid-tile-footer *ngIf="pic.footer">
                 {{ pic.footer}}

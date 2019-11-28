@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material.module';
 import { FormsModule } from '@angular/forms';
 import { ArticleModule } from './article/article.module';
+import { Article2Module } from './article2/article2.module';
 import { SharedModule } from './shared/shared.module';
 
 import { SliderService } from './video-player/slider.service';
@@ -16,8 +17,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 
-import { VideoPlayerComponent } from './video-player/video-player.component';
-import { SliderComponent } from './video-player/slider/slider.component';
 import { ModelCardComponent } from './model-card/model-card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -27,16 +26,16 @@ import { Ribbon2Module } from './ribbon2/ribbon2.module';
 
 import { ErrorHandlerModule } from './error-handler/error-handler.module';
 import { TestSnackbarComponent } from './ribbon2/test-snackbar/test-snackbar.component';
+import { VideoPlayer2Module } from './video-player2/video-player2.module';
+import { VideoPlayerModule } from './video-player/video-player.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent,  
-    VideoPlayerComponent,
-    SliderComponent,
+    HomeComponent,
     ModelCardComponent,
-    TestSnackbarComponent     
+    TestSnackbarComponent
   ],
   imports: [
     BrowserModule,
@@ -49,15 +48,18 @@ import { TestSnackbarComponent } from './ribbon2/test-snackbar/test-snackbar.com
     FormsModule,
     SharedModule,
     ArticleModule,
+    Article2Module,
     RibbonModule,
     Ribbon2Module,
     ErrorHandlerModule,
     LazyLoadImageModule,
+    VideoPlayerModule,
+    VideoPlayer2Module,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   exports: [],
   entryComponents: [TestSnackbarComponent],
-  providers: [SliderService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
