@@ -1,8 +1,9 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { RibbonsRestApiService } from '../services/ribbons-rest-api.service';
+
 import { IsLoadingService } from '@service-work/is-loading';
 import { Router, NavigationEnd } from '@angular/router';
+import { RibbonsRestApi2Service } from './ribbons-rest-api-2.service';
 
 @Component({
   selector: 'app-ribbon2',
@@ -17,7 +18,7 @@ export class Ribbon2Component implements OnInit, OnDestroy {
   routerSub: Subscription;
 
   constructor(
-    private ribbonsApi: RibbonsRestApiService,
+    private ribbonsApi: RibbonsRestApi2Service,
     private isLoadingService: IsLoadingService,
     private router: Router
     ) {
@@ -35,7 +36,7 @@ export class Ribbon2Component implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.sub = (this.ribbonsApi.getRibbon(this.ribbonId).subscribe(r => {
-      console.log('RIBBON-2', r)
+      console.log('RIBBON-2', r);
       this.sections = r.sections;
     }));
     this.isLoadingService.add(this.sub);

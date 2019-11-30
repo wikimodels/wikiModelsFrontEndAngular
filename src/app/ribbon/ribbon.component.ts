@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { RibbonsRestApiService } from '../services/ribbons-rest-api.service';
 import { IsLoadingService } from '@service-work/is-loading';
 import { Router, NavigationEnd } from '@angular/router';
+import { RibbonsRestApi1Service } from './ribbons-rest-api-1.service';
 
 @Component({
   selector: 'app-ribbon',
@@ -17,7 +17,7 @@ export class RibbonComponent implements OnInit, OnDestroy {
   routerSub: Subscription;
 
   constructor(
-    private ribbonsApi: RibbonsRestApiService,
+    private ribbonsApi: RibbonsRestApi1Service,
     private isLoadingService: IsLoadingService,
     private router: Router
     ) {

@@ -1,0 +1,18 @@
+.lazy-banner-container {
+    position: relative;
+    width: 91%;
+    margin: auto;
+    /* height: auto;
+    margin: auto; */
+    margin-bottom: 3.7em;
+}
+
+img {
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+}
+
+.mat-grid-tile {
+    border-radius: 12px;
+}

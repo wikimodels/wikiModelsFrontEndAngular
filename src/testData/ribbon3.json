@@ -1,0 +1,278 @@
+{
+    "ribbon_id": "ribbon_3",
+    "sections": [{
+            "type": "ribbon-header",
+            "header": {
+                "cols": "1",
+                "rowHeight": "600",
+                "gutterSize": "1px",
+                "pics": [{
+                    "img": "assets/img/models/main-1080x1350.jpg",
+                    "alt_img": "main-1080x1350.jpg"
+                }]
+            }
+        },
+        {
+            "type": "banner",
+            "banner": {
+                "cols": "4",
+                "rowHeight": "3:4",
+                "gutterSize": "7px",
+                "tiles": [{
+                        "link": {
+                            "url": "https://www.instagram.com/_wiki_models_/"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-insta-sq.jpg",
+                        "alt_img": "wi-insta.jpg"
+                    },
+                    {
+                        "link": {
+                            "url": "https://www.youtube.com/channel/UCP7I13Ru96z42s4xYLCXPOw?view_as=subscriber"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-tube-sq.jpg",
+                        "alt_img": "wi-tube.jpg"
+                    },
+                    {
+                        "link": {
+                            "url": "https://www.tiktok.com/@jacobsartorius"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-tok-sq.jpg",
+                        "alt_img": "wi-tok.jpg"
+                    },
+                    {
+                        "link": {
+                            "url": "http://www.wikistore.club"
+                        },
+                        "img": "http://www.cdn.wikimodels.club/assets/img/wi-store-sq.jpg",
+                        "alt_img": "wi-store.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "banner",
+            "banner": {
+                "cols": "2",
+                "rowHeight": "3:4",
+                "gutterSize": "2px",
+                "tiles": [{
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
+                        "alt_img": "bb-main-1080by1350",
+                        "footer": "Bad Bad Not Good",
+                        "media": {
+                            "img_yt": "assets/img/models/bb-yt.jpg",
+                            "alt_img_yt": "bb-yt.jpg",
+                            "link_yt": "video2/t5dYJT1d1oc",
+                            "img_art": "assets/img/models/bb-read.jpg",
+                            "alt_img_art": "bb-read.jpg",
+                            "link_art": "article2/article-bb-3"
+                        }
+                    },
+                    {
+
+                        "img": "assets/img/models/ps-main-1080x1350.jpg",
+                        "alt_img": "ps-main-1080x1350",
+                        "footer": "Patrick Schwarzwald",
+                        "media": {
+                            "img_yt": "assets/img/models/ps-yt.jpg",
+                            "alt_img_yt": "ps-yt.jpg",
+                            "link_yt": "video2/d53w6OdKNAU",
+                            "img_art": "assets/img/models/ps-read.jpg",
+                            "alt_img_art": "ps-read.jpg",
+                            "link_art": "article2/article-ps-3"
+                        }
+                    },
+                    {
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
+                        "alt_img": "jd-main-1080by1350",
+                        "footer": "Johnny Wick",
+                        "media": {
+                            "img_yt": "assets/img/models/jd-yt.jpg",
+                            "alt_img_yt": "jd-yt.jpg",
+                            "link_yt": "video2/Roj5a6YQTuw",
+                            "img_art": "assets/img/models/jd-read.jpg",
+                            "alt_img_art": "jd-read.jpg",
+                            "link_art": "article2/article-jd-3"
+                        }
+                    },
+                    {
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
+                        "alt_img": "nf-main-1080by1350",
+                        "footer": "Nick Freack",
+                        "media": {
+                            "img_yt": "assets/img/models/nf-yt.jpg",
+                            "alt_img_yt": "nf-yt.jpg",
+                            "link_yt": "video2/HACmLeNYWFY",
+                            "img_art": "assets/img/models/nf-read.jpg",
+                            "alt_img_art": "nf-read.jpg",
+                            "link_art": "article2/article-nf-3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "banner",
+            "banner": {
+                "cols": "1",
+                "rowHeight": "1:1",
+                "gutterSize": "75px",
+                "tiles": [{
+                    "link": {
+                        "url": "https://www.evisu.com"
+                    },
+                    "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-evisu-1-669by669.jpg",
+                    "alt_img": "adds-evisu-1-669by669.jpg"
+                }]
+            }
+        },
+        {
+            "type": "banner",
+            "banner": {
+                "cols": "2",
+                "rowHeight": "3:4",
+                "gutterSize": "2px",
+                "tiles": [{
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
+                        "alt_img": "ca-main-1080by1350",
+                        "footer": "Caroline Fit",
+                        "media": {
+                            "img_yt": "assets/img/models/ca-yt.jpg",
+                            "alt_img_yt": "ca-yt.jpg",
+                            "link_yt": "video2/JmdBoeAPEl8",
+                            "img_art": "assets/img/models/ca-read.jpg",
+                            "alt_img_art": "ca-read.jpg",
+                            "link_art": "article2/article-ca-3"
+                        }
+                    },
+                    {
+
+                        "img": "assets/img/models/li-main-1080by1350.jpg",
+                        "alt_img": "li-main-1080by1350",
+                        "footer": "Artiom Lipa",
+                        "media": {
+                            "img_yt": "assets/img/models/li-yt.jpg",
+                            "alt_img_yt": "li-yt.jpg",
+                            "link_yt": "video2/KDxPwlj4n8E",
+                            "img_art": "assets/img/models/li-read.jpg",
+                            "alt_img_art": "li-read.jpg",
+                            "link_art": "article2/article-li-3"
+                        }
+                    },
+                    {
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                        "alt_img": "ma-main-1080by1350",
+                        "footer": "Mari Grey",
+                        "media": {
+                            "img_yt": "assets/img/models/ma-yt.jpg",
+                            "alt_img_yt": "ma-yt.jpg",
+                            "link_yt": "video2/nxrUxWPLXkE",
+                            "img_art": "assets/img/models/ma-read.jpg",
+                            "alt_img_art": "ma-read.jpg",
+                            "link_art": "article2/article-ma-3"
+                        }
+                    },
+                    {
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
+                        "alt_img": "ra-main-1080by1350",
+                        "footer": "Roma Acorn",
+                        "media": {
+                            "img_yt": "assets/img/models/ra-yt.jpg",
+                            "alt_img_yt": "ra-yt.jpg",
+                            "link_yt": "video2/DVSa-RT8taU",
+                            "img_art": "assets/img/models/ra-read.jpg",
+                            "alt_img_art": "ra-read.jpg",
+                            "link_art": "article2/article-ra-3"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "banner",
+            "banner": {
+                "cols": "1",
+                "rowHeight": "4:3",
+                "gutterSize": "75px",
+                "tiles": [{
+                    "link": {
+                        "url": "https://www.carhartt-wip.com/en"
+                    },
+                    "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-carnartt-1-1200by900.jpg",
+                    "alt_img": "adds-carnartt-1-1200by900.jpg"
+                }]
+            }
+        },
+        {
+            "type": "banner",
+            "banner": {
+                "cols": "2",
+                "rowHeight": "3:4",
+                "gutterSize": "2px",
+                "tiles": [{
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
+                        "alt_img": "pp-main-1080by1350",
+                        "footer": "Popodchemu",
+                        "media": {
+                            "img_yt": "assets/img/models/pp-yt.jpg",
+                            "alt_img_yt": "pp-yt.jpg",
+                            "link_yt": "video2/90vC6TnjLAs",
+                            "img_art": "assets/img/models/pp-read.jpg",
+                            "alt_img_art": "pp-read.jpg",
+                            "link_art": "article2/article-pp-3"
+                        }
+                    },
+                    {
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
+                        "alt_img": "sc-main-1080by1350",
+                        "footer": "Lucky Blue Smith",
+                        "media": {
+                            "img_yt": "assets/img/models/sc-yt.jpg",
+                            "alt_img_yt": "sc-yt.jpg",
+                            "link_yt": "video2/EEkknEm6EVg",
+                            "img_art": "assets/img/models/sc-read.jpg",
+                            "alt_img_art": "sc-read.jpg",
+                            "link_art": "article2/article-sc-3"
+                        }
+                    },
+                    {
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                        "alt_img": "ts-main-1080by1350",
+                        "footer": "Tuskrip",
+                        "media": {
+                            "img_yt": "assets/img/models/ts-yt.jpg",
+                            "alt_img_yt": "ts-yt.jpg",
+                            "link_yt": "video2/nnj_vI0PH3Y",
+                            "img_art": "assets/img/models/ts-read.jpg",
+                            "alt_img_art": "ts-read.jpg",
+                            "link_art": "article2/article-ts-3"
+                        }
+                    },
+                    {
+
+                        "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                        "alt_img": "be-main-1080by1350",
+                        "footer": "Billie Elish",
+                        "media": {
+                            "img_yt": "assets/img/models/be-yt.jpg",
+                            "alt_img_yt": "be-yt.jpg",
+                            "link_yt": "video2/gBRi6aZJGj4",
+                            "img_art": "assets/img/models/be-read.jpg",
+                            "alt_img_art": "be-read.jpg",
+                            "link_art": "article2/article-be-3"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

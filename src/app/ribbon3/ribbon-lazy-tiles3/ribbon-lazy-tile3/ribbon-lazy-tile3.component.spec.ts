@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RibbonLazyTileComponent } from './ribbon-lazy-tile.component2';
+import { RibbonLazyTileComponent } from './ribbon-lazy-tile2.component';
 
 describe('RibbonLazyTileComponent', () => {
   let component: RibbonLazyTileComponent;

@@ -22,11 +22,12 @@ import { RibbonFooterComponent } from './ribbon-footer/ribbon-footer.component';
 import { RibbonLazyTilesComponent } from './ribbon-lazy-tiles/ribbon-lazy-tiles.component';
 import { RibbonLazyTileComponent } from './ribbon-lazy-tiles/ribbon-lazy-tile/ribbon-lazy-tile.component';
 import { SharedModule } from '../shared/shared.module';
+import { RibbonsRestApiService } from '../ribbon3/ribbons-rest-api.service';
+import { RibbonsRestApi1Service } from './ribbons-rest-api-1.service';
 
 
 @NgModule({
   declarations: [
-     
     RibbonComponent,
     RibbonSectionComponent,
     RibbonTilesComponent,
@@ -42,15 +43,13 @@ import { SharedModule } from '../shared/shared.module';
     RibbonFooterComponent,
   ],
   imports: [
-    // BrowserModule,
-    // BrowserAnimationsModule,
     CommonModule,
     MaterialModule,
     RouterModule,
     RibbonRoutingModule,
     HttpClientModule,
     FlexLayoutModule,
-    FormsModule,    
+    FormsModule,
     LazyLoadImageModule,
     SharedModule
   ],
@@ -66,8 +65,9 @@ import { SharedModule } from '../shared/shared.module';
     RibbonLazyBannerComponent,
     RibbonTileComponent,
     RibbonPictureComponent,
-    RibbonLazyPictureComponent
+    RibbonLazyPictureComponent,
+
 ],
-  providers: [ ] 
+  providers: [RibbonsRestApi1Service]
 })
 export class RibbonModule { }

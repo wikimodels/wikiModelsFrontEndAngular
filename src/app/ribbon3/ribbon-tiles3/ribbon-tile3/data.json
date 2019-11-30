@@ -1,0 +1,16 @@
+{
+    "cols": "2",
+    "rowHeight": "3:4",
+    "gutterSize": "15px",
+    "pics": [{
+            "img": "assets/img/models/ca-insta-900x1200.jpg",
+            "alt_img": "ca-insta-900x1200.jpg",
+            "link": "video/YKvRiA9vEzc"
+        },
+        {
+            "img": "assets/img/models/jd-insta-900x1200.jpg",
+            "alt_img": "jd-insta-900x1200.jpg",
+            "link": "article/article-nf-1"
+        }
+    ]
+}

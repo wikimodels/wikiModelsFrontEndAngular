@@ -22,6 +22,8 @@ import { RibbonFooter2Component } from './ribbon-footer2/ribbon-footer2.componen
 import { RibbonLazyTiles2Component } from './ribbon-lazy-tiles2/ribbon-lazy-tiles2.component';
 import { RibbonLazyTile2Component } from './ribbon-lazy-tiles2/ribbon-lazy-tile2/ribbon-lazy-tile2.component';
 import { SharedModule } from '../shared/shared.module';
+import { TestSnackbarComponent } from './test-snackbar/test-snackbar.component';
+import { RibbonsRestApi2Service } from './ribbons-rest-api-2.service';
 
 
 @NgModule({
@@ -40,6 +42,7 @@ import { SharedModule } from '../shared/shared.module';
     RibbonPicture2Component,
     RibbonLazyPicture2Component,
     RibbonFooter2Component,
+    TestSnackbarComponent
   ],
   imports: [     
     CommonModule,
@@ -64,8 +67,11 @@ import { SharedModule } from '../shared/shared.module';
     RibbonLazyBanner2Component,
     RibbonTile2Component,
     RibbonPicture2Component,
-    RibbonLazyPicture2Component
+    RibbonLazyPicture2Component,
+    TestSnackbarComponent,
+     
 ],
-  providers: [ ] 
+  entryComponents: [TestSnackbarComponent],
+  providers: [RibbonsRestApi2Service] 
 })
 export class Ribbon2Module { }

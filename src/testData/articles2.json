@@ -5,6 +5,7 @@
         "model_yt": "https://youtu.be/d53w6OdKNAU",
         "model_vk": "https://vk.com/im?sel=513928438",
         "article_id": "article-ps-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "assets/img/models/ps-main-1080x1350.jpg",
@@ -234,6 +235,7 @@
         "model_insta": "https://www.instagram.com/__badbadnotgood/",
         "model_vk": "https://vk.com/alexndrart",
         "article_id": "article-bb-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
@@ -467,6 +469,7 @@
         "model_insta": "https://www.instagram.com/nick_freak_/",
         "model_vk": "https://vk.com/nickfreakiscrazyman",
         "article_id": "article-nf-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
@@ -745,6 +748,7 @@
         "model_fb": "https://www.facebook.com/Johnny.Depp.Official/",
         "model-tw": "https://twitter.com/johnjohnnydepp",
         "article_id": "article-jd-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
@@ -994,6 +998,7 @@
         "model_insta": "https://www.instagram.com/popodchemu/",
         "model_vk": "",
         "article_id": "article-pp-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
@@ -1242,6 +1247,7 @@
         "model_insta": "https://www.instagram.com/luckybsmith/?hl=uk",
         "model_tw": "https://twitter.com/luckybsmith",
         "article_id": "article-sc-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
@@ -1409,7 +1415,7 @@
                                 "link_yt": "video2/JmdBoeAPEl8",
                                 "img_art": "assets/img/models/ca-read.jpg",
                                 "alt_img_art": "ca-read.jpg",
-                                "link_art": "article2/article-ca-1"
+                                "link_art": "article2/article-ca-2"
                             }
 
                         },
@@ -1424,7 +1430,7 @@
                                 "link_yt": "video2/90vC6TnjLAs",
                                 "img_art": "assets/img/models/pp-read.jpg",
                                 "alt_img_art": "pp-read.jpg",
-                                "link_art": "article2/article-pp-1"
+                                "link_art": "article2/article-pp-2"
                             }
 
                         },
@@ -1491,6 +1497,7 @@
         "model_vk": "https://vk.com/tuskrip",
         "model_insta": "https://www.instagram.com/tuskrip/",
         "article_id": "article-ts-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
@@ -1740,6 +1747,7 @@
         "model_insta": "https://www.instagram.com/billieeilish/?hl=en",
         "model_fb": "https://www.facebook.com/billieeilish/",
         "article_id": "article-be-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
@@ -1989,6 +1997,7 @@
         "model_insta": "https://www.instagram.com/romaacorn/",
         "model_vk": "https://vk.com/romaacornofficial",
         "article_id": "article-ra-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
@@ -2237,6 +2246,7 @@
         "model_vk": "https://vk.com/id161500531",
         "model_insta": "https://www.instagram.com/mari.grey/",
         "article_id": "article-ma-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
@@ -2520,6 +2530,7 @@
         "model_insta": "https://www.instagram.com/artemlipa_10/",
         "model_vk": "https://vk.com/love_kill_it",
         "article_id": "article-li-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
@@ -2786,6 +2797,7 @@
         "model_insta": "https://www.instagram.com/ccarolinefit/",
         "model_vk": "https://vk.com/caroline_l",
         "article_id": "article-ca-2",
+        "version": 2,
         "sections": [{
                 "type": "header",
                 "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",

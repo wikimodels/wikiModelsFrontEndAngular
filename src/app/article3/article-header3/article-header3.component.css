@@ -1,0 +1,21 @@
+.header-container {
+    position: relative;
+    margin-top: 3.5em;
+    margin-bottom: 3.7em;
+}
+
+.header-text-holder {
+    /* margin: 0 auto; */
+    position: absolute;
+    /* margin-top: 3.5em; */
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 1.5em;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

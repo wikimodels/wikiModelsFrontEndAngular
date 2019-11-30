@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RibbonLazyPictureComponent } from './ribbon-lazy-picture2.component';
+import { RibbonTileComponent } from './ribbon-tile2.component';
 
-describe('RibbonLazyPictureComponent', () => {
-  let component: RibbonLazyPictureComponent;
-  let fixture: ComponentFixture<RibbonLazyPictureComponent>;
+describe('RibbonTileComponent', () => {
+  let component: RibbonTileComponent;
+  let fixture: ComponentFixture<RibbonTileComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RibbonLazyPictureComponent ]
+      declarations: [ RibbonTileComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RibbonLazyPictureComponent);
+    fixture = TestBed.createComponent(RibbonTileComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
