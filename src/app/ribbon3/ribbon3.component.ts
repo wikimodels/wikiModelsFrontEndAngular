@@ -35,7 +35,7 @@ export class Ribbon3Component implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.sub = (this.ribbonsApi.getRibbon(this.ribbonId).subscribe(r => {
-      console.log('RIBBON-2', r)
+      console.log('RIBBON-3', r);
       this.sections = r.sections;
     }));
     this.isLoadingService.add(this.sub);

@@ -1,10 +1,10 @@
 .banner-container {
     position: relative;
-    width: 100%;
+    width: 96%;
     margin: auto;
     /* height: auto;
     margin: auto; */
-    margin-bottom: 3.9em;
+    margin-bottom: 3.7em;
 }
 
 img {
@@ -14,5 +14,5 @@ img {
 }
 
 .mat-grid-tile {
-    border-radius: 2px;
+    border-radius: 6px;
 }

@@ -7,8 +7,8 @@
                 "rowHeight": "600",
                 "gutterSize": "1px",
                 "pics": [{
-                    "img": "assets/img/models/main-1080x1350.jpg",
-                    "alt_img": "main-1080x1350.jpg"
+                    "img": "assets/img/models/main-3-1080x1350.jpg",
+                    "alt_img": "main-3-1080x1350.jpg"
                 }]
             }
         },
@@ -50,10 +50,10 @@
             }
         },
         {
-            "type": "banner",
+            "type": "picture",
             "banner": {
                 "cols": "2",
-                "rowHeight": "3:4",
+                "rowHeight": "3:4.7",
                 "gutterSize": "2px",
                 "tiles": [{
 
@@ -66,7 +66,7 @@
                             "link_yt": "video2/t5dYJT1d1oc",
                             "img_art": "assets/img/models/bb-read.jpg",
                             "alt_img_art": "bb-read.jpg",
-                            "link_art": "article2/article-bb-3"
+                            "link_art": "article3/article-bb-3"
                         }
                     },
                     {
@@ -80,7 +80,7 @@
                             "link_yt": "video2/d53w6OdKNAU",
                             "img_art": "assets/img/models/ps-read.jpg",
                             "alt_img_art": "ps-read.jpg",
-                            "link_art": "article2/article-ps-3"
+                            "link_art": "article3/article-ps-3"
                         }
                     },
                     {
@@ -94,7 +94,7 @@
                             "link_yt": "video2/Roj5a6YQTuw",
                             "img_art": "assets/img/models/jd-read.jpg",
                             "alt_img_art": "jd-read.jpg",
-                            "link_art": "article2/article-jd-3"
+                            "link_art": "article3/article-jd-3"
                         }
                     },
                     {
@@ -108,7 +108,7 @@
                             "link_yt": "video2/HACmLeNYWFY",
                             "img_art": "assets/img/models/nf-read.jpg",
                             "alt_img_art": "nf-read.jpg",
-                            "link_art": "article2/article-nf-3"
+                            "link_art": "article3/article-nf-3"
                         }
                     }
                 ]
@@ -146,7 +146,7 @@
                             "link_yt": "video2/JmdBoeAPEl8",
                             "img_art": "assets/img/models/ca-read.jpg",
                             "alt_img_art": "ca-read.jpg",
-                            "link_art": "article2/article-ca-3"
+                            "link_art": "article3/article-ca-3"
                         }
                     },
                     {
@@ -160,7 +160,7 @@
                             "link_yt": "video2/KDxPwlj4n8E",
                             "img_art": "assets/img/models/li-read.jpg",
                             "alt_img_art": "li-read.jpg",
-                            "link_art": "article2/article-li-3"
+                            "link_art": "article3/article-li-3"
                         }
                     },
                     {
@@ -174,7 +174,7 @@
                             "link_yt": "video2/nxrUxWPLXkE",
                             "img_art": "assets/img/models/ma-read.jpg",
                             "alt_img_art": "ma-read.jpg",
-                            "link_art": "article2/article-ma-3"
+                            "link_art": "article3/article-ma-3"
                         }
                     },
                     {
@@ -188,7 +188,7 @@
                             "link_yt": "video2/DVSa-RT8taU",
                             "img_art": "assets/img/models/ra-read.jpg",
                             "alt_img_art": "ra-read.jpg",
-                            "link_art": "article2/article-ra-3"
+                            "link_art": "article3/article-ra-3"
                         }
                     }
                 ]
@@ -226,7 +226,7 @@
                             "link_yt": "video2/90vC6TnjLAs",
                             "img_art": "assets/img/models/pp-read.jpg",
                             "alt_img_art": "pp-read.jpg",
-                            "link_art": "article2/article-pp-3"
+                            "link_art": "article3/article-pp-3"
                         }
                     },
                     {
@@ -240,7 +240,7 @@
                             "link_yt": "video2/EEkknEm6EVg",
                             "img_art": "assets/img/models/sc-read.jpg",
                             "alt_img_art": "sc-read.jpg",
-                            "link_art": "article2/article-sc-3"
+                            "link_art": "article3/article-sc-3"
                         }
                     },
                     {
@@ -254,7 +254,7 @@
                             "link_yt": "video2/nnj_vI0PH3Y",
                             "img_art": "assets/img/models/ts-read.jpg",
                             "alt_img_art": "ts-read.jpg",
-                            "link_art": "article2/article-ts-3"
+                            "link_art": "article3/article-ts-3"
                         }
                     },
                     {
@@ -268,7 +268,7 @@
                             "link_yt": "video2/gBRi6aZJGj4",
                             "img_art": "assets/img/models/be-read.jpg",
                             "alt_img_art": "be-read.jpg",
-                            "link_art": "article2/article-be-3"
+                            "link_art": "article3/article-be-3"
                         }
                     }
                 ]
