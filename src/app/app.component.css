@@ -2,3 +2,44 @@
     font-family: 'Caviar Dreams', "Roboto", sans-serif;
     font-style: normal;
 } */
+
+#wm-logo {
+    padding-bottom: 0.15rem;
+    width: 2.9rem;
+    height: 2.9rem;
+    padding-right: 0.5em;
+}
+
+
+/* ПРИ ПОМОЩИ Z-INDEX'A БАР ДЕРЖИТСЯ НАВЕРХУ, А НЕ ПРЯЧЕТСЯ ПОД СКРОЛЛОМ */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100% !important;
+}
+
+.navbar-controls {
+    justify-content: flex-end;
+}
+
+.mat-menu-panel {
+    background-color: blueviolet !important;
+}
+
+.sidenav-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.mat-sidenav {
+    /* background-color: rgba(160, 76, 115, 0.9); */
+    background-color: rgba(175, 157, 169, 0.9);
+}

@@ -13,6 +13,7 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent},
     { path: 'ribbon2', loadChildren: () => import('./../app/ribbon2/ribbon2.module').then(m => m.Ribbon2Module)},
     { path: 'ribbon3', loadChildren: () => import('./../app/ribbon3/ribbon3.module').then(m => m.Ribbon3Module)},
+    { path: 'ribbon4', loadChildren: () => import('./../app/ribbon4/ribbon4.module').then(m => m.Ribbon4Module)},
     { path: 'video/:video_id', component: VideoPlayerComponent },
     { path: 'video2/:video_id', component: VideoPlayer2Component },
 

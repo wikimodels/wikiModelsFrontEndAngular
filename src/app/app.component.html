@@ -1,5 +1,87 @@
 <mat-progress-bar *ngIf="isLoading | async" mode="indeterminate" color="warn" style="position: absolute; top: 0; z-index: 100;">
 </mat-progress-bar>
 
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
+
+<!-- MAT-MENU -->
+<!-- <mat-menu #menu="matMenu ">
+        <button mat-menu-item>
+            <mat-icon svgIcon="video "></mat-icon>    
+            <span>Youtube</span>
+        </button>
+        <button mat-menu-item>
+            <mat-icon svgIcon="s_cart "></mat-icon>
+            <span>Wikistore</span>
+        </button>
+        <button mat-menu-item (click)="goToRibbon1() ">
+            <mat-icon svgIcon="about-us "></mat-icon>    
+            <span>Лента 1</span>
+        </button>
+        <button mat-menu-item (click)="goToRibbon2() ">
+            <mat-icon svgIcon="about-us "></mat-icon>    
+            <span>Лента 2</span>
+        </button>
+        <button mat-menu-item (click)="goToRibbon3() ">
+            <mat-icon svgIcon="about-us "></mat-icon>    
+            <span>Лента 3</span>
+        </button>
+        <button mat-menu-item (click)="goToRibbon4() ">
+            <mat-icon svgIcon="about-us "></mat-icon>    
+            <span>Лента 4</span>
+        </button>
+    </mat-menu> -->
+<!-- <app-navbar></app-navbar> -->
+<mat-toolbar class="sticky">
+    <div fxFlex fxLayout fxLayoutAlign="start center">
+        <mat-icon id="wm-logo" svgIcon="wm-logo" (click)="goHome()"></mat-icon>
+        <div>
+            Wiki Models
+        </div>
+    </div>
+    <div fxFlex fxLayout fxLayoutAlign="end">
+        <!-- <button mat-icon-button [matMenuTriggerFor]="menu"> -->
+        <button mat-icon-button (click)="toggle('toggle button')">    
+                            <mat-icon svgIcon="vertical-dots">            
+                            </mat-icon>
+                        </button>
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container" (backdropClick)="toggle('backdrop')">
+    <mat-sidenav #sidenav (keydown.escape)="toggle('escape')" disableClose position="end" mode="over">
+        <mat-list>
+            <mat-list-item>
+                <button mat-menu-item>
+                                <mat-icon svgIcon="video"></mat-icon>    
+                                <span>Youtube</span>
+                            </button>
+            </mat-list-item>
+            <mat-list-item matRipple (click)="goToRibbon1()">
+                <mat-icon svgIcon="home"></mat-icon>
+                <span>Главная</span>
+            </mat-list-item>
+            <mat-list-item matRipple>
+                <mat-icon svgIcon="video"></mat-icon>
+                <span>Youtube</span>
+            </mat-list-item>
+            <mat-list-item matRipple>
+                <mat-icon svgIcon="shop"></mat-icon>
+                <span>Wikistore</span>
+            </mat-list-item>
+            <mat-list-item matRipple (click)="goToRibbon2()">
+                <mat-icon svgIcon="about-us"></mat-icon>
+                <span>Лента 2</span>
+            </mat-list-item>
+            <mat-list-item matRipple (click)="goToRibbon3()">
+                <mat-icon svgIcon="about-us"></mat-icon>
+                <span>Лента 3</span>
+            </mat-list-item>
+            <mat-list-item matRipple (click)="goToRibbon4()">
+                <mat-icon svgIcon="about-us"></mat-icon>
+                <span>Лента 4</span>
+            </mat-list-item>
+        </mat-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

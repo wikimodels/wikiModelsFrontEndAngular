@@ -5,6 +5,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+    /* background-color: rgb(53, 51, 51); */
     /* font-family: Roboto, "Helvetica Neue", sans-serif; */
     /* font-family: 'Caviar Dreams', "Roboto", sans-serif;
     font-style: normal; */
@@ -187,3 +188,10 @@ img.ng-lazyloaded {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9)
 }
+
+
+/* .popup-bottom-sheet {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9)
+} */

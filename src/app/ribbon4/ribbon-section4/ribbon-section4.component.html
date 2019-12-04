@@ -1,0 +1,23 @@
+<!-- RIBBON-HEADER -->
+<app-ribbon-header4 *ngIf="section.type === 'ribbon-header'" [header]="section.header"></app-ribbon-header4>
+
+<!-- TEXT -->
+<app-ribbon-text4 *ngIf="section.type === 'text'" [articleText]="section.articleText"></app-ribbon-text4>
+
+<!-- TILES -->
+<app-ribbon-tiles4 *ngIf="section.type === 'tiles'" [tiles]="section.tiles"></app-ribbon-tiles4>
+
+<!-- LAZY TILES -->
+<app-ribbon-lazy-tiles4 *ngIf="section.type === 'lazy-tiles'" [tiles]="section.tiles"></app-ribbon-lazy-tiles4>
+
+<!-- BANNER -->
+<app-ribbon-banner4 *ngIf="section.type === 'banner'" [banner]="section.banner"></app-ribbon-banner4>
+
+<!-- LAZY BANNER -->
+<app-ribbon-lazy-banner4 *ngIf="section.type === 'lazy-banner'" [banner]="section.banner"></app-ribbon-lazy-banner4>
+
+<!-- PICTURE -->
+<app-ribbon-picture4 *ngIf="section.type === 'picture'" [picture]="section.picture"></app-ribbon-picture4>
+
+<!-- LAZY PICTURE -->
+<app-ribbon-lazy-picture4 *ngIf="section.type === 'lazy-picture'" [picture]="section.picture"></app-ribbon-lazy-picture4>

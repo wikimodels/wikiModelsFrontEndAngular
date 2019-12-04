@@ -1,0 +1,15 @@
+<div class="dismiss">
+    <button mat-icon-button (click)="dismiss()">
+        <mat-icon>close</mat-icon>
+    </button>
+</div>
+<div class="snackbar-container">
+    <mat-grid-list cols="2" rowHeight="3:4.5" gutterSize="15">
+        <mat-grid-tile matRipple>
+            <img [src]="data.img_yt" [alt]="data.alt_img_yt" (click)="goToLink(data.link_yt)">
+        </mat-grid-tile>
+        <mat-grid-tile matRipple>
+            <img [src]="data.img_art" [alt]="data.alt_img_art" (click)="goToLink(data.link_art)">
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

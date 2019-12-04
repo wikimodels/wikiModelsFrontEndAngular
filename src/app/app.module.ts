@@ -20,9 +20,11 @@ import { ModelCardComponent } from './model-card/model-card.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LazyLoadImageModule } from 'ng-lazyload-image';
+
 import { RibbonModule } from './ribbon/ribbon.module';
 import { Ribbon2Module } from './ribbon2/ribbon2.module';
 import { Ribbon3Module } from './ribbon3/ribbon3.module';
+import { Ribbon4Module } from './ribbon4/ribbon4.module';
 
 import { ErrorHandlerModule } from './error-handler/error-handler.module';
 import { VideoPlayer2Module } from './video-player2/video-player2.module';
@@ -52,6 +54,7 @@ import { Article3Module } from './article3/article3.module';
     RibbonModule,
     Ribbon2Module,
     Ribbon3Module,
+    Ribbon4Module,
     ErrorHandlerModule,
     LazyLoadImageModule,
     VideoPlayerModule,

@@ -1,7 +1,7 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Router, NavigationStart, NavigationError, NavigationEnd, NavigationCancel } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
-import { MatIconRegistry } from '@angular/material';
+import { MatIconRegistry, MatSidenav } from '@angular/material';
 import { Subject, interval, Observable, asyncScheduler, Subscription } from 'rxjs';
 import { takeWhile, filter, scan, observeOn } from 'rxjs/operators';
 import { Location, PopStateEvent } from '@angular/common';
@@ -16,7 +16,8 @@ import { Event  } from '@angular/router';
 })
 export class AppComponent implements OnInit, OnDestroy {
   
-
+  @ViewChild('sidenav', {static: false}) sidenav: MatSidenav;
+  
   protected ngUnsubscribe: Subject<void> = new Subject<void>();
   lastPoppedUrl = '';
   yScrollStack: number[] = [];
@@ -50,13 +51,16 @@ export class AppComponent implements OnInit, OnDestroy {
         'volume-off', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/volume-off-24.svg'));
 
       matIconRegistry.addSvgIcon(
-        's_cart', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/s_cart_24.svg'));
+        'shop', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/s-cart.svg'));
 
       matIconRegistry.addSvgIcon(
         'play', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/play.svg'));
       
       matIconRegistry.addSvgIcon(
         'about-us', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/clear_all-24px.svg'));
+
+      matIconRegistry.addSvgIcon(
+        'home', domSanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/home-24px.svg'));
     }
 
     ngOnInit(): void {
@@ -124,4 +128,41 @@ export class AppComponent implements OnInit, OnDestroy {
     ngOnDestroy() {
       // this._subscriptions.forEach(subscription => subscription.unsubscribe());
     }
+
+    toggle(reason: string) {
+      console.log('REASON ', reason);
+      // this.sidenav.close();
+      this.sidenav.toggle();
+    }
+
+    goHome() {       
+      this.router.navigate(['home']);
+    }
+
+    goToRibbon1() {
+      this.sidenav.close();
+      this.router.navigate(['home']);
+      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+    }
+  
+    goToRibbon2() {
+      this.sidenav.close();
+      this.router.navigate(['ribbon2']);
+      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+
+    }
+  
+    goToRibbon3() {
+      this.sidenav.close();
+      this.router.navigate(['ribbon3']);
+      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+
+    }
+  
+    goToRibbon4() {
+      this.sidenav.close();
+      this.router.navigate(['ribbon4']);
+      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+    }
+  
 }

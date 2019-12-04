@@ -1,0 +1,15 @@
+.snackbar-container {
+    padding-top: 40px;
+}
+
+.dismiss {
+    text-align: right;
+    padding-top: 60px;
+    color: whitesmoke;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
