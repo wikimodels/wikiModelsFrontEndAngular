@@ -116,23 +116,17 @@ THE SOFTWARE.
 
 @angular/material/card
 
-@angular/material/core
-
 @angular/material/dialog
 
 @angular/material/grid-list
 
 @angular/material/icon
 
-@angular/material/list
-
 @angular/material/menu
 
 @angular/material/progress-bar
 
 @angular/material/progress-spinner
-
-@angular/material/sidenav
 
 @angular/material/slider
 
