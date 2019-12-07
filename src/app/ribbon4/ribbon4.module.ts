@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { Ribbon4Component } from './ribbon4.component';
 import { RibbonSection4Component } from './ribbon-section4/ribbon-section4.component';
@@ -27,10 +28,9 @@ import { RibbonTile4Component } from './ribbon-tiles4/ribbon-tile4/ribbon-tile4.
 import { BottomSheet4Component } from './bottom-sheet4/bottom-sheet4.component';
 
 
-
 @NgModule({
   declarations: [
-     
+
     Ribbon4Component,
     RibbonSection4Component,
     RibbonLazyTile4Component,
@@ -46,16 +46,18 @@ import { BottomSheet4Component } from './bottom-sheet4/bottom-sheet4.component';
     RibbonFooter4Component,
     TestSnackbar4Component,
     BottomSheet4Component,
-    
+     
+
   ],
-  imports: [     
+  imports: [
     CommonModule,
     MaterialModule,
     RouterModule,
+    CarouselModule,
     RibbonRouting4Module,
     HttpClientModule,
     FlexLayoutModule,
-    FormsModule,    
+    FormsModule,
     LazyLoadImageModule,
     SharedModule
   ],
@@ -71,11 +73,13 @@ import { BottomSheet4Component } from './bottom-sheet4/bottom-sheet4.component';
     RibbonLazyBanner4Component,
     RibbonTile4Component,
     RibbonPicture4Component,
-    RibbonLazyPicture4Component,
-    TestSnackbar4Component
+    RibbonLazyPicture4Component,    
+    TestSnackbar4Component,
     
 ],
-entryComponents: [BottomSheet4Component],
-  providers: [RibbonsRestApiService] 
+entryComponents: [
+  BottomSheet4Component    
+],
+  providers: [RibbonsRestApiService]
 })
 export class Ribbon4Module { }

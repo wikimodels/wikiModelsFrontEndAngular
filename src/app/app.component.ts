@@ -15,8 +15,7 @@ import { Event  } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, OnDestroy {
-  
-  @ViewChild('sidenav', {static: false}) sidenav: MatSidenav;
+   
   
   protected ngUnsubscribe: Subject<void> = new Subject<void>();
   lastPoppedUrl = '';
@@ -118,7 +117,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
         setTimeout(() => {
         this.isLoadingService.remove();
-        }, 1000);
+        }, 500);
         // Else navigation has ended, so `remove()` a loading indicator
         // this.isLoadingService.remove();          
 
@@ -129,40 +128,39 @@ export class AppComponent implements OnInit, OnDestroy {
       // this._subscriptions.forEach(subscription => subscription.unsubscribe());
     }
 
-    toggle(reason: string) {
-      console.log('REASON ', reason);
-      // this.sidenav.close();
-      this.sidenav.toggle();
-    }
+    // toggle(reason: string) {
+    //   console.log('REASON ', reason);
+    //   this.sidenav.toggle();
+    // }
 
-    goHome() {       
-      this.router.navigate(['home']);
-    }
+    // goHome() {       
+    //   this.router.navigate(['home']);
+    // }
 
-    goToRibbon1() {
-      this.sidenav.close();
-      this.router.navigate(['home']);
-      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
-    }
+    // goToRibbon1() {
+    //   this.sidenav.close();
+    //   this.router.navigate(['home']);
+    //   document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+    // }
   
-    goToRibbon2() {
-      this.sidenav.close();
-      this.router.navigate(['ribbon2']);
-      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+    // goToRibbon2() {
+    //   this.sidenav.close();
+    //   this.router.navigate(['ribbon2']);
+    //   document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
 
-    }
+    // }
   
-    goToRibbon3() {
-      this.sidenav.close();
-      this.router.navigate(['ribbon3']);
-      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+    // goToRibbon3() {
+    //   this.sidenav.close();
+    //   this.router.navigate(['ribbon3']);
+    //   document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
 
-    }
+    // }
   
-    goToRibbon4() {
-      this.sidenav.close();
-      this.router.navigate(['ribbon4']);
-      document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
-    }
+    // goToRibbon4() {
+    //   this.sidenav.close();
+    //   this.router.navigate(['ribbon4']);
+    //   document.getElementsByTagName('mat-sidenav-content')[0].scrollTo(0, 0);
+    // }
   
 }

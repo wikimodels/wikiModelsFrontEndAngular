@@ -1,0 +1,15 @@
+<div class="carousel-container">
+    <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let pic of carousel.pics">
+            <mat-grid-list [cols]="carousel.cols" [rowHeight]="270" [gutterSize]="carousel.gutterSize">
+                <mat-grid-tile matRipple>
+                    <img *ngIf="pic.media" [src]="pic.img" [alt]="pic.alt_img" (click)="openBottomSheet(pic.media)">
+                    <img *ngIf="pic.link" [src]="pic.img" [title]="pic.footer" [alt]="pic.alt_img" (click)="openBottomSheet(pic.link)">
+                    <mat-grid-tile-footer>
+                        {{ pic.footer }}
+                    </mat-grid-tile-footer>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </ng-template>
+    </owl-carousel-o>
+</div>

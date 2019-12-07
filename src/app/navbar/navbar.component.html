@@ -6,8 +6,7 @@
         </div>
     </div>
     <div fxFlex fxLayout fxLayoutAlign="end">
-        <!-- <button mat-icon-button [matMenuTriggerFor]="menu"> -->
-        <button mat-icon-button>
+        <button mat-icon-button [matMenuTriggerFor]="menu">        
             <mat-icon svgIcon="vertical-dots">            
             </mat-icon>
         </button>
@@ -15,13 +14,13 @@
 </mat-toolbar>
 
 <!-- MAT-MENU -->
-<!-- <mat-menu #menu="matMenu">
+<mat-menu #menu="matMenu">
     <button mat-menu-item>
         <mat-icon svgIcon="video"></mat-icon>    
         <span>Youtube</span>
     </button>
     <button mat-menu-item>
-        <mat-icon svgIcon="s_cart"></mat-icon>
+        <mat-icon svgIcon="shop"></mat-icon>
         <span>Wikistore</span>
     </button>
     <button mat-menu-item (click)="goToRibbon1()">
@@ -40,4 +39,4 @@
         <mat-icon svgIcon="about-us"></mat-icon>    
         <span>Лента 4</span>
     </button>
-</mat-menu> -->
+</mat-menu>

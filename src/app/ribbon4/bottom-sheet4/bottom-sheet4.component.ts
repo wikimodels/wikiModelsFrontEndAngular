@@ -23,7 +23,7 @@ export class BottomSheet4Component implements OnInit {
   }
 
   goToLink(link) {
-    console.log('LINK', link); 
+    console.log('BOTTOM SHEET LINK', link); 
     this.router.navigate([link]);
     setTimeout(() => {
       this.bottomSheet.dismiss();

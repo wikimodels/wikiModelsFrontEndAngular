@@ -1,0 +1,18 @@
+.banner-container {
+    position: relative;
+    width: 97%;
+    margin: auto;
+    /* height: auto;
+    margin: auto; */
+    margin-bottom: 4em;
+}
+
+img {
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+}
+
+.mat-grid-tile {
+    border-radius: 6px;
+}

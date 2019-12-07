@@ -1,0 +1,14 @@
+<div class="picture-container">
+    <mat-grid-list [cols]="picture.cols" [rowHeight]="picture.rowHeight" [gutterSize]="picture.gutterSize">
+        <mat-grid-tile class="mat-elevation-z24" *ngFor="let pic of picture.pics">
+            <mat-grid-tile-header *ngIf="pic.header ">
+                {{ pic.header}}
+            </mat-grid-tile-header>
+            <img *ngIf="pic.media" [src]="pic.img" [alt]="pic.alt_img" (click)="openSnackbar(pic.media)">
+            <img *ngIf="pic.link" [src]="pic.img" [alt]="pic.alt_img" (click)="goToResource(pic.link)">
+            <mat-grid-tile-footer *ngIf="pic.footer">
+                {{ pic.footer}}
+            </mat-grid-tile-footer>
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>

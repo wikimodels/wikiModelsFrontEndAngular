@@ -16,7 +16,7 @@ export class NavbarComponent implements OnInit {
     this.router.navigate(['home']);
   }
   goToRibbon1() {
-    this.router.navigate(['home']);
+    this.router.navigate(['ribbon1']);
   }
 
   goToRibbon2() {

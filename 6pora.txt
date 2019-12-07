@@ -147,3 +147,9 @@ WHY U NEED RESPONSE-TYPE - TEXT
 this.http.post(this.webHook, message, { ...this.options, responseType: 'text' }).subscribe();
 The answer is here
 https://stackoverflow.com/questions/46408537/angular-httpclient-http-failure-during-parsing
+
+
+CAROUSELS
+https://www.pika.dev/npm/angular-animated-carousel
+https://angular-animated-carousel-demo.stackblitz.io
+

@@ -12,7 +12,7 @@ import { Router, NavigationEnd } from '@angular/router';
 export class Ribbon4Component implements OnInit, OnDestroy {
 
   sections: any;
-  ribbonId = 'ribbon_3';
+  ribbonId = 'ribbon_4';
   sub: Subscription;
   routerSub: Subscription;
 

@@ -53,15 +53,15 @@ export class VideoPlayer2Component implements OnInit, AfterViewInit, OnDestroy {
     }
 
 ngAfterViewInit() {
+  window.scrollTo(0, 0);
   this.loadScripts();
-
   if ((window as any).YT && (window as any).YT.loaded) {
     this.createPlayer();
   }
 }
 
 ngOnInit() {
-  
+
   this.showControls();
   //  VIDEO_ID SUBSCRIPTION
   this.videoIdSub = (this.route.params.subscribe( params => {

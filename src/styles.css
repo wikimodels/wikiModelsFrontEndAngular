@@ -189,9 +189,20 @@ img.ng-lazyloaded {
     background-color: rgba(0, 0, 0, 0.9)
 }
 
-
-/* .popup-bottom-sheet {
+.bottom-sheet-popup {
     width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9)
-} */
+    height: 50vh;
+    background-color: rgba(20, 19, 19, 0.9)
+}
+
+.owl-carousel .owl-wrapper {
+    display: flex !important;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    /* max-width: initial; */
+}

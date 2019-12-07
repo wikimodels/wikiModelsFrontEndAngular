@@ -1,0 +1,11 @@
+.carousel-container {
+    padding-bottom: 2em;
+}
+
+.footer-text>figure {
+    justify-content: flex-start !important;
+}
+
+.mat-grid-tile {
+    border-radius: 12px;
+}

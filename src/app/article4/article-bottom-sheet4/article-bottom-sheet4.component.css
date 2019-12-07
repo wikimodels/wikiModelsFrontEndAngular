@@ -1,0 +1,13 @@
+.bottom-sheet-container {
+    padding-top: 40px;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.mat-grid-tile {
+    border-radius: 6px;
+}

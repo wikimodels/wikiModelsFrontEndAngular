@@ -1,0 +1,32 @@
+.header-container {
+    position: relative;
+    margin-top: 3.5em;
+    margin-bottom: 3em;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.author-text {
+    position: relative;
+    top: -24.7em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.header-text {
+    /* margin: 0 auto; */
+    position: absolute;
+    /* margin-top: 3.5em; */
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 25.2em;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

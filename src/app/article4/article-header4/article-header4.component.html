@@ -1,0 +1,25 @@
+<!-- HEADER PICTURE -->
+<div class="header-container">
+    <mat-grid-list cols="1" rowHeight="3:4" class="header mat-elevation-z20">
+        <mat-grid-tile>
+            <img [src]="headerImage" [alt]="altImg">
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+
+<!-- AUTHOR TEXT -->
+<h4 class="author-text">@Roma Acorn</h4>
+
+<!-- HEADER TEXT -->
+
+<mat-grid-list cols="1" rowHeight="150" class="header-text">
+    <mat-grid-tile>
+        <h3 [innerHTML]="headerText | safeHTML"></h3>
+    </mat-grid-tile>
+</mat-grid-list>
+
+<!--<mat-grid-list cols="1" rowHeight="70" class="author-text-container">
+    <mat-grid-tile>
+        <h3>@Roma Acorn</h3>
+    </mat-grid-tile>
+</mat-grid-list> -->

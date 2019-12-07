@@ -46,7 +46,7 @@ export class RibbonPicture4Component implements OnInit {
       console.log('BOTTOM SHEET DATA: ', data);
       const config = new MatBottomSheetConfig();
       config.data = data;
-      config.panelClass = ['popup'];
+      config.panelClass = ['bottom-sheet-popup'];
       config.hasBackdrop = true;
       this.bottomSheet.open(BottomSheet4Component, config);
 
