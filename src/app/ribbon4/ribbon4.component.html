@@ -3,6 +3,7 @@
         <div *ngFor="let section of sections">
             <app-ribbon-section4 [section]="section"></app-ribbon-section4>
         </div>
+        <app-ribbon-footer *ngIf="ribbonDataRecieved"></app-ribbon-footer>
         <!-- <app-ribbon-footer></app-ribbon-footer> -->
     </div>
 </div>

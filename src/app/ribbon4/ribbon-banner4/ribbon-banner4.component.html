@@ -1,5 +1,5 @@
 <div class="banner-container">
-    <mat-grid-list [cols]="banner.cols" [rowHeight]="banner.rowHeight" [gutterSize]="banner.gutterSize">
+    <mat-grid-list [cols]="banner.cols" rowHeight="1080:1350" [gutterSize]="banner.gutterSize">
         <mat-grid-tile class="mat-elevation-z24" matRipple *ngFor="let tile of banner.tiles">
             <mat-grid-tile-header *ngIf="tile.header ">
                 {{ tile.header}}

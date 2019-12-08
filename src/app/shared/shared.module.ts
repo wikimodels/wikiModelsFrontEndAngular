@@ -15,7 +15,6 @@ import { DynamicScriptLoaderService } from './services/dynamic-script-loader.ser
 import { BackButtonDirective } from './directives/back-button.directive';
 import { LazyTileComponent } from './components/lazy-tile/lazy-tile.component';
 
-import { FooterComponent } from './components/footer/footer.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ServerErrorComponent } from './components/server-error/server-error.component';
 
@@ -32,8 +31,7 @@ import { ServerErrorComponent } from './components/server-error/server-error.com
         SafeHTMLPipe,
         YoutubePipe,
         BackButtonDirective,
-        LazyTileComponent,
-        FooterComponent,
+        LazyTileComponent,        
         NotFoundComponent,
         ServerErrorComponent
     ],
@@ -42,8 +40,7 @@ import { ServerErrorComponent } from './components/server-error/server-error.com
         SafeHTMLPipe,
         YoutubePipe,
         BackButtonDirective,
-        LazyTileComponent,
-        FooterComponent,
+        LazyTileComponent,         
         NotFoundComponent,
         ServerErrorComponent
     ],

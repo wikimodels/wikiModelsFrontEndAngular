@@ -1,6 +1,6 @@
 [{
         "model_id": "ps",
-        "model_nickname": "@Patrick Schwarzwald",
+        "authorText": "@Patrick Schwarzwald",
         "model_insta": "https://instagram.com/patrickschwarzenegger/",
         "model_yt": "https://youtu.be/d53w6OdKNAU",
         "model_vk": "https://vk.com/im?sel=513928438",
@@ -8,8 +8,9 @@
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "assets/img/models/ps-main-1080x1350.jpg",
-                "headerText": "<h1> Мы познакомились в инете</h1>"
+                "headerImage": "assets/img/models/ps-main-h-1080x1350.jpg",
+                "headerText": "<h1> Мы познакомились в инете</h1>",
+                "authorText": "@Patrick Schwarzwald"
             },
             {
                 "type": "banner",
@@ -61,7 +62,6 @@
                             "img": "assets/img/models/ps-insta-900x1200.jpg",
                             "alt_img": "ps-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -70,7 +70,6 @@
                             "img": "assets/img/models/ps-telega-900x1200.jpg",
                             "alt_img": "ps-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -115,14 +114,12 @@
                                 "url": "https://www.evisu.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-evisu-1-669by669.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-kyku-1-1200by1200.jpg"
-
                         }
                     ]
                 }
@@ -163,80 +160,6 @@
                     "rowHeight": "250",
                     "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good",
-                            "media": {
-                                "img_yt": "assets/img/models/bb-yt.jpg",
-                                "alt_img_yt": "bb-yt.jpg",
-                                "link_yt": "video2/t5dYJT1d1oc",
-                                "img_art": "assets/img/models/bb-read.jpg",
-                                "alt_img_art": "bb-read.jpg",
-                                "link_art": "article4/article-bb-4"
-                            }
-                        },
-                        {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
-                            "alt_img": "sc-main-1080by1350",
-                            "footer": "Lucky Blue Smith",
-                            "media": {
-                                "img_yt": "assets/img/models/sc-yt.jpg",
-                                "alt_img_yt": "sc-yt.jpg",
-                                "link_yt": "video2/EEkknEm6EVg",
-                                "img_art": "assets/img/models/sc-read.jpg",
-                                "alt_img_art": "sc-read.jpg",
-                                "link_art": "article4/article-sc-4"
-                            }
-                        },
-                        {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick",
-                            "media": {
-                                "img_yt": "assets/img/models/jd-yt.jpg",
-                                "alt_img_yt": "jd-yt.jpg",
-                                "link_yt": "video2/Roj5a6YQTuw",
-                                "img_art": "assets/img/models/jd-read.jpg",
-                                "alt_img_art": "jd-read.jpg",
-                                "link_art": "article4/article-jd-4"
-                            }
-
-                        },
-                        {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
-                            "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
-                            }
-
-                        },
-                        {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
-                            "alt_img": "ca-main-1080by1350",
-                            "footer": "Carolina Fit",
-                            "media": {
-                                "img_yt": "assets/img/models/ca-yt.jpg",
-                                "alt_img_yt": "ca-yt.jpg",
-                                "link_yt": "video2/JmdBoeAPEl8",
-                                "img_art": "assets/img/models/ca-read.jpg",
-                                "alt_img_art": "ca-read.jpg",
-                                "link_art": "article4/article-ca-4"
-                            }
-
-                        },
-                        {
-
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
                             "alt_img": "pp-main-1080by1350",
                             "footer": "Popodchemu",
@@ -248,10 +171,8 @@
                                 "alt_img_art": "pp-read.jpg",
                                 "link_art": "article4/article-pp-4"
                             }
-
                         },
                         {
-
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
                             "alt_img": "li-main-1080by1350",
                             "footer": "Artiom Lipa",
@@ -263,22 +184,58 @@
                                 "alt_img_art": "li-read.jpg",
                                 "link_art": "article4/article-li-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
                             "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn",
+                            "media": {
+                                "img_yt": "assets/img/models/ra-yt.jpg",
+                                "alt_img_yt": "ra-yt.jpg",
+                                "link_yt": "video2/DVSa-RT8taU",
+                                "img_art": "assets/img/models/ra-read.jpg",
+                                "alt_img_art": "ra-read.jpg",
+                                "link_art": "article4/article-ra-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -289,17 +246,20 @@
             }
         ]
     },
+
+
     {
         "model_id": "bb",
-        "model_nickname": "Bad Bad Not Good",
+        "authorText": "Bad Bad Not Good",
         "model_insta": "https://www.instagram.com/__badbadnotgood/",
         "model_vk": "https://vk.com/alexndrart",
         "article_id": "article-bb-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                "headerText": "<h1>Сны ненавидят людей</h1>"
+                "headerImage": "assets/img/models/bb-main-h-1080by1350.jpg",
+                "headerText": "<h1>Сны ненавидят людей</h1>",
+                "authorText": "Bad Bad Not Good"
             },
             {
                 "type": "banner",
@@ -351,7 +311,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-insta-900x1200.jpg",
                             "alt_img": "bb-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -360,7 +319,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-telega-900x1200.jpg",
                             "alt_img": "bb-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -405,14 +363,12 @@
                                 "url": "https://bapepirate.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-bape-1-1600by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.wtaps.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-wt-1-1600by900.jpg"
-
                         }
                     ]
                 }
@@ -430,7 +386,6 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
-
             {
                 "type": "lazy-picture",
                 "picture": {
@@ -448,70 +403,88 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
-                            "alt_img": "ca-main-1080by1350",
-                            "footer": "Carolina Fit",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
+                            "alt_img": "sc-main-1080by1350",
+                            "footer": "Lucky Blue Smith",
                             "media": {
-                                "img_yt": "assets/img/models/ca-yt.jpg",
-                                "alt_img_yt": "ca-yt.jpg",
-                                "link_yt": "video2/JmdBoeAPEl8",
-                                "img_art": "assets/img/models/ca-read.jpg",
-                                "alt_img_art": "ca-read.jpg",
-                                "link_art": "article4/article-ca-4"
+                                "img_yt": "assets/img/models/sc-yt.jpg",
+                                "alt_img_yt": "sc-yt.jpg",
+                                "link_yt": "video2/EEkknEm6EVg",
+                                "img_art": "assets/img/models/sc-read.jpg",
+                                "alt_img_art": "sc-read.jpg",
+                                "link_art": "article4/article-sc-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
-                            "alt_img": "pp-main-1080by1350",
-                            "footer": "Popodchemu",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
+                            "alt_img": "jd-main-1080by1350",
+                            "footer": "Johnny Wick",
                             "media": {
-                                "img_yt": "assets/img/models/pp-yt.jpg",
-                                "alt_img_yt": "pp-yt.jpg",
-                                "link_yt": "video2/90vC6TnjLAs",
-                                "img_art": "assets/img/models/pp-read.jpg",
-                                "alt_img_art": "pp-read.jpg",
-                                "link_art": "article4/article-pp-4"
+                                "img_yt": "assets/img/models/jd-yt.jpg",
+                                "alt_img_yt": "jd-yt.jpg",
+                                "link_yt": "video2/Roj5a6YQTuw",
+                                "img_art": "assets/img/models/jd-read.jpg",
+                                "alt_img_art": "jd-read.jpg",
+                                "link_art": "article4/article-jd-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
-                            "alt_img": "li-main-1080by1350",
-                            "footer": "Artiom Lipa",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
                             "media": {
-                                "img_yt": "assets/img/models/li-yt.jpg",
-                                "alt_img_yt": "li-yt.jpg",
-                                "link_yt": "video2/KDxPwlj4n8E",
-                                "img_art": "assets/img/models/li-read.jpg",
-                                "alt_img_art": "li-read.jpg",
-                                "link_art": "article4/article-li-4"
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn",
                             "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
+                                "img_yt": "assets/img/models/ra-yt.jpg",
+                                "alt_img_yt": "ra-yt.jpg",
+                                "link_yt": "video2/DVSa-RT8taU",
+                                "img_art": "assets/img/models/ra-read.jpg",
+                                "alt_img_art": "ra-read.jpg",
+                                "link_art": "article4/article-ra-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -521,19 +494,21 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
         ]
-
     },
+
+
     {
         "model_id": "nf",
-        "model_nickname": "@Nick Freak",
+        "authorText": "@Nick Freak",
         "model_insta": "https://www.instagram.com/nick_freak_/",
         "model_vk": "https://vk.com/nickfreakiscrazyman",
         "article_id": "article-nf-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                "headerText": "<h1>Сегодня первый день остатка моей жизни</h1>"
+                "headerImage": "assets/img/models/nf-main-h-1080by1350.jpg",
+                "headerText": "<h1>Сегодня первый день остатка моей жизни</h1>",
+                "authorText": "@Nick Freak"
             },
             {
                 "type": "banner",
@@ -585,7 +560,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-insta-900x1200.jpg",
                             "alt_img": "nf-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -594,7 +568,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-telega-900x1200.jpg",
                             "alt_img": "nf-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -603,7 +576,6 @@
                 "type": "text",
                 "articleText": "<p>Ближайшим образом взаимодействие представляется взаимной причинностью редположенных, обусловливающих друг друга <strong>субстанций</strong>; каждая есть относительно другой одновременно и активная и пассивная субстанция.</p>"
             },
-
             {
                 "type": "lazy-picture",
                 "picture": {
@@ -634,7 +606,6 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного. Само взаимодействие есть поэтому все еще лишь пустой вид и способ; и теперь еще требуется только некоторое внешнее суммирование того, что уже и имеется в себе и положено.</p>"
             },
-
             {
                 "type": "lazy-picture",
                 "picture": {
@@ -647,7 +618,6 @@
                     }]
                 }
             },
-
             {
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
@@ -663,14 +633,12 @@
                                 "url": "https://www.stussy.com/blogs/stussy-holiday-19"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-stussy-1-1600by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.evisu.com/us/alphaxevisu.html"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-evisu-2-1600by900.jpg"
-
                         }
                     ]
                 }
@@ -689,28 +657,38 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
-                            "alt_img": "be-main-1080by1350",
-                            "footer": "Billie Elish",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
+                            "alt_img": "bb-main-1080by1350",
+                            "footer": "Bad Bad Not Good",
                             "media": {
-                                "img_yt": "assets/img/models/be-yt.jpg",
-                                "alt_img_yt": "be-yt.jpg",
-                                "link_yt": "video2/gBRi6aZJGj4",
-                                "img_art": "assets/img/models/be-read.jpg",
-                                "alt_img_art": "be-read.jpg",
-                                "link_art": "article4/article-be-4"
+                                "img_yt": "assets/img/models/bb-yt.jpg",
+                                "alt_img_yt": "bb-yt.jpg",
+                                "link_yt": "video2/t5dYJT1d1oc",
+                                "img_art": "assets/img/models/bb-read.jpg",
+                                "alt_img_art": "bb-read.jpg",
+                                "link_art": "article4/article-bb-4"
                             }
-
                         },
                         {
-
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
+                            "alt_img": "sc-main-1080by1350",
+                            "footer": "Lucky Blue Smith",
+                            "media": {
+                                "img_yt": "assets/img/models/sc-yt.jpg",
+                                "alt_img_yt": "sc-yt.jpg",
+                                "link_yt": "video2/EEkknEm6EVg",
+                                "img_art": "assets/img/models/sc-read.jpg",
+                                "alt_img_art": "sc-read.jpg",
+                                "link_art": "article4/article-sc-4"
+                            }
+                        },
+                        {
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
                             "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick",
@@ -722,37 +700,45 @@
                                 "alt_img_art": "jd-read.jpg",
                                 "link_art": "article4/article-jd-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
-                            "alt_img": "ma-main-1080by1350",
-                            "footer": "Mary Grgf",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
+                            "alt_img": "ca-main-1080by1350",
+                            "footer": "Carolina Fit",
                             "media": {
-                                "img_yt": "assets/img/models/ma-yt.jpg",
-                                "alt_img_yt": "ma-yt.jpg",
-                                "link_yt": "video2/nxrUxWPLXkE",
-                                "img_art": "assets/img/models/ma-read.jpg",
-                                "alt_img_art": "ma-read.jpg",
-                                "link_art": "article4/article-ma-4"
+                                "img_yt": "assets/img/models/ca-yt.jpg",
+                                "alt_img_yt": "ca-yt.jpg",
+                                "link_yt": "video2/JmdBoeAPEl8",
+                                "img_art": "assets/img/models/ca-read.jpg",
+                                "alt_img_art": "ca-read.jpg",
+                                "link_art": "article4/article-ca-4"
                             }
-
                         },
                         {
-
-                            "img": "assets/img/models/ps-main-1080x1350.jpg",
-                            "alt_img": "ps-main-1080x1350",
-                            "footer": "Patrick Schwarzwald",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
                             "media": {
-                                "img_yt": "assets/img/models/ps-yt.jpg",
-                                "alt_img_yt": "ps-yt.jpg",
-                                "link_yt": "video2/d53w6OdKNAU",
-                                "img_art": "assets/img/models/ps-read.jpg",
-                                "alt_img_art": "ps-read.jpg",
-                                "link_art": "article4/article-ps-4"
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -797,13 +783,13 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
-
         ]
-
     },
+
+
     {
         "model_id": "jd",
-        "model_nickname": "@Johnny Wick",
+        "authorText": "@Johnny Wick",
         "model_insta": "https://www.instagram.com/johnnydeppofficial/?hl=uk",
         "model_fb": "https://www.facebook.com/Johnny.Depp.Official/",
         "model-tw": "https://twitter.com/johnjohnnydepp",
@@ -811,8 +797,9 @@
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
-                "headerText": "<h1>Война вредит бизнесу, если её проиграть</h1>"
+                "headerImage": "assets/img/models/jd-main-h-1080by1350.jpg",
+                "headerText": "<h1>Война вредит бизнесу, если её проиграть</h1>",
+                "authorText": "@Johnny Wick"
             },
             {
                 "type": "banner",
@@ -864,7 +851,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-insta-900x1200.jpg",
                             "alt_img": "jd-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -873,7 +859,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-telega-900x1200.jpg",
                             "alt_img": "jd-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -918,14 +903,12 @@
                                 "url": "https://www.carhartt-wip.com/en"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-carnartt-1-1200by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.wtaps.com/feature/?p=53"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-wt-2-1200by900.jpg"
-
                         }
                     ]
                 }
@@ -960,31 +943,41 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
+                            "alt_img": "li-main-1080by1350",
+                            "footer": "Artiom Lipa",
                             "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
+                                "img_yt": "assets/img/models/li-yt.jpg",
+                                "alt_img_yt": "li-yt.jpg",
+                                "link_yt": "video2/KDxPwlj4n8E",
+                                "img_art": "assets/img/models/li-read.jpg",
+                                "alt_img_art": "li-read.jpg",
+                                "link_art": "article4/article-li-4"
                             }
-
                         },
                         {
-
+                            "img": "assets/img/models/ps-main-1080x1350.jpg",
+                            "alt_img": "ps-main-1080x1350",
+                            "footer": "Patrick Schwarzwald",
+                            "media": {
+                                "img_yt": "assets/img/models/ps-yt.jpg",
+                                "alt_img_yt": "ps-yt.jpg",
+                                "link_yt": "video2/d53w6OdKNAU",
+                                "img_art": "assets/img/models/ps-read.jpg",
+                                "alt_img_art": "ps-read.jpg",
+                                "link_art": "article4/article-ps-4"
+                            }
+                        },
+                        {
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
                             "alt_img": "ma-main-1080by1350",
-                            "footer": "Mary Grey",
+                            "footer": "Mari Grey",
                             "media": {
                                 "img_yt": "assets/img/models/ma-yt.jpg",
                                 "alt_img_yt": "ma-yt.jpg",
@@ -993,25 +986,8 @@
                                 "alt_img_art": "ma-read.jpg",
                                 "link_art": "article4/article-ma-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good",
-                            "media": {
-                                "img_yt": "assets/img/models/bb-yt.jpg",
-                                "alt_img_yt": "bb-yt.jpg",
-                                "link_yt": "video2/t5dYJT1d1oc",
-                                "img_art": "assets/img/models/bb-read.jpg",
-                                "alt_img_art": "bb-read.jpg",
-                                "link_art": "article4/article-bb-4"
-                            }
-
-                        },
-                        {
-
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
                             "alt_img": "ra-main-1080by1350",
                             "footer": "Roma Acorn",
@@ -1023,7 +999,32 @@
                                 "alt_img_art": "ra-read.jpg",
                                 "link_art": "article4/article-ra-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -1048,22 +1049,22 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             }
-
         ]
-
     },
+
 
     {
         "model_id": "pp",
-        "model_nickname": "@Popodchemu",
+        "authorText": "@Popodchemu",
         "model_insta": "https://www.instagram.com/popodchemu/",
         "model_vk": "",
         "article_id": "article-pp-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
-                "headerText": "<h1>Вокруг меня одни идиоты</h1>"
+                "headerImage": "assets/img/models/pp-main-h-1080by1350.jpg",
+                "headerText": "<h1>Вокруг меня одни идиоты</h1>",
+                "authorText": "@Popodchemu"
             },
             {
                 "type": "banner",
@@ -1115,7 +1116,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-insta-900x1200.jpg",
                             "alt_img": "pp-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -1124,7 +1124,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-telega-900x1200.jpg",
                             "alt_img": "pp-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -1169,14 +1168,12 @@
                                 "url": "https://www.evisu.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-evisu-1-669by669.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-kyku-1-1200by1200.jpg"
-
                         }
                     ]
                 }
@@ -1211,43 +1208,12 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good",
-                            "media": {
-                                "img_yt": "assets/img/models/bb-yt.jpg",
-                                "alt_img_yt": "bb-yt.jpg",
-                                "link_yt": "video2/t5dYJT1d1oc",
-                                "img_art": "assets/img/models/bb-read.jpg",
-                                "alt_img_art": "bb-read.jpg",
-                                "link_art": "article4/article-bb-4"
-                            }
-
-                        },
-                        {
-
-                            "img": "assets/img/models/ps-main-1080x1350.jpg",
-                            "alt_img": "ps-main-1080x1350",
-                            "footer": "Patrick Schwarzwald",
-                            "media": {
-                                "img_yt": "assets/img/models/ps-yt.jpg",
-                                "alt_img_yt": "ps-yt.jpg",
-                                "link_yt": "video2/d53w6OdKNAU",
-                                "img_art": "assets/img/models/ps-read.jpg",
-                                "alt_img_art": "ps-read.jpg",
-                                "link_art": "article4/article-ps-4"
-                            }
-
-                        },
-                        {
-
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
                             "alt_img": "jd-main-1080by1350",
                             "footer": "Johnny Wick",
@@ -1259,10 +1225,8 @@
                                 "alt_img_art": "jd-read.jpg",
                                 "link_art": "article4/article-jd-4"
                             }
-
                         },
                         {
-
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
                             "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freak",
@@ -1274,7 +1238,60 @@
                                 "alt_img_art": "nf-read.jpg",
                                 "link_art": "article4/article-nf-4"
                             }
+                        },
 
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
+                            "alt_img": "li-main-1080by1350",
+                            "footer": "Artiom Lipa",
+                            "media": {
+                                "img_yt": "assets/img/models/li-yt.jpg",
+                                "alt_img_yt": "li-yt.jpg",
+                                "link_yt": "video2/KDxPwlj4n8E",
+                                "img_art": "assets/img/models/li-read.jpg",
+                                "alt_img_art": "li-read.jpg",
+                                "link_art": "article4/article-li-4"
+                            }
+                        },
+
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
+                            "media": {
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn",
+                            "media": {
+                                "img_yt": "assets/img/models/ra-yt.jpg",
+                                "alt_img_yt": "ra-yt.jpg",
+                                "link_yt": "video2/DVSa-RT8taU",
+                                "img_art": "assets/img/models/ra-read.jpg",
+                                "alt_img_art": "ra-read.jpg",
+                                "link_art": "article4/article-ra-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
                         }
                     ]
                 }
@@ -1300,19 +1317,21 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
         ]
-
     },
+
+
     {
         "model_id": "sc",
-        "model_nickname": "@Lucky Blue Smith",
+        "authorText": "@Lucky Blue Smith",
         "model_insta": "https://www.instagram.com/luckybsmith/?hl=uk",
         "model_tw": "https://twitter.com/luckybsmith",
         "article_id": "article-sc-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
-                "headerText": "<h1>И больше века длится день</h1>"
+                "headerImage": "assets/img/models/sc-main-h-1080by1350.jpg",
+                "headerText": "<h1>И больше века длится день</h1>",
+                "authorText": "@Lucky Blue Smith"
             },
             {
                 "type": "banner",
@@ -1364,7 +1383,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-insta-900x1200.jpg",
                             "alt_img": "sc-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -1373,7 +1391,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-telega-900x1200.jpg",
                             "alt_img": "sc-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -1418,14 +1435,12 @@
                                 "url": "https://bapepirate.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-bape-1-1600by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.wtaps.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-wt-1-1600by900.jpg"
-
                         }
                     ]
                 }
@@ -1460,13 +1475,26 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
+                            "alt_img": "jd-main-1080by1350",
+                            "footer": "Johnny Wick",
+                            "media": {
+                                "img_yt": "assets/img/models/jd-yt.jpg",
+                                "alt_img_yt": "jd-yt.jpg",
+                                "link_yt": "video2/Roj5a6YQTuw",
+                                "img_art": "assets/img/models/jd-read.jpg",
+                                "alt_img_art": "jd-read.jpg",
+                                "link_art": "article4/article-jd-4"
+                            }
+                        },
 
+                        {
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
                             "alt_img": "ca-main-1080by1350",
                             "footer": "Carolina Fit",
@@ -1478,25 +1506,9 @@
                                 "alt_img_art": "ca-read.jpg",
                                 "link_art": "article4/article-ca-4"
                             }
-
                         },
+
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
-                            "alt_img": "pp-main-1080by1350",
-                            "footer": "Popodchemu",
-                            "media": {
-                                "img_yt": "assets/img/models/pp-yt.jpg",
-                                "alt_img_yt": "pp-yt.jpg",
-                                "link_yt": "video2/90vC6TnjLAs",
-                                "img_art": "assets/img/models/pp-read.jpg",
-                                "alt_img_art": "pp-read.jpg",
-                                "link_art": "article4/article-pp-4"
-                            }
-
-                        },
-                        {
-
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
                             "alt_img": "li-main-1080by1350",
                             "footer": "Artiom Lipa",
@@ -1508,22 +1520,47 @@
                                 "alt_img_art": "li-read.jpg",
                                 "link_art": "article4/article-li-4"
                             }
+                        },
 
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
+                            "media": {
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
+                            }
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn",
                             "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
+                                "img_yt": "assets/img/models/ra-yt.jpg",
+                                "alt_img_yt": "ra-yt.jpg",
+                                "link_yt": "video2/DVSa-RT8taU",
+                                "img_art": "assets/img/models/ra-read.jpg",
+                                "alt_img_art": "ra-read.jpg",
+                                "link_art": "article4/article-ra-4"
                             }
+                        },
 
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -1548,21 +1585,22 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
-
         ]
-
     },
+
+
     {
         "model_id": "ts",
-        "model_nickname": "@Tuskrip",
+        "authorText": "@Tuskrip",
         "model_vk": "https://vk.com/tuskrip",
         "model_insta": "https://www.instagram.com/tuskrip/",
         "article_id": "article-ts-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
-                "headerText": "<h1>Как заплачено, так и зафигячено</h1>"
+                "headerImage": "assets/img/models/ts-main-h-1080by1350.jpg",
+                "headerText": "<h1>Как заплачено, так и зафигячено</h1>",
+                "authorText": "@Tuskrip"
             },
             {
                 "type": "banner",
@@ -1614,7 +1652,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-insta-900x1200.jpg",
                             "alt_img": "ts-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -1623,7 +1660,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-telega-900x1200.jpg",
                             "alt_img": "ts-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -1668,14 +1704,12 @@
                                 "url": "https://www.stussy.com/blogs/stussy-holiday-19"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-stussy-1-1600by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.evisu.com/us/alphaxevisu.html"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-evisu-2-1600by900.jpg"
-
                         }
                     ]
                 }
@@ -1710,58 +1744,39 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
-                            "alt_img": "be-main-1080by1350",
-                            "footer": "Billie Elish",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
+                            "alt_img": "bb-main-1080by1350",
+                            "footer": "Bad Bad Not Good",
                             "media": {
-                                "img_yt": "assets/img/models/be-yt.jpg",
-                                "alt_img_yt": "be-yt.jpg",
-                                "link_yt": "video2/gBRi6aZJGj4",
-                                "img_art": "assets/img/models/be-read.jpg",
-                                "alt_img_art": "be-read.jpg",
-                                "link_art": "article4/article-be-4"
+                                "img_yt": "assets/img/models/bb-yt.jpg",
+                                "alt_img_yt": "bb-yt.jpg",
+                                "link_yt": "video2/t5dYJT1d1oc",
+                                "img_art": "assets/img/models/bb-read.jpg",
+                                "alt_img_art": "bb-read.jpg",
+                                "link_art": "article4/article-bb-4"
                             }
+                        },
 
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
+                            "alt_img": "li-main-1080by1350",
+                            "footer": "Artiom Lipa",
+                            "media": {
+                                "img_yt": "assets/img/models/li-yt.jpg",
+                                "alt_img_yt": "li-yt.jpg",
+                                "link_yt": "video2/KDxPwlj4n8E",
+                                "img_art": "assets/img/models/li-read.jpg",
+                                "alt_img_art": "li-read.jpg",
+                                "link_art": "article4/article-li-4"
+                            }
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick",
-                            "media": {
-                                "img_yt": "assets/img/models/jd-yt.jpg",
-                                "alt_img_yt": "jd-yt.jpg",
-                                "link_yt": "video2/Roj5a6YQTuw",
-                                "img_art": "assets/img/models/jd-read.jpg",
-                                "alt_img_art": "jd-read.jpg",
-                                "link_art": "article4/article-jd-4"
-                            }
-
-                        },
-                        {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
-                            "alt_img": "ma-main-1080by1350",
-                            "footer": "Mary Grey",
-                            "media": {
-                                "img_yt": "assets/img/models/ma-yt.jpg",
-                                "alt_img_yt": "ma-yt.jpg",
-                                "link_yt": "video2/nxrUxWPLXkE",
-                                "img_art": "assets/img/models/ma-read.jpg",
-                                "alt_img_art": "ma-read.jpg",
-                                "link_art": "article4/article-ma-4"
-                            }
-
-                        },
-                        {
-
                             "img": "assets/img/models/ps-main-1080x1350.jpg",
                             "alt_img": "ps-main-1080x1350",
                             "footer": "Patrick Schwarzwald",
@@ -1773,7 +1788,58 @@
                                 "alt_img_art": "ps-read.jpg",
                                 "link_art": "article4/article-ps-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
+                            "media": {
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn",
+                            "media": {
+                                "img_yt": "assets/img/models/ra-yt.jpg",
+                                "alt_img_yt": "ra-yt.jpg",
+                                "link_yt": "video2/DVSa-RT8taU",
+                                "img_art": "assets/img/models/ra-read.jpg",
+                                "alt_img_art": "ra-read.jpg",
+                                "link_art": "article4/article-ra-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -1798,21 +1864,22 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
-
         ]
-
     },
+
+
     {
         "model_id": "be",
-        "model_nickname": "@Billie Elish",
+        "authorText": "@Billie Elish",
         "model_insta": "https://www.instagram.com/billieeilish/?hl=en",
         "model_fb": "https://www.facebook.com/billieeilish/",
         "article_id": "article-be-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
-                "headerText": "<h1>Не работай молотом, плугом и лопатой</h1>"
+                "headerImage": "assets/img/models/be-main-h-1080by1350.jpg",
+                "headerText": "<h1>Не работай молотом, плугом и лопатой</h1>",
+                "authorText": "@Billie Elish"
             },
             {
                 "type": "banner",
@@ -1864,7 +1931,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/be-insta-900x1200.jpg",
                             "alt_img": "be-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -1873,7 +1939,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/be-telega-900x1200.jpg",
                             "alt_img": "be-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -1918,14 +1983,12 @@
                                 "url": "https://www.carhartt-wip.com/en"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-carnartt-1-1200by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.wtaps.com/feature/?p=53"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-wt-2-1200by900.jpg"
-
                         }
                     ]
                 }
@@ -1960,13 +2023,38 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
+                            "alt_img": "sc-main-1080by1350",
+                            "footer": "Lucky Blue Smith",
+                            "media": {
+                                "img_yt": "assets/img/models/sc-yt.jpg",
+                                "alt_img_yt": "sc-yt.jpg",
+                                "link_yt": "video2/EEkknEm6EVg",
+                                "img_art": "assets/img/models/sc-read.jpg",
+                                "alt_img_art": "sc-read.jpg",
+                                "link_art": "article4/article-sc-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
+                            "alt_img": "jd-main-1080by1350",
+                            "footer": "Johnny Wick",
+                            "media": {
+                                "img_yt": "assets/img/models/jd-yt.jpg",
+                                "alt_img_yt": "jd-yt.jpg",
+                                "link_yt": "video2/Roj5a6YQTuw",
+                                "img_art": "assets/img/models/jd-read.jpg",
+                                "alt_img_art": "jd-read.jpg",
+                                "link_art": "article4/article-jd-4"
+                            }
+                        },
+                        {
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
                             "alt_img": "nf-main-1080by1350",
                             "footer": "Nick Freak",
@@ -1978,40 +2066,21 @@
                                 "alt_img_art": "nf-read.jpg",
                                 "link_art": "article4/article-nf-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
-                            "alt_img": "ma-main-1080by1350",
-                            "footer": "Mary Grey",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
+                            "alt_img": "ca-main-1080by1350",
+                            "footer": "Carolina Fit",
                             "media": {
-                                "img_yt": "assets/img/models/ma-yt.jpg",
-                                "alt_img_yt": "ma-yt.jpg",
-                                "link_yt": "video2/nxrUxWPLXkE",
-                                "img_art": "assets/img/models/ma-read.jpg",
-                                "alt_img_art": "ma-read.jpg",
-                                "link_art": "article4/article-ma-4"
+                                "img_yt": "assets/img/models/ca-yt.jpg",
+                                "alt_img_yt": "ca-yt.jpg",
+                                "link_yt": "video2/JmdBoeAPEl8",
+                                "img_art": "assets/img/models/ca-read.jpg",
+                                "alt_img_art": "ca-read.jpg",
+                                "link_art": "article4/article-ca-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good",
-                            "media": {
-                                "img_yt": "assets/img/models/bb-yt.jpg",
-                                "alt_img_yt": "bb-yt.jpg",
-                                "link_yt": "video2/t5dYJT1d1oc",
-                                "img_art": "assets/img/models/bb-read.jpg",
-                                "alt_img_art": "bb-read.jpg",
-                                "link_art": "article4/article-bb-4"
-                            }
-
-                        },
-                        {
-
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
                             "alt_img": "ra-main-1080by1350",
                             "footer": "Roma Acorn",
@@ -2023,7 +2092,19 @@
                                 "alt_img_art": "ra-read.jpg",
                                 "link_art": "article4/article-ra-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
                         }
                     ]
                 }
@@ -2048,23 +2129,23 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
-
         ]
-
     },
+
+
     {
         "model_id": "ra",
-        "model_nickname": "@Roma Acorn",
+        "authorText": "@Roma Acorn",
         "model_insta": "https://www.instagram.com/romaacorn/",
         "model_vk": "https://vk.com/romaacornofficial",
         "article_id": "article-ra-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
-                "headerText": "<h1>Tы уже не торт</h1>"
+                "headerImage": "assets/img/models/ra-main-h-1080by1350.jpg",
+                "headerText": "<h1>Tы уже не торт</h1>",
+                "authorText": "@Roma Acorn"
             },
-
             {
                 "type": "banner",
                 "banner": {
@@ -2115,7 +2196,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-insta-900x1200.jpg",
                             "alt_img": "ra-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -2124,7 +2204,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-telega-900x1200.jpg",
                             "alt_img": "ra-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -2169,14 +2248,12 @@
                                 "url": "https://www.carhartt-wip.com/en"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-carnartt-1-1200by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.wtaps.com/feature/?p=53"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-wt-2-1200by900.jpg"
-
                         }
                     ]
                 }
@@ -2211,28 +2288,41 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
-                    "pics": [{
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
+                    "pics": [
 
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good",
+
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
+                            "alt_img": "pp-main-1080by1350",
+                            "footer": "Popodchemu",
                             "media": {
-                                "img_yt": "assets/img/models/bb-yt.jpg",
-                                "alt_img_yt": "bb-yt.jpg",
-                                "link_yt": "video2/t5dYJT1d1oc",
-                                "img_art": "assets/img/models/bb-read.jpg",
-                                "alt_img_art": "bb-read.jpg",
-                                "link_art": "article4/article-bb-4"
+                                "img_yt": "assets/img/models/pp-yt.jpg",
+                                "alt_img_yt": "pp-yt.jpg",
+                                "link_yt": "video2/90vC6TnjLAs",
+                                "img_art": "assets/img/models/pp-read.jpg",
+                                "alt_img_art": "pp-read.jpg",
+                                "link_art": "article4/article-pp-4"
                             }
-
                         },
                         {
-
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
+                            "alt_img": "li-main-1080by1350",
+                            "footer": "Artiom Lipa",
+                            "media": {
+                                "img_yt": "assets/img/models/li-yt.jpg",
+                                "alt_img_yt": "li-yt.jpg",
+                                "link_yt": "video2/KDxPwlj4n8E",
+                                "img_art": "assets/img/models/li-read.jpg",
+                                "alt_img_art": "li-read.jpg",
+                                "link_art": "article4/article-li-4"
+                            }
+                        },
+                        {
                             "img": "assets/img/models/ps-main-1080x1350.jpg",
                             "alt_img": "ps-main-1080x1350",
                             "footer": "Patrick Schwarzwald",
@@ -2244,37 +2334,45 @@
                                 "alt_img_art": "ps-read.jpg",
                                 "link_art": "article4/article-ps-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
                             "media": {
-                                "img_yt": "assets/img/models/jd-yt.jpg",
-                                "alt_img_yt": "jd-yt.jpg",
-                                "link_yt": "video2/Roj5a6YQTuw",
-                                "img_art": "assets/img/models/jd-read.jpg",
-                                "alt_img_art": "jd-read.jpg",
-                                "link_art": "article4/article-jd-4"
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
                             "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -2300,19 +2398,21 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
         ]
-
     },
+
+
     {
         "model_id": "ma",
-        "model_nickname": "@Mary Grey",
+        "authorText": "@Mari Grey",
         "model_vk": "https://vk.com/id161500531",
         "model_insta": "https://www.instagram.com/mari.grey/",
         "article_id": "article-ma-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
-                "headerText": "<h1>Everyday is Christmas with You </h1>"
+                "headerImage": "assets/img/models/ma-main-h-1080by1350.jpg",
+                "headerText": "<h1>Everyday is Christmas with You </h1>",
+                "authorText": "@Mary Grey"
             },
             {
                 "type": "banner",
@@ -2364,7 +2464,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-insta-900x1200.jpg",
                             "alt_img": "ma-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -2373,7 +2472,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-telega-900x1200.jpg",
                             "alt_img": "ma-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -2418,14 +2516,12 @@
                                 "url": "https://www.evisu.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-evisu-1-669by669.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.dhgate.com/product/kyku-brand-motorcycle-t-shirt-punk-t-shirt/454741444.html"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-kyku-1-1200by1200.jpg"
-
                         }
                     ]
                 }
@@ -2460,70 +2556,91 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
+                            "alt_img": "sc-main-1080by1350",
+                            "footer": "Lucky Blue Smith",
                             "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
+                                "img_yt": "assets/img/models/sc-yt.jpg",
+                                "alt_img_yt": "sc-yt.jpg",
+                                "link_yt": "video2/EEkknEm6EVg",
+                                "img_art": "assets/img/models/sc-read.jpg",
+                                "alt_img_art": "sc-read.jpg",
+                                "link_art": "article4/article-sc-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
-                            "alt_img": "li-main-1080by1350",
-                            "footer": "Artiom Lipa",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
+                            "alt_img": "jd-main-1080by1350",
+                            "footer": "Johnny Wick",
                             "media": {
-                                "img_yt": "assets/img/models/li-yt.jpg",
-                                "alt_img_yt": "li-yt.jpg",
-                                "link_yt": "video2/KDxPwlj4n8E",
-                                "img_art": "assets/img/models/li-read.jpg",
-                                "alt_img_art": "li-read.jpg",
-                                "link_art": "article4/article-li-4"
+                                "img_yt": "assets/img/models/jd-yt.jpg",
+                                "alt_img_yt": "jd-yt.jpg",
+                                "link_yt": "video2/Roj5a6YQTuw",
+                                "img_art": "assets/img/models/jd-read.jpg",
+                                "alt_img_art": "jd-read.jpg",
+                                "link_art": "article4/article-jd-4"
                             }
+                        },
 
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
+                            "alt_img": "ca-main-1080by1350",
+                            "footer": "Carolina Fit",
+                            "media": {
+                                "img_yt": "assets/img/models/ca-yt.jpg",
+                                "alt_img_yt": "ca-yt.jpg",
+                                "link_yt": "video2/JmdBoeAPEl8",
+                                "img_art": "assets/img/models/ca-read.jpg",
+                                "alt_img_art": "ca-read.jpg",
+                                "link_art": "article4/article-ca-4"
+                            }
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
+                            "alt_img": "pp-main-1080by1350",
+                            "footer": "Popodchemu",
                             "media": {
-                                "img_yt": "assets/img/models/bb-yt.jpg",
-                                "alt_img_yt": "bb-yt.jpg",
-                                "link_yt": "video2/t5dYJT1d1oc",
-                                "img_art": "assets/img/models/bb-read.jpg",
-                                "alt_img_art": "bb-read.jpg",
-                                "link_art": "article4/article-bb-4"
+                                "img_yt": "assets/img/models/pp-yt.jpg",
+                                "alt_img_yt": "pp-yt.jpg",
+                                "link_yt": "video2/90vC6TnjLAs",
+                                "img_art": "assets/img/models/pp-read.jpg",
+                                "alt_img_art": "pp-read.jpg",
+                                "link_art": "article4/article-pp-4"
                             }
-
                         },
+
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
-                            "alt_img": "ra-main-1080by1350",
-                            "footer": "Roma Acorn",
+                            "img": "assets/img/models/ps-main-1080x1350.jpg",
+                            "alt_img": "ps-main-1080x1350",
+                            "footer": "Patrick Schwarzwald",
                             "media": {
-                                "img_yt": "assets/img/models/ra-yt.jpg",
-                                "alt_img_yt": "ra-yt.jpg",
-                                "link_yt": "video2/DVSa-RT8taU",
-                                "img_art": "assets/img/models/ra-read.jpg",
-                                "alt_img_art": "ra-read.jpg",
-                                "link_art": "article4/article-ra-4"
+                                "img_yt": "assets/img/models/ps-yt.jpg",
+                                "alt_img_yt": "ps-yt.jpg",
+                                "link_yt": "video2/d53w6OdKNAU",
+                                "img_art": "assets/img/models/ps-read.jpg",
+                                "alt_img_art": "ps-read.jpg",
+                                "link_art": "article4/article-ps-4"
                             }
+                        },
 
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -2548,7 +2665,6 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             },
-
             {
                 "type": "lazy-picture",
                 "picture": {
@@ -2561,7 +2677,6 @@
                     }]
                 }
             },
-
             {
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
@@ -2578,25 +2693,25 @@
                     }]
                 }
             },
-
             {
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             }
         ]
-
     },
+
     {
         "model_id": "li",
-        "model_nickname": "@Artiom Lipa",
+        "authorText": "@Artiom Lipa",
         "model_insta": "https://www.instagram.com/artemlipa_10/",
         "model_vk": "https://vk.com/love_kill_it",
         "article_id": "article-li-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
-                "headerText": "<h1>Завтра будет лучше, чем послезавтра</h1>"
+                "headerImage": "assets/img/models/li-main-h-1080by1350.jpg",
+                "headerText": "<h1>Завтра будет лучше, чем послезавтра</h1>",
+                "authorText": "@Artiom Lipa"
             },
             {
                 "type": "banner",
@@ -2648,7 +2763,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/li-insta-900x1200.jpg",
                             "alt_img": "li-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -2657,7 +2771,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/li-telega-900x1200.jpg",
                             "alt_img": "li-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -2702,14 +2815,12 @@
                                 "url": "https://bapepirate.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-bape-1-1600by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.wtaps.com"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-wt-1-1600by900.jpg"
-
                         }
                     ]
                 }
@@ -2744,13 +2855,80 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/sc-main-1080by1350.jpg",
+                            "alt_img": "sc-main-1080by1350",
+                            "footer": "Lucky Blue Smith",
+                            "media": {
+                                "img_yt": "assets/img/models/sc-yt.jpg",
+                                "alt_img_yt": "sc-yt.jpg",
+                                "link_yt": "video2/EEkknEm6EVg",
+                                "img_art": "assets/img/models/sc-read.jpg",
+                                "alt_img_art": "sc-read.jpg",
+                                "link_art": "article4/article-sc-4"
+                            }
+                        },
 
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
+                            "alt_img": "nf-main-1080by1350",
+                            "footer": "Nick Freak",
+                            "media": {
+                                "img_yt": "assets/img/models/nf-yt.jpg",
+                                "alt_img_yt": "nf-yt.jpg",
+                                "link_yt": "video2/HACmLeNYWFY",
+                                "img_art": "assets/img/models/nf-read.jpg",
+                                "alt_img_art": "nf-read.jpg",
+                                "link_art": "article4/article-nf-4"
+                            }
+                        },
+
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/pp-main-1080by1350.jpg",
+                            "alt_img": "pp-main-1080by1350",
+                            "footer": "Popodchemu",
+                            "media": {
+                                "img_yt": "assets/img/models/pp-yt.jpg",
+                                "alt_img_yt": "pp-yt.jpg",
+                                "link_yt": "video2/90vC6TnjLAs",
+                                "img_art": "assets/img/models/pp-read.jpg",
+                                "alt_img_art": "pp-read.jpg",
+                                "link_art": "article4/article-pp-4"
+                            }
+                        },
+
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
+                            "media": {
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
+                        },
+                        {
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
                             "alt_img": "be-main-1080by1350",
                             "footer": "Billie Elish",
@@ -2762,53 +2940,6 @@
                                 "alt_img_art": "be-read.jpg",
                                 "link_art": "article4/article-be-4"
                             }
-
-
-                        },
-                        {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick",
-                            "media": {
-                                "img_yt": "assets/img/models/jd-yt.jpg",
-                                "alt_img_yt": "jd-yt.jpg",
-                                "link_yt": "video2/Roj5a6YQTuw",
-                                "img_art": "assets/img/models/jd-read.jpg",
-                                "alt_img_art": "jd-read.jpg",
-                                "link_art": "article4/article-jd-4"
-                            }
-
-                        },
-                        {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
-                            "alt_img": "ma-main-1080by1350",
-                            "footer": "Mary Grey",
-                            "media": {
-                                "img_yt": "assets/img/models/ma-yt.jpg",
-                                "alt_img_yt": "ma-yt.jpg",
-                                "link_yt": "video2/nxrUxWPLXkE",
-                                "img_art": "assets/img/models/ma-read.jpg",
-                                "alt_img_art": "ma-read.jpg",
-                                "link_art": "article4/article-ma-4"
-                            }
-
-                        },
-                        {
-
-                            "img": "assets/img/models/ps-main-1080x1350.jpg",
-                            "alt_img": "ps-main-1080x1350",
-                            "footer": "Patrick Schwarzwald",
-                            "media": {
-                                "img_yt": "assets/img/models/ps-yt.jpg",
-                                "alt_img_yt": "ps-yt.jpg",
-                                "link_yt": "video2/d53w6OdKNAU",
-                                "img_art": "assets/img/models/ps-read.jpg",
-                                "alt_img_art": "ps-read.jpg",
-                                "link_art": "article4/article-ps-4"
-                            }
-
                         }
                     ]
                 }
@@ -2833,7 +2964,6 @@
                 "type": "text",
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             },
-
             {
                 "type": "lazy-picture",
                 "picture": {
@@ -2851,19 +2981,21 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
         ]
-
     },
+
+
     {
         "model_id": "ca",
-        "model_nickname": "@Carolina Fit",
+        "authorText": "@Carolina Fit",
         "model_insta": "https://www.instagram.com/ccarolinefit/",
         "model_vk": "https://vk.com/caroline_l",
         "article_id": "article-ca-4",
         "version": 4,
         "sections": [{
                 "type": "header",
-                "headerImage": "http://www.cdn.wikimodels.club/assets/img/models/ca-main-1080by1350.jpg",
-                "headerText": "<h1>The sky is blue and I love You</h1>"
+                "headerImage": "assets/img/models/ca-main-h-1080by1350.jpg",
+                "headerText": "<h1>The sky is blue and I love You</h1>",
+                "authorText": "@Carolina Fit"
             },
             {
                 "type": "banner",
@@ -2915,7 +3047,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-insta-900x1200.jpg",
                             "alt_img": "ca-insta-900x1200.jpg",
                             "footer": "@Мой Instagram"
-
                         },
                         {
                             "link": {
@@ -2924,7 +3055,6 @@
                             "img": "http://www.cdn.wikimodels.club/assets/img/models/ca-telega-900x1200.jpg",
                             "alt_img": "ca-telega-900x1200.jpg",
                             "footer": "@Обсудить пост"
-
                         }
                     ]
                 }
@@ -2969,14 +3099,12 @@
                                 "url": "https://www.stussy.com/blogs/stussy-holiday-19"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-stussy-1-1600by900.jpg"
-
                         },
                         {
                             "link": {
                                 "url": "https://www.evisu.com/us/alphaxevisu.html"
                             },
                             "img": "http://www.cdn.wikimodels.club/assets/img/adds/adds-evisu-2-1600by900.jpg"
-
                         }
                     ]
                 }
@@ -3011,28 +3139,25 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они суть тождество активного и пассивного.</p>"
             },
             {
-                "type": "picture",
-                "picture": {
-                    "cols": "2",
-                    "rowHeight": "3:4.6",
-                    "gutterSize": "2px",
+                "type": "carousel",
+                "carousel": {
+                    "cols": "1",
+                    "rowHeight": "250",
+                    "gutterSize": "1px",
                     "pics": [{
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/bb-main-1080by1350.jpg",
-                            "alt_img": "bb-main-1080by1350",
-                            "footer": "Bad Bad Not Good",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/li-main-1080by1350.jpg",
+                            "alt_img": "li-main-1080by1350",
+                            "footer": "Artiom Lipa",
                             "media": {
-                                "img_yt": "assets/img/models/bb-yt.jpg",
-                                "alt_img_yt": "bb-yt.jpg",
-                                "link_yt": "video2/t5dYJT1d1oc",
-                                "img_art": "assets/img/models/bb-read.jpg",
-                                "alt_img_art": "bb-read.jpg",
-                                "link_art": "article4/article-bb-4"
+                                "img_yt": "assets/img/models/li-yt.jpg",
+                                "alt_img_yt": "li-yt.jpg",
+                                "link_yt": "video2/KDxPwlj4n8E",
+                                "img_art": "assets/img/models/li-read.jpg",
+                                "alt_img_art": "li-read.jpg",
+                                "link_art": "article4/article-li-4"
                             }
-
                         },
                         {
-
                             "img": "assets/img/models/ps-main-1080x1350.jpg",
                             "alt_img": "ps-main-1080x1350",
                             "footer": "Patrick Schwarzwald",
@@ -3044,37 +3169,58 @@
                                 "alt_img_art": "ps-read.jpg",
                                 "link_art": "article4/article-ps-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/jd-main-1080by1350.jpg",
-                            "alt_img": "jd-main-1080by1350",
-                            "footer": "Johnny Wick",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ma-main-1080by1350.jpg",
+                            "alt_img": "ma-main-1080by1350",
+                            "footer": "Mari Grey",
                             "media": {
-                                "img_yt": "assets/img/models/jd-yt.jpg",
-                                "alt_img_yt": "jd-yt.jpg",
-                                "link_yt": "video2/Roj5a6YQTuw",
-                                "img_art": "assets/img/models/jd-read.jpg",
-                                "alt_img_art": "jd-read.jpg",
-                                "link_art": "article4/article-jd-4"
+                                "img_yt": "assets/img/models/ma-yt.jpg",
+                                "alt_img_yt": "ma-yt.jpg",
+                                "link_yt": "video2/nxrUxWPLXkE",
+                                "img_art": "assets/img/models/ma-read.jpg",
+                                "alt_img_art": "ma-read.jpg",
+                                "link_art": "article4/article-ma-4"
                             }
-
                         },
                         {
-
-                            "img": "http://www.cdn.wikimodels.club/assets/img/models/nf-main-1080by1350.jpg",
-                            "alt_img": "nf-main-1080by1350",
-                            "footer": "Nick Freak",
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ra-main-1080by1350.jpg",
+                            "alt_img": "ra-main-1080by1350",
+                            "footer": "Roma Acorn",
                             "media": {
-                                "img_yt": "assets/img/models/nf-yt.jpg",
-                                "alt_img_yt": "nf-yt.jpg",
-                                "link_yt": "video2/HACmLeNYWFY",
-                                "img_art": "assets/img/models/nf-read.jpg",
-                                "alt_img_art": "nf-read.jpg",
-                                "link_art": "article4/article-nf-4"
+                                "img_yt": "assets/img/models/ra-yt.jpg",
+                                "alt_img_yt": "ra-yt.jpg",
+                                "link_yt": "video2/DVSa-RT8taU",
+                                "img_art": "assets/img/models/ra-read.jpg",
+                                "alt_img_art": "ra-read.jpg",
+                                "link_art": "article4/article-ra-4"
                             }
-
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/ts-main-1080by1350.jpg",
+                            "alt_img": "ts-main-1080by1350",
+                            "footer": "Tuskrip",
+                            "media": {
+                                "img_yt": "assets/img/models/ts-yt.jpg",
+                                "alt_img_yt": "ts-yt.jpg",
+                                "link_yt": "video2/nnj_vI0PH3Y",
+                                "img_art": "assets/img/models/ts-read.jpg",
+                                "alt_img_art": "ts-read.jpg",
+                                "link_art": "article4/article-ts-4"
+                            }
+                        },
+                        {
+                            "img": "http://www.cdn.wikimodels.club/assets/img/models/be-main-1080by1350.jpg",
+                            "alt_img": "be-main-1080by1350",
+                            "footer": "Billie Elish",
+                            "media": {
+                                "img_yt": "assets/img/models/be-yt.jpg",
+                                "alt_img_yt": "be-yt.jpg",
+                                "link_yt": "video2/gBRi6aZJGj4",
+                                "img_art": "assets/img/models/be-read.jpg",
+                                "alt_img_art": "be-read.jpg",
+                                "link_art": "article4/article-be-4"
+                            }
                         }
                     ]
                 }
@@ -3100,6 +3246,5 @@
                 "articleText": "<p>Поскольку обе тем самым и активны и пассивны, постольку всякое различие между ними уже снято; оно есть совершенно прозрачная видимость; они суть субстанции лишь постольку, поскольку они <a href='#'>суть тождество</a> активного и пассивного.</p>"
             }
         ]
-
     }
 ]

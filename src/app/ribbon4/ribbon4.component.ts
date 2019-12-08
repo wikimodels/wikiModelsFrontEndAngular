@@ -15,6 +15,7 @@ export class Ribbon4Component implements OnInit, OnDestroy {
   ribbonId = 'ribbon_4';
   sub: Subscription;
   routerSub: Subscription;
+  ribbonDataRecieved = false;
 
   constructor(
     private ribbonsApi: RibbonsRestApiService,
@@ -37,6 +38,7 @@ export class Ribbon4Component implements OnInit, OnDestroy {
     this.sub = (this.ribbonsApi.getRibbon(this.ribbonId).subscribe(r => {
       console.log('RIBBON-3', r);
       this.sections = r.sections;
+      this.ribbonDataRecieved = true;
     }));
     this.isLoadingService.add(this.sub);
   }

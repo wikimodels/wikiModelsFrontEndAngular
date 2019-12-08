@@ -26,7 +26,6 @@ export class ArticleBottomSheet4Component implements OnInit {
     this.bottomSheet.dismiss();
     setTimeout(() => {    
       this.document.location.href = link;    
-    }, 300);
-    
+    }, 300);    
   }
 }

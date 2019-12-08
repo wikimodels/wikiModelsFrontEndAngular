@@ -20,6 +20,7 @@ import { ArticleCarousel4Component } from './article-carousel4/article-carousel4
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ArticleBottomSheet4Component } from './article-bottom-sheet4/article-bottom-sheet4.component';
 import { WINDOW_PROVIDERS } from '../window.providers';
+import { ArticleFooterComponent } from './article-footer/article-footer.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { WINDOW_PROVIDERS } from '../window.providers';
     ArticleSection4Component,
     ArticlePicture4Component,
     ArticleLazyPicture4Component,
-    ArticleBottomSheet4Component
+    ArticleBottomSheet4Component,
+    ArticleFooterComponent
   ],
   imports: [
     CommonModule,
@@ -59,6 +61,7 @@ import { WINDOW_PROVIDERS } from '../window.providers';
     ArticleText4Component,
     ArticleBottomSheet4Component,
     ArticleLazyPicture4Component,
+    ArticleFooterComponent
   ],
   entryComponents: [
     ArticleBottomSheet4Component

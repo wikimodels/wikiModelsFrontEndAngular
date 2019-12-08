@@ -1,0 +1,16 @@
+.footer {
+    width: 56px;
+    position: absolute;
+    left: 50%;
+    margin-left: -28px;
+    padding-bottom: 30px;
+}
+
+.footer-image {
+    width: 57px;
+    height: 57px;
+}
+
+.mat-grid-tile {
+    border-radius: 10px;
+}

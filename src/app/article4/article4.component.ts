@@ -18,7 +18,7 @@ export class Article4Component implements OnInit, AfterViewInit, OnDestroy {
 
   sections: any;
   articleId: string;
-  // articleDataRecieved = false;
+  articleDataRecieved = false;
   // navSub: Subscription;
   routerSub: Subscription;
   httpSub: Subscription;
@@ -57,15 +57,9 @@ export class Article4Component implements OnInit, AfterViewInit, OnDestroy {
       this.sections = a.sections;
       this.loadScripts();
       // console.log('ARTICLE', a);
-      // this.articleDataRecieved = true;
+      this.articleDataRecieved = true;
     });
-    this.isLoadingService.add(this.httpSub);
-
-    // this.zone.run(() => {
-    //   console.log('CALLED $$$CROLL TO TOP');
-    // this.scrollTop.setScrollTop();
-    // }); 
-    // document.querySelector('#article').scrollIntoView();  
+    this.isLoadingService.add(this.httpSub);       
   }
 
   ngAfterViewInit() {

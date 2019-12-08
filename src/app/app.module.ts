@@ -45,6 +45,7 @@ import { VideoPlayerModule } from './video-player/video-player.module';
 // import { ArticleText4Component } from './article4/article-text4/article-text4.component';
 // import { ArticleLazyPicture4Component } from './article4/article-lazy-picture4/article-lazy-picture4.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+// import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -53,6 +54,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     NavbarComponent,
     HomeComponent,
     ModelCardComponent,
+    // FooterComponent,
     // Article4Component,
     // ArticleVideo4Component,
     // ArticleMusic4Component,

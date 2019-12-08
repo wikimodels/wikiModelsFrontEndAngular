@@ -26,7 +26,8 @@ import { TestSnackbar4Component } from './test-snackbar4/test-snackbar4.componen
 import { RibbonsRestApiService } from './ribbons-rest-api.service';
 import { RibbonTile4Component } from './ribbon-tiles4/ribbon-tile4/ribbon-tile4.component';
 import { BottomSheet4Component } from './bottom-sheet4/bottom-sheet4.component';
-
+import { RibbonFooterComponent } from './ribbon-footer/ribbon-footer.component';
+ 
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { BottomSheet4Component } from './bottom-sheet4/bottom-sheet4.component';
     RibbonFooter4Component,
     TestSnackbar4Component,
     BottomSheet4Component,
+    RibbonFooterComponent
      
 
   ],
@@ -75,6 +77,7 @@ import { BottomSheet4Component } from './bottom-sheet4/bottom-sheet4.component';
     RibbonPicture4Component,
     RibbonLazyPicture4Component,    
     TestSnackbar4Component,
+    RibbonFooterComponent
     
 ],
 entryComponents: [

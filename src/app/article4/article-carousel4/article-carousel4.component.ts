@@ -25,7 +25,8 @@ export class ArticleCarousel4Component implements OnInit {
     navSpeed: 2000,
     autoHeight: true,
     margin: 10,
-    stagePadding: 20,
+    stagePadding: 23,
+    to: 2,
     autoplayHoverPause: true,
     navText: ['', ''],
     responsive: {
