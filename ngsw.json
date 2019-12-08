@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1575786192948,
+  "timestamp": 1575788135695,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -252,6 +252,7 @@
         "/assets/img/default-white-on-grey.jpg",
         "/assets/img/default.jpg",
         "/assets/img/favicon.ico",
+        "/assets/img/favicon2.ico",
         "/assets/img/footer.jpg",
         "/assets/img/insta-1600x900.jpg",
         "/assets/img/sdefault.jpg",
@@ -381,7 +382,8 @@
     "/assets/img/default-grey.jpg": "8b129913e04f6ee3d5195918c001ea53e8232bfa",
     "/assets/img/default-white-on-grey.jpg": "9b35bc099a41a6d091919ac6e386a081c2a56aa4",
     "/assets/img/default.jpg": "4ae7620477fd4e05cb4d5f1b80842b4f7e7c8b02",
-    "/assets/img/favicon.ico": "1d75340c617de0ff6947d5d496be853905193f6c",
+    "/assets/img/favicon.ico": "688e678f8e89dafb9c507fc8e2aefed2b6f1efd3",
+    "/assets/img/favicon2.ico": "1d75340c617de0ff6947d5d496be853905193f6c",
     "/assets/img/footer.jpg": "87b4b489215a8288ed85fc4038735108a30e90c7",
     "/assets/img/insta-1600x900.jpg": "d274bd4aba20493b5d87421294bf5b52c9c7b0d2",
     "/assets/img/models/bb-1-1200by900.jpg": "b9e17a57fd8907516e8966c130616f30c1547311",
